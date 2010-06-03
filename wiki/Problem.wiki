@@ -1,0 +1,19 @@
+#summary What are real and emerging problems?
+
+= Introduction =
+
+ Hardware transient/permanent/intermittent fault
+ Software bug
+ Fail-safe system
+ High performance
+ Low power
+ Real-time
+ Low cost
+ Programmability
+ Extendability
+
+ What else...?
+
+ 
+
+= Details =
