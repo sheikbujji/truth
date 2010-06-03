@@ -11,6 +11,7 @@
   * Low cost
   * Programmability
   * Extendability
+  * New Features (application of computers)
 
  What else...?
 
