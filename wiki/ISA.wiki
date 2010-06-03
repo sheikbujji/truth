@@ -4,11 +4,16 @@
 
  Supported instructions are:
 
- - ADD
- - SUB
-
- 
-
+ - Arithmetic Instructions: ADD, SUB
+ - Logical Instructions: AND, OR, XOR, NOR
+ - Shift Instructions: SLL (Shift left logical), SRI, SLLI (Shirt left logical imm), SRA (Shift right arith), SRLI
+ - Compare Instructions: EQ (Compare EQ), LT, LE, LT, 
+ - Reg Move: Move 
+ - Memory: Load, Store
+ - Cond. Breach: BEQ, BNE, BE, BNZ, BLT, BGT, BLE, BGE, RET 
+ - Uncond Jump: JMP
+ - Atomic: SWAP
+ - SW Interrupt: TRAP, IRET
 
 = Details =
 
@@ -16,3 +21,5 @@
  
    What are their other tradeoffs?
 
+
+   Is small number of instruction good for fault-tolerance? Hardware status could be easy to monitor? What instructions are easier to monitor (e.g., input and output dependencies)?
