@@ -2,15 +2,15 @@
 
 = Introduction =
 
- Hardware transient/permanent/intermittent fault
- Software bug
- Fail-safe system
- High performance
- Low power
- Real-time
- Low cost
- Programmability
- Extendability
+  * Hardware transient/permanent/intermittent fault
+  * Software bug
+  * Fail-safe system
+  * High performance
+  * Low power
+  * Real-time
+  * Low cost
+  * Programmability
+  * Extendability
 
  What else...?
 
