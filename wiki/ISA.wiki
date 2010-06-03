@@ -1,0 +1,18 @@
+#summary Instruction Set Architecture
+
+= Introduction =
+
+ Supported instructions are:
+
+ - ADD
+ - SUB
+
+ 
+
+
+= Details =
+
+ * Can we remove arith(unsigned, imm, or carry)? Let assume we provide an illusion that the supported integer variable type has infinite range. In practice, a fixed memory size (most likely by default 4bytes) is used and when value overflow occurs while performing an arithmetic operation, an exception is issued and the memory size is enlarged accordingly? For non-arithmetic operations (e.g., logical ops), maybe different more explicit (similar to what modern processors have) illusion can be provided. 
+ 
+   What are their other tradeoffs?
+
