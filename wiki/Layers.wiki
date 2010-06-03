@@ -1,0 +1,17 @@
+#summary Layers in Computer System
+
+= Introduction =
+
+  At the end, eveything is mapped into the movement of electronics (or bits). All computer system layers (from RTL to application) are abstractions (or virtualization) for those electron movements. It is similar to the fact that all materials and human/animal bodies are compositions of atoms. Human call those sets of atoms to cells, organs, and so on.
+
+  Question 1. Fault-tolerance technique shall be implemented in one layer or multiple?
+
+  Question 2. What are tradeoffs for implementing fault-tolerance techniques in lower layer and higher layer? 
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
