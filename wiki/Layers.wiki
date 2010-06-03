@@ -10,6 +10,7 @@
 
   Question 2. What are tradeoffs for implementing fault-tolerance techniques in lower layer and higher layer? 
 
+  Question 3. Why are we continuously stacking layers of layers in computer systems? Tensilica approach - a single interface for developer and tool handles all layers internally and emits design for electronics! 
 
 = Details =
 
