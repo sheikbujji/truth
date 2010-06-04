@@ -1,0 +1,10 @@
+#summary Building a simple pipelined 32-bit processor
+
+= Introduction =
+
+ Processor consists of control and datapath parts.
+
+  * Control: Generate control signals for every decoded instruction
+  * Datapath: Actual computations are done by using ALUs, registers, and so on. It is controlled by control signals. It can be pipelined (i.e., with latches between each pipeline stage).
+
+= Details =
