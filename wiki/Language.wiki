@@ -24,5 +24,16 @@
 
 ==== Seizure Detector ====
 
+  * Interface: input (EEG signal(s) - analog data) and output (seizure alarm - binary signal)
+
+  * Algorithm: There are multiple algorithms: threshold-based detection, neural network approach, and so on.
+
+  * Safety. N/A (system should not harm the safety of patient).
+
+  * Reliability.
+
+  * Security. Free from software and hardware design bugs (automatic test case generation and testing)
+
+  * Real-time. Online detection (quantitative spec TBD)
 
   
