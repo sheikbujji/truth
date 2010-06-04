@@ -4,8 +4,9 @@
 
   * Hardware transient/permanent/intermittent fault
   * Software bug
-  * Fail-safe system
+  * Fail-safe system (verification)
   * High performance
+  * Security
   * Low power
   * Real-time
   * Low cost
