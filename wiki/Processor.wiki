@@ -1,4 +1,4 @@
-#summary Building a simple pipelined 32-bit processor
+#summary Building a pipelined 32-bit processor
 
 = Introduction =
 
