@@ -1,0 +1,28 @@
+#summary Programming Model
+
+==== Method ====
+
+  We do case studies to build a programming model where used examples are seizure detector and adaptive pacemaker.
+
+==== Adaptive Pacemaker ====
+
+  * Interface: input (user context - rest, walking, running - and user heartbeat rate) and output (controlled heartbeat rate)
+
+  * Algorithm. 
+
+  * Safety. Three constraints: (i) heartbeat rate is always within a range (60-120 times per minute), (ii) heartbeat rate does not rapidly change (attack and decay slopes are always within a bound), (iii) heartbeat rate never stay above a certain threshold for a longer than a certain time interval.
+
+  * Reliability.
+
+
+  * Security.
+
+
+  * Real-time.
+
+  * Other (low-power & performance). 
+
+==== Seizure Detector ====
+
+
+  
