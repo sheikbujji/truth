@@ -1,21 +1,28 @@
 #summary Instruction Set Architecture
 
-= Introduction =
+ ====Instructions====
 
- Supported instructions are:
+  * Arith/Integer: ADD, SUB, MUL, DIV, MOD, NEG, ABS
+  * Logical: AND, OR, XOR, NOR
+  * Shift: SLI (Shift left with imm), SRI (Shirt right imm)
+  * Compare: EQ, NE, LT, GT, LE, GE
+  * Reg-to-Reg Move: Move
+  * Memory: Load, Store
+  * Stack: Push, Pop
+  * Breach: BEQ, BNE, BNE, BNZ, BLT, BGT, BLE, BGE
+  * Jump: JMP
+  * Atomic: SWAP
+  * SW Interrupt: TRAP, IRET
 
- - Arithmetic Instructions: ADD, SUB
- - Logical Instructions: AND, OR, XOR, NOR
- - Shift Instructions: SLL (Shift left logical), SRI, SLLI (Shirt left logical imm), SRA (Shift right arith), SRLI
- - Compare Instructions: EQ (Compare EQ), LT, LE, LT, 
- - Reg Move: Move 
- - Memory: Load, Store
- - Cond. Breach: BEQ, BNE, BE, BNZ, BLT, BGT, BLE, BGE, RET 
- - Uncond Jump: JMP
- - Atomic: SWAP
- - SW Interrupt: TRAP, IRET
+ ====Registers====
 
-= Details =
+  * Control: PC, SP, LR, FLAG
+  * General-purpose: D0, ..., D7
+
+ ====Interrupt====
+ 
+
+ ====Notes====
 
  * Can we remove arith(unsigned, imm, or carry)? Let assume we provide an illusion that the supported integer variable type has infinite range. In practice, a fixed memory size (most likely by default 4bytes) is used and when value overflow occurs while performing an arithmetic operation, an exception is issued and the memory size is enlarged accordingly? For non-arithmetic operations (e.g., logical ops), maybe different more explicit (similar to what modern processors have) illusion can be provided. 
  
