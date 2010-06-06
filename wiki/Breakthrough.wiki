@@ -2,8 +2,9 @@
 
 = Introduction =
 
- 
+ Radical advances in computer technology are through the discovery of new applications. Automations of mathematical or scientific model processing, document processing, telecommunications, and multimedia data processing are good examples. Technology that ultimately solves the problem of human life and alleviates the human body or mental labor is always recognized as innovative. Among a variety of problems of human beings - not just computer systems problem -, a problem that will lead a major innovation in computing technology is one that needs computing technology and one that can be solved by this advanced technology. As researcher, understanding the designs of large systems developed by the past tens of thousands of researchers will take a lot of time and efforts, while the impact or contribution of conducted researches may be relatively low. For researchers looking for new areas and applications like a pioneer and founding theory and practice for these new areas may be the most efficient way. 
 
+ Using this perspective, personal healthcare device is an important computing research topic. If computers can automatically and seamlessly solve physical and mental health-related problems, it is a huge contribution to the quality of life of mankind. Practical activities are classifying medical information devices, analyzing the requirements of each of these types of devices, redesigning the entire computer system architecture for these requirements, and building a prototype system.
 
 
  컴퓨터 기술의 급진적 발전은 항상 새로운 응용의 발견과 적용을 통해서 이뤄져 왔다. 수학적 또는 과학 모델에 대한 연산 자동화, 문서 처리, 통신, 멀티미디어 등이 좋은 예시이다. 기술은 최종적으로 인류 일상의 문제를 해결하고 인간의 육체 또는 정신적 노동을 경감할때 그 가치가 평가되고 혁신으로 인정받는다. 앞으로 인류가 지닌 다양한 문제 - 굳이 컴퓨터 시스템 본연의 문제가 아닌 - 중에 고도로 발전된 디지털 컴퓨터 기술에 대한 수요가 있고 이 기술이 적용되어 문제 해결이 가능하다면 이 것이 바로 향후 혁신이 이뤄질 분야일 것이다. 연구자로서 과거의 수천 수만의 연구자들이 설계한 거대한 시스템을 이해하는 것은 많은 시간과 노력이 소요되며 연구로 인한 영향력 또는 기여도가 상대적으로 적을 수 있다. 연구자에게는 개척자와 같이 새로운 분야를 찾고 그 곳에서 이론과 실무를 집대성하는 것이 가장 효율적인 방법 및 전략일 수 있다.
