@@ -1,0 +1,20 @@
+#summary Classification of personal healthcare devices
+
+= Introduction =
+
+Add your content here.
+
+
+
+ 개인용 의료정보기기의 분류와 각각의 설계 요구조건을 다음과 같이 분석해 볼 수 있다.
+
+ - 측정 및 인식 장비: 다양한 생체 신호를 정교하게 측정하고 의학적 또는 일반 인지적으로 의미있는 수준의 정보로 가공하는 장비로 부가적으로 측정된 생체 신호 또는 가공된 정보를 실시간으로 저장하거나 유무선으로 전송하는 기능을 가질 수 있다. (요구사항: 정확도, 개발비용 - 단일 단말 또는 플랫폼으로 다양한 정보의 처리를 위함, 저전력/저비용, Real-time, Security 등) 
+
+ - 제어 장비: 생체의 자동 조절기능에 문제가 발생한 경우 또는 보다 휴율적인 생체 조정기능을 필요로 하는 경우에 있어서 이러한 기능을 지능적으로 수행할 수 있는 전자장비이다. (요구사항: Safety, Real-time, Security, 등)
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
