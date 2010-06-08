@@ -1,0 +1,13 @@
+#summary News
+
+= Introduction =
+
+ Oct. 13, 2004 - FDA approves computer chip for humans - http://www.msnbc.msn.com/id/6237364/
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
