@@ -1,4 +1,4 @@
-#summary Types of senseable bio signals
+#summary Types of sensible bio signals
 
 = Introduction =
 
