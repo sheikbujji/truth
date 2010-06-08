@@ -1,5 +1,9 @@
 #summary Devices
 
+= Sensor Nodes =
+
+  * WSN Museum, http://www.snm.ethz.ch/Main/HomePage
+
 = Camera =
 
   * OV6920 (http://www.ovt.com/)
