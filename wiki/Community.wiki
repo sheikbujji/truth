@@ -1,0 +1,14 @@
+#summary Researchers
+
+= Introduction =
+
+  * Capsule Endoscope
+    - Doyoung Jeon (Sogang Univ, S. Korea): http://hompi.sogang.ac.kr/biomecha/new_07_11_16/professor.htm
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
