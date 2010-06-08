@@ -1,0 +1,15 @@
+#summary Energy constraints
+
+= Introduction =
+
+
+
+  생체에 이식 가능한 초소형 컴퓨터의 설계에 있어서 장비의 물리적 부피를 고려한 장착 가능한 베터리 총전략량과 이를 사용하는 경우 최소 구동시간에 대한 분석이 필요하다. 
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
