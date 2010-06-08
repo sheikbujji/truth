@@ -1,7 +1,9 @@
 #summary Researchers
 
 = Introduction =
-
+ 
+  * BMI Machine Control
+    - Todd P. Coleman (UIUC, USA): http://colemant.ece.illinois.edu/
 
   * BMI Image Reconstruction
     - Yukiyasu Kamitani (ATR, Japan): http://www.cell.com/neuron/retrieve/pii/S0896627308009586
