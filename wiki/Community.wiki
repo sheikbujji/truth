@@ -2,6 +2,10 @@
 
 = Introduction =
 
+
+  * BMI Image Reconstruction
+    - Yukiyasu Kamitani (ATR, Japan): http://www.cell.com/neuron/retrieve/pii/S0896627308009586
+
   * Capsule Endoscope
     - Doyoung Jeon (Sogang Univ, S. Korea): http://hompi.sogang.ac.kr/biomecha/new_07_11_16/professor.htm
 
