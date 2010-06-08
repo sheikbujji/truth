@@ -1,0 +1,14 @@
+#summary Devices
+
+= Camera =
+
+  * MO-R803 (http://www.gizmag.com/go/7823/picture/36680/)
+  - Size: 4.4mm (Dimension) x 15mm
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
