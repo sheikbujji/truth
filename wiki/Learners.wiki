@@ -1,13 +1,15 @@
-#summary One-sentence summary of this page.
+#summary Synopsis for active learners
 
-= Introduction =
+===Contents===
 
-Add your content here.
+  # [Processor] Design
+  # [Compiler] Design
+  # [OS] Design
 
 
-= Details =
+===Motivation===
+ Since I started computer proramming (early 90s when PC communicaton was popular), we software developers have maintained a beautiful history and custom that is knowledged people (like graduate students) are writing free online lectures for who eager to learn these technologies but donot have an opportunity. I'm one who learned my talent in this area early thanks to this beautiful custom and thus want to return to others by writing free online lectures because I've became a graduate student. This is why many articles in this site are being written in both English and Korean (e.g., who does not know well about English can still learn technology in this site).
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+===들어가며===
+ 90년대 초반 PC통신이 한창인 시절부터 우리 개발자들 사이에는 아름다운 풍속이 있었다. 그 것은 대학생 또는 대학원생 등 경험이 있는 분들이 온라인 매체를 통하여 무료로 공개 기술강좌를 하는 것이었다. 이것은 중고등학교에 다니는 열정이 있으나 이러한 지식을 배울 수 있는 통로를 가지지 못한 학생들에게는 매우 유익한 일로 본인의 적성을 조기에 진단하고 유년기의 지적 호기심을 충족시킬 수 있는 근사한 일이었다. 이 전통을 유지하고자 따라면 하면 컴퓨터 시스템의 제작과 이해가 가능한 온라인 강좌를 시작한다.
+  
