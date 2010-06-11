@@ -1,19 +1,9 @@
-#summary One-sentence summary of this page.
-
-==Learners==
-
-==Developers==
+#summary Synopsis of contents f this site for various users
 
 
+  * Active [Learners]: Who wants to learn how to build his/her own computer systems
 
-==Researchers==
+  * Free software [Developers]: Who enjoys and wants to contribute to an open-source project
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+  * [Researchers]: Who wants to quickly prototype his/her idea or technique using an existing platform and/or wants to discuss or propose new ideas
+ 
