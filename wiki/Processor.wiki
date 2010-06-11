@@ -40,13 +40,12 @@
 
  Datapath는 Multi-Cycle 형태의 구현과 Piepline 형태의 구현 두가지로 나눌 수 있다. Multi-Cycle 형태는 ...
 
- Pipeline 방식의 Datapath는 복수의 Pipeline Stage를 갖으며 각 Stage 는 Combinational Logic 으로 구성되고 각 Stage 사이에는 Latch (또는 Flipflop)가 기억장소로 위치한다. Latch는 이전 Stage의 Combination Logic의 출력 값을 보관하고 다음 클럭 사이클에 이 보관된 값을 입력으로 이후 Stage에 전달하는 역할을 한다. 그림.
+ Pipeline 방식의 Datapath는 복수의 Pipeline Stage를 갖으며 각 Stage 는 Combinational Logic 으로 구성되고 각 Stage 사이에는 Latch (또는 Flipflop)가 기억장소로 위치한다. Latch는 이전 Stage의 Combination Logic의 출력 값을 보관하고 다음 Clock Cycle에 이 보관된 값을 입력으로 이후 Stage에 전달하는 역할을 한다. 그림.
 
  이 강좌에서는 다음과 같은 5가지 간단한 Pipeline Stage를 갖는 프로세서를 설계한다.
-
-  * Fetch
-  * Decode
-  * Execute
+  * Fetch: Program Counter(PC) Register의 값을 주소로 사용하여 Memory에서 Instruction을 읽어와서 Decode Stage에 전달하고 PC값을 읽어온 Instruction의 메모리상의 크기 및 Instruction의 종류를 바탕으로 증가시킨다. 예를 들어, Branch Instruction의 경우 다음 PC 값은 이 Branch Instruction의 분기 대상주소가 된다.
+  * Decode: Instruction에 기록된 내용을 해석해 Control Logic에 전달하고 이 Instruction의 수행에 필요한 Register File Data를 읽어 다음 Execution Stage에 전달한다.
+  * Execute: 
   * Memory
   * Writeback
 
