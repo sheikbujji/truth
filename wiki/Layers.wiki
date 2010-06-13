@@ -2,7 +2,7 @@
 
 = Introduction =
 
-  At the end, eveything is mapped into the movement of electronics (or bits). All computer system layers (from RTL to application) are abstractions (or virtualization) for those electron movements. It is similar to the fact that all materials and human/animal bodies are compositions of atoms. Human call those sets of atoms to cells, organs, and so on.
+  At the end, eveything is mapped into a movement of electrons (or bits). All computer system layers (from RTL to application) are abstractions (or virtualization) for these electron movements. It is similar to the fact that all materials and human/animal bodies are compositions of atoms. Human call those sets of atoms to cells, organs, and so on. For example, it is a reasonable analogy that a thread is like a human in real world.
 
   Question 1. Fault-tolerance technique shall be implemented in one layer or multiple?
 
