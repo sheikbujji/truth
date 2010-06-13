@@ -1,18 +1,55 @@
 #summary Instruction Set Architecture
 
+ Design decisions are needed to build a specification of ISA. Amoning fixed and variable-length ISA, We use a fixed-length ISA with instruction length of 4 bytes. A smaller instruction length can reduce the program code size but may not be effective if data size is 32bits (e.g., immediate value can be 16bits) and a large-size memory needs to be accessed.
+ 
  ====Instructions====
+ 
+ * Type 0: Instructions with two register operands
 
-  * Arith/Integer: ADD, SUB, MUL, DIV, MOD, NEG, ABS
-  * Logical: AND, OR, XOR, NOR
-  * Shift: SLI (Shift left with imm), SRI (Shirt right imm)
-  * Compare: EQ, NE, LT, GT, LE, GE
-  * Reg-to-Reg Move: Move
-  * Memory: Load, Store
-  * Stack: Push, Pop
-  * Breach: BEQ, BNE, BNE, BNZ, BLT, BGT, BLE, BGE
-  * Jump: JMP
-  * Atomic: SWAP
-  * SW Interrupt: TRAP, IRET
+ || *Kind* || *Name* || Type (31-30) || Opcode (29-25) || Reg1 || Reg2 ||
+ || Arith/Int || ADD || 00 || 00000 ||
+ || Arith/Int || SUB || 00 || 00001 ||
+ || Arith/Int || MUL || 00 || 00010 ||
+ || Arith/Int || DIV || 00 || 00011 ||
+ || Arith/Int || MOD || 00 || 00100 ||
+ || Arith/Int || NEG || 00 || 00101 ||
+ || Arith/Int || ABS || 00 || 00110 ||
+ || Logical || AND || 00 || 00111 ||
+ || Logical || OR  || 00 || 01000 ||
+ || Logical || XOR || 00 || 01001 ||
+ || Logical || NOR || 00 || 01010 ||
+ || Shift || SLI (Shift left with imm) || 00 || 01011 ||
+ || Shift || SRI (Shirt right imm) || 00 || 01100 ||
+ || Compare || EQ || 00 || 01101 ||
+ || Compare || NE || 00 || 01110 ||
+ || Compare || LT || 00 || 01111 ||
+ || Compare || GT || 00 || 10000 ||
+ || Compare || LE || 00 || 10001 ||
+ || Compare || GE || 00 || 10010 ||
+ || Reg-to-Reg Move || Move || 10011 ||
+ || Atomic || SWAP || 10100 ||
+
+ * Type 1: Instructions with a memory address operand and an register operand
+
+ || *Kind* || *Name* || Type (31-30) || Opcode (29-28) || Address || Register ||
+ || Memory || Load || 01 || 00 || 
+ || Memory || Store || 01 || 01 ||
+ || Stack || Pop || 01 || 10 ||
+ || Stack || Push || 01 || 11 || 
+
+ * Type 2: Instructions for control-flow manipulations
+
+ || *Kind* || *Name* || Type (31-30) || Opcode (29-25) ||
+ || Breach || BEQ 
+ || Breach || BNE
+ || Breach || BNZ
+ || Breach || BLT
+ || Breach || BGT
+ || Breach || BLE
+ || Breach || BGE
+ || Jump || JMP
+ || SW Interrupt || TRAP
+ || SW Interrupt || IRET
 
  ====Registers====
 
