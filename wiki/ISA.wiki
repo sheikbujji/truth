@@ -72,6 +72,10 @@
 
  For FT, one architecture that has a pool of computation units and dynamically allocating tasks to each of these computation units would be right approach as far as the dynamic allocation unit is reliable (or can we do this in a decentralized manner!!!!!). People believe we cannot remove the single point of failure in the system but what if we implement a fully decentralized system.
 
+ Multiple cores and multiple memory attached via multiple (likely dual) buses.
+
+ Mostly for hard faults (assuming there's a technique to detect core failure and isolate error propagation within a core).
+
  ISA 구조의 특징과 FT, Safety, Security, 실시간성 그리고 저전력 특성 사이의 상관관계는 무엇인가?
 
  예를 들어, 3가지 명령어로 된 프로세서를 고려해 보자. 
