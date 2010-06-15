@@ -74,7 +74,7 @@
 
  Multiple cores and multiple memory attached via multiple (likely dual) buses.
 
- Mostly for hard faults (assuming there's a technique to detect core failure and isolate error propagation within a core).
+ Mostly for hard faults (assuming there's a technique to detect core failure and isolate error propagation within a core). Most fault tolerant systems are homogeneous and decentralized (unit that is homogeneous shall be small likely a cell). 
 
  ISA 구조의 특징과 FT, Safety, Security, 실시간성 그리고 저전력 특성 사이의 상관관계는 무엇인가?
 
