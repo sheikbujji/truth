@@ -70,6 +70,7 @@
 
   * Clock vs Complexity of ISA. Increasing clock frequency by simplifying ISA is not a good approach since it largely increases the energy consumption (square of clock frequency). On the other hand, to build a complex ISA regardless of whether it is VLIW or something else, a large area of silicon is required. Here, another axis (time) should be considered that is when and how frequently those computing resources are used. Each task has different execution period, deadline and execution time. Maybe building a dedicated hardware for each task and customizing ISA for this specific task and running in a steady-execution speed would be better. Its like a heterogeneous multiprocessor (i.e., non-identical but uniform). Really? Reliability, security?? 
 
+ For FT, one architecture that has a pool of computation units and dynamically allocating tasks to each of these computation units would be right approach as far as the dynamic allocation unit is reliable (or can we do this in a decentralized manner!!!!!). People believe we cannot remove the single point of failure in the system but what if we implement a fully decentralized system.
 
  ISA 구조의 특징과 FT, Safety, Security, 실시간성 그리고 저전력 특성 사이의 상관관계는 무엇인가?
 
