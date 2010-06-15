@@ -68,6 +68,9 @@
    Is small number of instruction good for fault-tolerance? Hardware status could be easy to monitor? What instructions are easier to monitor (e.g., input and output dependencies)?
 
 
+  * Clock vs Complexity of ISA. Increasing clock frequency by simplifying ISA is not a good approach since it largely increases the energy consumption (square of clock frequency). On the other hand, to build a complex ISA regardless of whether it is VLIW or something else, a large area of silicon is required. Here, another axis (time) should be considered that is when and how frequently those computing resources are used. Each task has different execution period, deadline and execution time. Maybe building a dedicated hardware for each task and customizing ISA for this specific task and running in a steady-execution speed would be better. Its like a heterogeneous multiprocessor (i.e., non-identical but uniform). Really? Reliability, security?? 
+
+
  ISA 구조의 특징과 FT, Safety, Security, 실시간성 그리고 저전력 특성 사이의 상관관계는 무엇인가?
 
  예를 들어, 3가지 명령어로 된 프로세서를 고려해 보자. 
@@ -75,4 +78,3 @@
  TMR에서는 3개의 서로 같은 프로세서들을 사용하여 같은 프로그램을 수행하고 메모리 (또는 Cache)에 데이터를 저장하는 경우에 주소와 값을 비교한다. 이 방법의 단점은 3개의 프로세서를 장착하는데 따른 하드웨어 비용과 제3의 회로에 의한 Voting 비용 등이다. 최근 제시된 EDDI/SWIFT 기법은 소프트웨어적으로 복제를 수행한 것으로 (공간축에서 복제가 아닌 시간축의 복제로 볼 수 있다) 고성능 슈퍼스칼라 프로세서의 다양한 컴퓨팅 하드웨어 자원과 큰 크기의 레지스터 파일을 활용하여 컴파일러가 메모리 저장 명령어에 사용되는 주소와 데이터의 생성과 직간접적으로 연관된 모든 명령어를 찾아내어 이를 복제해 두번 수행시킨다. 복제시 레지스터의 경우 컴파일러 수준의 가상 레지스터 수준에서 복제가 이뤄지고 컴파일러의 후처리기를 거치면서 이는 자동으로 물리 레지스터 상의 복제로 이어진다. 원 수행결과와 복제된 수행 결과 값의 차이가 있는 경우 에러를 인식하게 된다.
 
  에러를 인식하고 에러를 복구하기 위해서는 폴트에 의해 에러가 어떠한 시스템 상태에 전파되었는지 확인하거나 또는 어떠한 시스템 상태에는 최소한 전파되지 않았는지 보증할 수 있는 장치가 필요하다.
-
