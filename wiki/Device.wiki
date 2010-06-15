@@ -1,6 +1,6 @@
 #summary for commercialization
 
- There have been many attempts to deploy computers for personal healthcare. One of early attempts is bio-rhythm that draws three graphs using the date of birth of user.
+ There have been many attempts to deploy computers for personal healthcare. One of early attempts is a bio-rhythm program that draws three graphs using the date of birth of user.
 
  매년 수백 수천만의 논문이 쓰여지지만 혹 저자가 자신 있는 문제 저자가 생각하는 것 저자가 하고 싶은 얘기만 하고 있지는 않은가? 실상 필요한 기술은 다른 것인데도 말이다. 사람들이 원하는 것은 의외로 간단하다. 예를 들면, 질병이 있으면 그 원인을 정확하게 진단하고 앞으로 이를 예방할 수 있도록 습관(식습관, 운동 등)을 바꾸는 것이다. Fault-tolerance(FT) 분야의 용어를 사용해서 Failure(질병, 통증)에 앞서서 Error(증상, 전조)가 선행되며 Error는 Fault(사고, 행위)에 의해서 야기된다. 컴퓨터 FT와 같이 인간이 수집하는 정보는 Failure와 일부 Error 정보이며 이를 바탕으로 Fault를 찾아내는 것이 진단과 처방에 있어서의 근본적인 문제일 수 있겠다. 경험주의적 방법은 다양한 Error와 Fault의 경우를 수집하고 이 사이에서 어떠한 상관관계를 찾아내는 것이다.
 
