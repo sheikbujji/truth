@@ -13,7 +13,7 @@
   * Safety. Three constraints: (i) heartbeat rate is always within a range (60-120 times per minute), (ii) heartbeat rate does not rapidly change (attack and decay slopes are always within a bound), (iii) heartbeat rate never stay above a certain threshold for a longer than a certain time interval.
 
   * Reliability.
-
+    when we were writing a program, did we specify the reliability/security requirements or invariants (e.g., in C program)? the answer is no. we need a programming model that is easy to specify these requirements. This easiness would be achieved when we don't ask programmer to write codes that can be automatically inferable by using the other codes he/she wrote. maybe this invariant can be monitored at runtime using a tiny hardware logic in each cell before their output data is stored in shared data storage.
 
   * Security.
 
