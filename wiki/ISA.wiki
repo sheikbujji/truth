@@ -42,16 +42,13 @@
  * Type 2: Instructions for control-flow manipulations
 
  || *Kind* || *Name* || Type (31-30) || Opcode (29-25) ||
- || Breach || BEQ 
- || Breach || BNE
- || Breach || BNZ
- || Breach || BLT
- || Breach || BGT
- || Breach || BLE
- || Breach || BGE
- || Jump || JMP
- || SW Interrupt || TRAP
- || SW Interrupt || IRET
+ || Branch || B || 10 || 000 || 
+ || Branch || BTrue || 10 || 001|| 
+ || Branch || BFalse || 10 || 010|| 
+ || Branch || RET || 10 || 011|| 
+ || Jump || JMP || 10 || 100|| 
+ || SW Interrupt || TRAP || 10 || 101|| 
+ || SW Interrupt || IRET || 10 || 110|| 
 
  ====Registers====
 
