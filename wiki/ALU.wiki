@@ -8,4 +8,9 @@
 
  For an integer variable, processor at the beginning treats this as 32-bits. When it experiences an overflow, it can treat this variable as 64-bits. When storing data back to memory instead of using address, it shall use other identifier because the variable size is enlarged.
 
+  * Size of register: 
+
+
  
+  * strictly typed program (gives the value range of each variable)
+
