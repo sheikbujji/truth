@@ -1,12 +1,15 @@
 #summary new memory model
  
- Let consider a memory interface with a variable (or object) identifier and the size of each variable (or object) belonging to a specific identifier can be dynamically changed.
+ Let consider a memory interface with an object identifier and the size of each variable (or object) belonging to a specific identifier can be dynamically changed.
 
  Interface is 
 
   * Read: Identifier -> Size of selected object, Data for selected object
 
   * Write: Identifier, Size of Object, and Data of Object -> Done (if synchronous device)
+
+
+ Assume that variable-granularity accesses are handled by on-chip cache (i.e., SRAM). This object memory is only used to fetch job description and store computation results. 
 
  ====What is it good for====
 
@@ -20,4 +23,4 @@
 
  ====How to build this memory?====
 
-  * Log structured memory system for fault-tolerance (replay is feasible). 
+  * Log structured memory system for fault-tolerance (replay is feasible). It can use a nonvolatile memory device.
