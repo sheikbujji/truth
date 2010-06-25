@@ -14,15 +14,15 @@
  || Arith/Int || MOD || 00 || 00100 ||
  || Arith/Int || NEG || 00 || 00101 ||
  || Arith/Int || ABS || 00 || 00110 ||
- || Logical || AND || 00 || 00111 ||
- || Logical || OR  || 00 || 01000 ||
- || Logical || XOR || 00 || 01001 ||
- || Logical || NOR || 00 || 01010 ||
- || Shift || SLI (Shift left with imm) || 00 || 01011 ||
- || Shift || SRI (Shirt right imm) || 00 || 01100 ||
- || Reg-to-Reg Move || Move || 00 || 01101 ||
- || Atomic || SWAP || 00 || 01110 ||
- || -- || -- || 00 || 01111 ||
+ || Logical || NOT || 00 || 00111 ||
+ || Logical || AND  || 00 || 01000 ||
+ || Logical || OR || 00 || 01001 ||
+ || Logical || XOR || 00 || 01010 ||
+ || Logical || NOR || 00 || 01011 ||
+ || Shift || SLI (Shift left with imm) || 00 || 01100 ||
+ || Shift || SRI (Shirt right imm) || 00 || 01101 ||
+ || Reg-to-Reg Move || Move || 00 || 01110 ||
+ || Atomic || SWAP || 00 || 01111 ||
  || Compare || EQ || 00 || 10000 ||
  || Compare || NE || 00 || 10001 ||
  || Compare || LT || 00 || 10010 ||
@@ -30,6 +30,7 @@
  || Compare || LE || 00 || 10100 ||
  || Compare || GE || 00 || 10101 ||
 
+ ABS?
 
  * Type 1: Instructions with a memory address operand and an register operand
 
