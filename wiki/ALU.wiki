@@ -3,8 +3,9 @@
  When building an ALU regardless of whether it is integer or floating-point unit, we need to decide how to support the following features:
 
   * Flags
-  * 
-
+ 
  What if program does not specify the size of data or variable? Program only specifies the type of data or variable (e.g., integer, floating-point, maybe this could be removed but it is good for programmer to know the type of data because FP values have precision error).
 
  For an integer variable, processor at the beginning treats this as 32-bits. When it experiences an overflow, it can treat this variable as 64-bits. When storing data back to memory instead of using address, it shall use other identifier because the variable size is enlarged.
+
+ 
