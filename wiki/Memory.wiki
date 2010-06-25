@@ -1,0 +1,19 @@
+#summary new memory model
+ 
+ Let consider a memory interface with a variable (or object) identifier and the size of each variable (or object) belonging to a specific identifier can be dynamically changed.
+
+ Interface is 
+
+  * Read. Identifier -> Size of selected object, Data for selected object and 
+
+ ====What is it good for====
+
+  * 
+
+
+  * Almost infinite memory illusion. This could be an orthogonal issue. It can supports identifier count larger than the physical memory size. It's not infinite address space but still the total accessible memory space is limited by max identifier count x max object size.
+
+  * What is it not good for
+
+
+  * How to build this memory?
