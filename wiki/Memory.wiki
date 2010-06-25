@@ -4,7 +4,9 @@
 
  Interface is 
 
-  * Read. Identifier -> Size of selected object, Data for selected object and 
+  * Read: Identifier -> Size of selected object, Data for selected object
+
+  * Write: Identifier, Size of Object, and Data of Object -> Done (if synchronous device)
 
  ====What is it good for====
 
@@ -16,4 +18,6 @@
   * What is it not good for
 
 
-  * How to build this memory?
+ ====How to build this memory?====
+
+  * Log structured memory system for fault-tolerance (replay is feasible). 
