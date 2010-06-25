@@ -20,14 +20,16 @@
  || Logical || NOR || 00 || 01010 ||
  || Shift || SLI (Shift left with imm) || 00 || 01011 ||
  || Shift || SRI (Shirt right imm) || 00 || 01100 ||
- || Compare || EQ || 00 || 01101 ||
- || Compare || NE || 00 || 01110 ||
- || Compare || LT || 00 || 01111 ||
- || Compare || GT || 00 || 10000 ||
- || Compare || LE || 00 || 10001 ||
- || Compare || GE || 00 || 10010 ||
- || Reg-to-Reg Move || Move || 10011 ||
- || Atomic || SWAP || 10100 ||
+ || Reg-to-Reg Move || Move || 00 || 01101 ||
+ || Atomic || SWAP || 00 || 01110 ||
+ || -- || -- || 00 || 01111 ||
+ || Compare || EQ || 00 || 10000 ||
+ || Compare || NE || 00 || 10001 ||
+ || Compare || LT || 00 || 10010 ||
+ || Compare || GT || 00 || 10011 ||
+ || Compare || LE || 00 || 10100 ||
+ || Compare || GE || 00 || 10101 ||
+
 
  * Type 1: Instructions with a memory address operand and an register operand
 
