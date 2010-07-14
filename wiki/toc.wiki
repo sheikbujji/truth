@@ -2,23 +2,32 @@
 
     * [Learners for learners]
           o [Processor processor design]
+
           o [Compiler compiler design]
+
           o [OS operating system design]
     * [Developers for developers]
           o [ISA ISA design]
     * [Researchers for researchers]
           o Problem Statement
                 o [Breakthrough what's breakthrough]
+
                 o [Problem problems we're targetting]
           o Requirement Analysis
                 o [Classification a classification]
+
                 o [Energy power design constraint]
           o Related Work
                 o [Researchers research groups]
+
                 o [Devices I/O devices]
+
                 o [Signals signal processing] 
+
                 o [News news]
           o Design 
                 o [FT fault-tolerant design]
+
                 o [Markov markovian analysis]
+
                 o [Layers what layers mean for fault-tolerance?]
