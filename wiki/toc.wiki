@@ -7,18 +7,18 @@
 * [Developers for developers]
   * [ISA ISA design]
 * [Researchers for researchers]
-  * Problem Statement
+  * [# Problem Statement]
     * [Breakthrough what's breakthrough]
     * [Problem problems we're targetting]
-  * Requirement Analysis
+  * [# Requirement Analysis]
     * [Classification a classification]
     * [Energy power design constraint]
-  * Related Work
+  * [# Related Work]
     * [Researchers research groups]
     * [Devices I/O devices]
     * [Signals signal processing] 
     * [News news]
-  * Design 
+  * [# Design]
     * [FT fault-tolerant design]
     * [Markov markovian analysis]
     * [Layers what layers mean for fault-tolerance?]
