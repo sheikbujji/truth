@@ -1,14 +1,12 @@
 #summary Synopsis for active learners
 
 ===Preface===
- Since I started computer programming (early 90s when PC and PC-to-PC communication via telephone line just born), software developer has maintained a beautiful custom. The beautiful practice is sharing knowledege for free through Internet (i.e., this is a lot faster and cheaper than books and enables more interactions between authors and readers).
-For example, knowledged or experienced people (e.g., graduate students) writes free online lectures for anonymous people who has a passion and desire to learn these knowledge and technologies but don't have an access to them in physical world. The author of this article is also one who benefited from this Internet-base knowledge sharing, e.g., identify my talent early in my 10's. This lecture series is a return of a free gife the author got. Due to this motive, many articles in this lecture series is being written in both English and Korean.
+ Since I started computer programming (early 90s when PC and PC-to-PC communication via telephone line just born), software developer has maintained a beautiful custom. The beautiful practice is sharing knowledege for free through Internet (i.e., this is a lot faster and cheaper than books and enables more interactions between authors and readers). For example, knowledged or experienced people (e.g., graduate students) writes free online lectures for anonymous people who has a passion and desire to learn these knowledge and technologies but don't have an access to them in physical world. The author of this article is also one who benefited from this Internet-base knowledge sharing, e.g., identify my talent early in my 10's. This lecture series is a return of a free gife the author got. Due to this motive, many articles in this lecture series is being written in both English and Korean.
 
 ===Overview===
  At the end of this lecture, you'll be able to build a tiny computer system by yourself. Only materials you need are this article, a computer for programming, and an FPGA board to fabricate your computer to.
 
 ===Contents===
-
   # [Processor] Design
   # [Compiler] Design
   # [OS] Design
