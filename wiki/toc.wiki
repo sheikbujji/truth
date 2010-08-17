@@ -4,8 +4,10 @@
   * [Processor processor design]
   * [Compiler compiler design]
   * [OS operating system design]
+
 * [Developers for developers]
   * [ISA ISA design]
+
 * [Researchers for researchers]
   * [# Problem Statement]
     * [Breakthrough what's breakthrough]
