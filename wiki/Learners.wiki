@@ -1,14 +1,17 @@
 #summary Synopsis for active learners
 
+===Preface===
+ Since I started computer programming (early 90s when PC and PC-to-PC communication via telephone line just born), software developer has maintained a beautiful custom. The beautiful practice is sharing knowledege for free through Internet (i.e., this is a lot faster and cheaper than books and enables more interactions between authors and readers).
+For example, knowledged or experienced people (e.g., graduate students) writes free online lectures for anonymous people who has a passion and desire to learn these knowledge and technologies but don't have an access to them in physical world. The author of this article is also one who benefited from this Internet-base knowledge sharing, e.g., identify my talent early in my 10's. This lecture series is a return of a free gife the author got. Due to this motive, many articles in this lecture series is being written in both English and Korean.
+
+===Overview===
+ At the end of this lecture, you'll be able to build a tiny computer system by yourself. Only materials you need are this article, a computer for programming, and an FPGA board to fabricate your computer to.
+
 ===Contents===
 
   # [Processor] Design
   # [Compiler] Design
   # [OS] Design
-
-
-===Motivation===
- Since I started computer proramming (early 90s when PC communicaton was popular), we software developers have maintained a beautiful history and custom that is relatively knowledged people (like graduate students) are writing free online lectures for who eager to learn these technologies but donot have an opportunity. Personally, I'm one who learned my talent early in my 10's thanks to this beautiful custom and thus want to return this gift back to others by writing free online lectures because I've became a graduate student. This is why many articles in this site are being written in both English and Korean (e.g., who does not know well about English can still learn technology in this site).
 
 ===들어가며===
  90년대 초반 PC통신이 한창인 시절에 컴퓨터 개발자들 사이에 미풍이 있있다. 대학생 또는 대학원생 등 경험있는 선배들이 온라인 매체를 통하여 무료로 공개 기술강좌를 하는 것이다. 이는 중고등생 등 열정은 있으나 전문지식을 배울 수 있는 기회를 갖지 못한 사람들에게는 특히 유익한 일로 이들 스스로 본인의 적성을 조기 진단하고 청소년기의 지적 호기심을 충족시킬 수 있는 근사한 일이었다. 예를 들면, 당시에 보호모드에서 동작하는 운영체제에 대한 강좌, PC통신용 호스트/클라이언트 소프트웨어 강좌 및 소스공개, 그리고 다양한 게임 제작강좌 등이 있었다.
