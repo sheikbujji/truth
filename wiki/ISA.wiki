@@ -1,6 +1,10 @@
 #summary Instruction Set Architecture
 
- Design decisions are needed to build a specification of ISA. Amoning fixed and variable-length ISA, We use a fixed-length ISA with instruction length of 4 bytes. A smaller instruction length can reduce the program code size but may not be effective if data size is 32bits (e.g., immediate value can be 16bits) and a large-size memory needs to be accessed.
+ ====Overview====
+ This is a specification of ISA (Instrumentation Set Architecture) of the Truth processor core. The major design decisions made for this ISA are:
+ * Fixed-length instruction (4 bytes). Amoning fixed and variable-length ISA, We use a fixed-length ISA with instruction length of 4 bytes. A smaller instruction length can reduce the program code size but may not be effective if data size is 32bits (e.g., immediate value can be 16bits) and a large-size memory needs to be accessed.
+ * Specialized for bio-med applications.
+
  
  ====Instructions====
  
