@@ -1,0 +1,2040 @@
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 1
+
+
+   1               		.file	"os_cpu_c.c"
+   2               	__SREG__ = 0x3f
+   3               	__SP_H__ = 0x3e
+   4               	__SP_L__ = 0x3d
+   5               	__CCP__  = 0x34
+   6               	__tmp_reg__ = 0
+   7               	__zero_reg__ = 1
+   8               		.section	.debug_abbrev,"",@progbits
+   9               	.Ldebug_abbrev0:
+  10               		.section	.debug_info,"",@progbits
+  11               	.Ldebug_info0:
+  12               		.section	.debug_line,"",@progbits
+  13               	.Ldebug_line0:
+  14               		.text
+  15               	.Ltext0:
+  16               	.global	OSTaskStkInit
+  17               		.type	OSTaskStkInit, @function
+  18               	OSTaskStkInit:
+  19               	.LFB2:
+  20               	.LM1:
+  21               	.LVL0:
+  22               	/* prologue: function */
+  23               	/* frame size = 0 */
+  24 0000 E42F      		mov r30,r20
+  25 0002 F52F      		mov r31,r21
+  26               	.LM2:
+  27 0004 8083      		st Z,r24
+  28               	.LM3:
+  29 0006 9293      		st -Z,r25
+  30               	.LVL1:
+  31               	.LM4:
+  32 0008 1292      		st -Z,__zero_reg__
+  33               	.LM5:
+  34 000a 1292      		st -Z,__zero_reg__
+  35               	.LM6:
+  36 000c 1292      		st -Z,__zero_reg__
+  37               	.LM7:
+  38 000e 1292      		st -Z,__zero_reg__
+  39               	.LM8:
+  40 0010 1292      		st -Z,__zero_reg__
+  41               	.LM9:
+  42 0012 1292      		st -Z,__zero_reg__
+  43               	.LM10:
+  44 0014 1292      		st -Z,__zero_reg__
+  45               	.LM11:
+  46 0016 1292      		st -Z,__zero_reg__
+  47               	.LM12:
+  48 0018 1292      		st -Z,__zero_reg__
+  49               	.LM13:
+  50 001a 1292      		st -Z,__zero_reg__
+  51               	.LM14:
+  52 001c 1292      		st -Z,__zero_reg__
+  53               	.LM15:
+  54 001e 1292      		st -Z,__zero_reg__
+  55               	.LM16:
+  56 0020 1292      		st -Z,__zero_reg__
+  57               	.LM17:
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 2
+
+
+  58 0022 1292      		st -Z,__zero_reg__
+  59               	.LM18:
+  60 0024 1292      		st -Z,__zero_reg__
+  61               	.LM19:
+  62 0026 1292      		st -Z,__zero_reg__
+  63               	.LM20:
+  64 0028 1292      		st -Z,__zero_reg__
+  65               	.LM21:
+  66 002a 1292      		st -Z,__zero_reg__
+  67               	.LM22:
+  68 002c 1292      		st -Z,__zero_reg__
+  69               	.LM23:
+  70 002e 1292      		st -Z,__zero_reg__
+  71               	.LM24:
+  72 0030 1292      		st -Z,__zero_reg__
+  73               	.LM25:
+  74 0032 1292      		st -Z,__zero_reg__
+  75               	.LM26:
+  76 0034 1292      		st -Z,__zero_reg__
+  77               	.LM27:
+  78 0036 1292      		st -Z,__zero_reg__
+  79               	.LM28:
+  80 0038 6293      		st -Z,r22
+  81               	.LM29:
+  82 003a 7293      		st -Z,r23
+  83               	.LVL2:
+  84               	.LM30:
+  85 003c 1292      		st -Z,__zero_reg__
+  86               	.LM31:
+  87 003e 1292      		st -Z,__zero_reg__
+  88               	.LM32:
+  89 0040 1292      		st -Z,__zero_reg__
+  90               	.LM33:
+  91 0042 1292      		st -Z,__zero_reg__
+  92               	.LM34:
+  93 0044 1292      		st -Z,__zero_reg__
+  94               	.LM35:
+  95 0046 1292      		st -Z,__zero_reg__
+  96               	.LM36:
+  97 0048 80E8      		ldi r24,lo8(-128)
+  98               	.LVL3:
+  99 004a 8293      		st -Z,r24
+ 100 004c 3197      		sbiw r30,1
+ 101               	.LVL4:
+ 102               	.LM37:
+ 103 004e 8E2F      		mov r24,r30
+ 104 0050 9F2F      		mov r25,r31
+ 105               	.LVL5:
+ 106               	/* epilogue start */
+ 107 0052 0895      		ret
+ 108               	.LFE2:
+ 109               		.size	OSTaskStkInit, .-OSTaskStkInit
+ 110               	.global	OSTaskCreateHook
+ 111               		.type	OSTaskCreateHook, @function
+ 112               	OSTaskCreateHook:
+ 113               	.LFB3:
+ 114               	.LM38:
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 3
+
+
+ 115               	.LVL6:
+ 116               	/* prologue: function */
+ 117               	/* frame size = 0 */
+ 118               	/* epilogue start */
+ 119               	.LM39:
+ 120 0054 0895      		ret
+ 121               	.LFE3:
+ 122               		.size	OSTaskCreateHook, .-OSTaskCreateHook
+ 123               	.global	OSTaskDelHook
+ 124               		.type	OSTaskDelHook, @function
+ 125               	OSTaskDelHook:
+ 126               	.LFB4:
+ 127               	.LM40:
+ 128               	.LVL7:
+ 129               	/* prologue: function */
+ 130               	/* frame size = 0 */
+ 131               	/* epilogue start */
+ 132               	.LM41:
+ 133 0056 0895      		ret
+ 134               	.LFE4:
+ 135               		.size	OSTaskDelHook, .-OSTaskDelHook
+ 136               	.global	OSTaskSwHook
+ 137               		.type	OSTaskSwHook, @function
+ 138               	OSTaskSwHook:
+ 139               	.LFB5:
+ 140               	.LM42:
+ 141               	/* prologue: function */
+ 142               	/* frame size = 0 */
+ 143               	/* epilogue start */
+ 144               	.LM43:
+ 145 0058 0895      		ret
+ 146               	.LFE5:
+ 147               		.size	OSTaskSwHook, .-OSTaskSwHook
+ 148               	.global	OSTaskStatHook
+ 149               		.type	OSTaskStatHook, @function
+ 150               	OSTaskStatHook:
+ 151               	.LFB6:
+ 152               	.LM44:
+ 153               	/* prologue: function */
+ 154               	/* frame size = 0 */
+ 155               	/* epilogue start */
+ 156               	.LM45:
+ 157 005a 0895      		ret
+ 158               	.LFE6:
+ 159               		.size	OSTaskStatHook, .-OSTaskStatHook
+ 160               	.global	OSTimeTickHook
+ 161               		.type	OSTimeTickHook, @function
+ 162               	OSTimeTickHook:
+ 163               	.LFB7:
+ 164               	.LM46:
+ 165               	/* prologue: function */
+ 166               	/* frame size = 0 */
+ 167               	/* epilogue start */
+ 168               	.LM47:
+ 169 005c 0895      		ret
+ 170               	.LFE7:
+ 171               		.size	OSTimeTickHook, .-OSTimeTickHook
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 4
+
+
+ 172               	.global	OSTCBInitHook
+ 173               		.type	OSTCBInitHook, @function
+ 174               	OSTCBInitHook:
+ 175               	.LFB8:
+ 176               	.LM48:
+ 177               	.LVL8:
+ 178               	/* prologue: function */
+ 179               	/* frame size = 0 */
+ 180               	/* epilogue start */
+ 181               	.LM49:
+ 182 005e 0895      		ret
+ 183               	.LFE8:
+ 184               		.size	OSTCBInitHook, .-OSTCBInitHook
+ 185               	.global	OSTaskIdleHook
+ 186               		.type	OSTaskIdleHook, @function
+ 187               	OSTaskIdleHook:
+ 188               	.LFB9:
+ 189               	.LM50:
+ 190               	/* prologue: function */
+ 191               	/* frame size = 0 */
+ 192               	/* epilogue start */
+ 193               	.LM51:
+ 194 0060 0895      		ret
+ 195               	.LFE9:
+ 196               		.size	OSTaskIdleHook, .-OSTaskIdleHook
+ 197               	.global	OSInitHookBegin
+ 198               		.type	OSInitHookBegin, @function
+ 199               	OSInitHookBegin:
+ 200               	.LFB10:
+ 201               	.LM52:
+ 202               	/* prologue: function */
+ 203               	/* frame size = 0 */
+ 204               	/* epilogue start */
+ 205               	.LM53:
+ 206 0062 0895      		ret
+ 207               	.LFE10:
+ 208               		.size	OSInitHookBegin, .-OSInitHookBegin
+ 209               	.global	OSInitHookEnd
+ 210               		.type	OSInitHookEnd, @function
+ 211               	OSInitHookEnd:
+ 212               	.LFB11:
+ 213               	.LM54:
+ 214               	/* prologue: function */
+ 215               	/* frame size = 0 */
+ 216               	/* epilogue start */
+ 217               	.LM55:
+ 218 0064 0895      		ret
+ 219               	.LFE11:
+ 220               		.size	OSInitHookEnd, .-OSInitHookEnd
+ 221               		.section	.debug_frame,"",@progbits
+ 222               	.Lframe0:
+ 223 0000 0C00 0000 		.long	.LECIE0-.LSCIE0
+ 224               	.LSCIE0:
+ 225 0004 FFFF FFFF 		.long	0xffffffff
+ 226 0008 01        		.byte	0x1
+ 227 0009 00        		.string	""
+ 228 000a 01        		.uleb128 0x1
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 5
+
+
+ 229 000b 7F        		.sleb128 -1
+ 230 000c 24        		.byte	0x24
+ 231 000d 0C        		.byte	0xc
+ 232 000e 20        		.uleb128 0x20
+ 233 000f 00        		.uleb128 0x0
+ 234               		.p2align	2
+ 235               	.LECIE0:
+ 236               	.LSFDE0:
+ 237 0010 0C00 0000 		.long	.LEFDE0-.LASFDE0
+ 238               	.LASFDE0:
+ 239 0014 0000 0000 		.long	.Lframe0
+ 240 0018 0000 0000 		.long	.LFB2
+ 241 001c 5400 0000 		.long	.LFE2-.LFB2
+ 242               		.p2align	2
+ 243               	.LEFDE0:
+ 244               	.LSFDE2:
+ 245 0020 0C00 0000 		.long	.LEFDE2-.LASFDE2
+ 246               	.LASFDE2:
+ 247 0024 0000 0000 		.long	.Lframe0
+ 248 0028 0000 0000 		.long	.LFB3
+ 249 002c 0200 0000 		.long	.LFE3-.LFB3
+ 250               		.p2align	2
+ 251               	.LEFDE2:
+ 252               	.LSFDE4:
+ 253 0030 0C00 0000 		.long	.LEFDE4-.LASFDE4
+ 254               	.LASFDE4:
+ 255 0034 0000 0000 		.long	.Lframe0
+ 256 0038 0000 0000 		.long	.LFB4
+ 257 003c 0200 0000 		.long	.LFE4-.LFB4
+ 258               		.p2align	2
+ 259               	.LEFDE4:
+ 260               	.LSFDE6:
+ 261 0040 0C00 0000 		.long	.LEFDE6-.LASFDE6
+ 262               	.LASFDE6:
+ 263 0044 0000 0000 		.long	.Lframe0
+ 264 0048 0000 0000 		.long	.LFB5
+ 265 004c 0200 0000 		.long	.LFE5-.LFB5
+ 266               		.p2align	2
+ 267               	.LEFDE6:
+ 268               	.LSFDE8:
+ 269 0050 0C00 0000 		.long	.LEFDE8-.LASFDE8
+ 270               	.LASFDE8:
+ 271 0054 0000 0000 		.long	.Lframe0
+ 272 0058 0000 0000 		.long	.LFB6
+ 273 005c 0200 0000 		.long	.LFE6-.LFB6
+ 274               		.p2align	2
+ 275               	.LEFDE8:
+ 276               	.LSFDE10:
+ 277 0060 0C00 0000 		.long	.LEFDE10-.LASFDE10
+ 278               	.LASFDE10:
+ 279 0064 0000 0000 		.long	.Lframe0
+ 280 0068 0000 0000 		.long	.LFB7
+ 281 006c 0200 0000 		.long	.LFE7-.LFB7
+ 282               		.p2align	2
+ 283               	.LEFDE10:
+ 284               	.LSFDE12:
+ 285 0070 0C00 0000 		.long	.LEFDE12-.LASFDE12
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 6
+
+
+ 286               	.LASFDE12:
+ 287 0074 0000 0000 		.long	.Lframe0
+ 288 0078 0000 0000 		.long	.LFB8
+ 289 007c 0200 0000 		.long	.LFE8-.LFB8
+ 290               		.p2align	2
+ 291               	.LEFDE12:
+ 292               	.LSFDE14:
+ 293 0080 0C00 0000 		.long	.LEFDE14-.LASFDE14
+ 294               	.LASFDE14:
+ 295 0084 0000 0000 		.long	.Lframe0
+ 296 0088 0000 0000 		.long	.LFB9
+ 297 008c 0200 0000 		.long	.LFE9-.LFB9
+ 298               		.p2align	2
+ 299               	.LEFDE14:
+ 300               	.LSFDE16:
+ 301 0090 0C00 0000 		.long	.LEFDE16-.LASFDE16
+ 302               	.LASFDE16:
+ 303 0094 0000 0000 		.long	.Lframe0
+ 304 0098 0000 0000 		.long	.LFB10
+ 305 009c 0200 0000 		.long	.LFE10-.LFB10
+ 306               		.p2align	2
+ 307               	.LEFDE16:
+ 308               	.LSFDE18:
+ 309 00a0 0C00 0000 		.long	.LEFDE18-.LASFDE18
+ 310               	.LASFDE18:
+ 311 00a4 0000 0000 		.long	.Lframe0
+ 312 00a8 0000 0000 		.long	.LFB11
+ 313 00ac 0200 0000 		.long	.LFE11-.LFB11
+ 314               		.p2align	2
+ 315               	.LEFDE18:
+ 316               		.text
+ 317               	.Letext0:
+ 318               		.section	.debug_loc,"",@progbits
+ 319               	.Ldebug_loc0:
+ 320               	.LLST1:
+ 321 0000 0000 0000 		.long	.LVL0-.Ltext0
+ 322 0004 4A00 0000 		.long	.LVL3-.Ltext0
+ 323 0008 0600      		.word	0x6
+ 324 000a 68        		.byte	0x68
+ 325 000b 93        		.byte	0x93
+ 326 000c 01        		.uleb128 0x1
+ 327 000d 69        		.byte	0x69
+ 328 000e 93        		.byte	0x93
+ 329 000f 01        		.uleb128 0x1
+ 330 0010 0000 0000 		.long	0x0
+ 331 0014 0000 0000 		.long	0x0
+ 332               	.LLST2:
+ 333 0018 0800 0000 		.long	.LVL1-.Ltext0
+ 334 001c 4E00 0000 		.long	.LVL4-.Ltext0
+ 335 0020 0600      		.word	0x6
+ 336 0022 6E        		.byte	0x6e
+ 337 0023 93        		.byte	0x93
+ 338 0024 01        		.uleb128 0x1
+ 339 0025 6F        		.byte	0x6f
+ 340 0026 93        		.byte	0x93
+ 341 0027 01        		.uleb128 0x1
+ 342 0028 0000 0000 		.long	0x0
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 7
+
+
+ 343 002c 0000 0000 		.long	0x0
+ 344               		.section	.debug_info
+ 345 0000 2A04 0000 		.long	0x42a
+ 346 0004 0200      		.word	0x2
+ 347 0006 0000 0000 		.long	.Ldebug_abbrev0
+ 348 000a 04        		.byte	0x4
+ 349 000b 01        		.uleb128 0x1
+ 350 000c 0000 0000 		.long	.LASF56
+ 351 0010 01        		.byte	0x1
+ 352 0011 0000 0000 		.long	.LASF57
+ 353 0015 0000 0000 		.long	.LASF58
+ 354 0019 0000 0000 		.long	.Ltext0
+ 355 001d 0000 0000 		.long	.Letext0
+ 356 0021 0000 0000 		.long	.Ldebug_line0
+ 357 0025 02        		.uleb128 0x2
+ 358 0026 01        		.byte	0x1
+ 359 0027 06        		.byte	0x6
+ 360 0028 0000 0000 		.long	.LASF0
+ 361 002c 02        		.uleb128 0x2
+ 362 002d 01        		.byte	0x1
+ 363 002e 08        		.byte	0x8
+ 364 002f 0000 0000 		.long	.LASF1
+ 365 0033 03        		.uleb128 0x3
+ 366 0034 02        		.byte	0x2
+ 367 0035 05        		.byte	0x5
+ 368 0036 696E 7400 		.string	"int"
+ 369 003a 02        		.uleb128 0x2
+ 370 003b 02        		.byte	0x2
+ 371 003c 07        		.byte	0x7
+ 372 003d 0000 0000 		.long	.LASF2
+ 373 0041 02        		.uleb128 0x2
+ 374 0042 04        		.byte	0x4
+ 375 0043 05        		.byte	0x5
+ 376 0044 0000 0000 		.long	.LASF3
+ 377 0048 02        		.uleb128 0x2
+ 378 0049 04        		.byte	0x4
+ 379 004a 07        		.byte	0x7
+ 380 004b 0000 0000 		.long	.LASF4
+ 381 004f 02        		.uleb128 0x2
+ 382 0050 08        		.byte	0x8
+ 383 0051 05        		.byte	0x5
+ 384 0052 0000 0000 		.long	.LASF5
+ 385 0056 02        		.uleb128 0x2
+ 386 0057 08        		.byte	0x8
+ 387 0058 07        		.byte	0x7
+ 388 0059 0000 0000 		.long	.LASF6
+ 389 005d 04        		.uleb128 0x4
+ 390 005e 0000 0000 		.long	.LASF7
+ 391 0062 02        		.byte	0x2
+ 392 0063 28        		.byte	0x28
+ 393 0064 2C00 0000 		.long	0x2c
+ 394 0068 04        		.uleb128 0x4
+ 395 0069 0000 0000 		.long	.LASF8
+ 396 006d 02        		.byte	0x2
+ 397 006e 2A        		.byte	0x2a
+ 398 006f 3A00 0000 		.long	0x3a
+ 399 0073 04        		.uleb128 0x4
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 8
+
+
+ 400 0074 0000 0000 		.long	.LASF9
+ 401 0078 02        		.byte	0x2
+ 402 0079 2C        		.byte	0x2c
+ 403 007a 4800 0000 		.long	0x48
+ 404 007e 02        		.uleb128 0x2
+ 405 007f 04        		.byte	0x4
+ 406 0080 04        		.byte	0x4
+ 407 0081 0000 0000 		.long	.LASF10
+ 408 0085 04        		.uleb128 0x4
+ 409 0086 0000 0000 		.long	.LASF11
+ 410 008a 02        		.byte	0x2
+ 411 008b 30        		.byte	0x30
+ 412 008c 2C00 0000 		.long	0x2c
+ 413 0090 05        		.uleb128 0x5
+ 414 0091 28        		.byte	0x28
+ 415 0092 03        		.byte	0x3
+ 416 0093 EC        		.byte	0xec
+ 417 0094 ED00 0000 		.long	0xed
+ 418 0098 06        		.uleb128 0x6
+ 419 0099 0000 0000 		.long	.LASF12
+ 420 009d 03        		.byte	0x3
+ 421 009e ED        		.byte	0xed
+ 422 009f 5D00 0000 		.long	0x5d
+ 423 00a3 02        		.byte	0x2
+ 424 00a4 23        		.byte	0x23
+ 425 00a5 00        		.uleb128 0x0
+ 426 00a6 06        		.uleb128 0x6
+ 427 00a7 0000 0000 		.long	.LASF13
+ 428 00ab 03        		.byte	0x3
+ 429 00ac EE        		.byte	0xee
+ 430 00ad 5D00 0000 		.long	0x5d
+ 431 00b1 02        		.byte	0x2
+ 432 00b2 23        		.byte	0x23
+ 433 00b3 01        		.uleb128 0x1
+ 434 00b4 06        		.uleb128 0x6
+ 435 00b5 0000 0000 		.long	.LASF14
+ 436 00b9 03        		.byte	0x3
+ 437 00ba EF        		.byte	0xef
+ 438 00bb 6800 0000 		.long	0x68
+ 439 00bf 02        		.byte	0x2
+ 440 00c0 23        		.byte	0x23
+ 441 00c1 02        		.uleb128 0x2
+ 442 00c2 06        		.uleb128 0x6
+ 443 00c3 0000 0000 		.long	.LASF15
+ 444 00c7 03        		.byte	0x3
+ 445 00c8 F0        		.byte	0xf0
+ 446 00c9 ED00 0000 		.long	0xed
+ 447 00cd 02        		.byte	0x2
+ 448 00ce 23        		.byte	0x23
+ 449 00cf 04        		.uleb128 0x4
+ 450 00d0 06        		.uleb128 0x6
+ 451 00d1 0000 0000 		.long	.LASF16
+ 452 00d5 03        		.byte	0x3
+ 453 00d6 F1        		.byte	0xf1
+ 454 00d7 EF00 0000 		.long	0xef
+ 455 00db 02        		.byte	0x2
+ 456 00dc 23        		.byte	0x23
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 9
+
+
+ 457 00dd 06        		.uleb128 0x6
+ 458 00de 06        		.uleb128 0x6
+ 459 00df 0000 0000 		.long	.LASF17
+ 460 00e3 03        		.byte	0x3
+ 461 00e4 F3        		.byte	0xf3
+ 462 00e5 0201 0000 		.long	0x102
+ 463 00e9 02        		.byte	0x2
+ 464 00ea 23        		.byte	0x23
+ 465 00eb 08        		.uleb128 0x8
+ 466 00ec 00        		.byte	0x0
+ 467 00ed 07        		.uleb128 0x7
+ 468 00ee 02        		.byte	0x2
+ 469 00ef 08        		.uleb128 0x8
+ 470 00f0 5D00 0000 		.long	0x5d
+ 471 00f4 FF00 0000 		.long	0xff
+ 472 00f8 09        		.uleb128 0x9
+ 473 00f9 FF00 0000 		.long	0xff
+ 474 00fd 01        		.byte	0x1
+ 475 00fe 00        		.byte	0x0
+ 476 00ff 0A        		.uleb128 0xa
+ 477 0100 02        		.byte	0x2
+ 478 0101 07        		.byte	0x7
+ 479 0102 08        		.uleb128 0x8
+ 480 0103 1201 0000 		.long	0x112
+ 481 0107 1201 0000 		.long	0x112
+ 482 010b 09        		.uleb128 0x9
+ 483 010c FF00 0000 		.long	0xff
+ 484 0110 1F        		.byte	0x1f
+ 485 0111 00        		.byte	0x0
+ 486 0112 02        		.uleb128 0x2
+ 487 0113 01        		.byte	0x1
+ 488 0114 06        		.byte	0x6
+ 489 0115 0000 0000 		.long	.LASF18
+ 490 0119 04        		.uleb128 0x4
+ 491 011a 0000 0000 		.long	.LASF19
+ 492 011e 03        		.byte	0x3
+ 493 011f F5        		.byte	0xf5
+ 494 0120 9000 0000 		.long	0x90
+ 495 0124 0B        		.uleb128 0xb
+ 496 0125 0000 0000 		.long	.LASF59
+ 497 0129 4E        		.byte	0x4e
+ 498 012a 03        		.byte	0x3
+ 499 012b 9301      		.word	0x193
+ 500 012d 7C02 0000 		.long	0x27c
+ 501 0131 0C        		.uleb128 0xc
+ 502 0132 0000 0000 		.long	.LASF20
+ 503 0136 03        		.byte	0x3
+ 504 0137 9401      		.word	0x194
+ 505 0139 7C02 0000 		.long	0x27c
+ 506 013d 02        		.byte	0x2
+ 507 013e 23        		.byte	0x23
+ 508 013f 00        		.uleb128 0x0
+ 509 0140 0C        		.uleb128 0xc
+ 510 0141 0000 0000 		.long	.LASF21
+ 511 0145 03        		.byte	0x3
+ 512 0146 9701      		.word	0x197
+ 513 0148 ED00 0000 		.long	0xed
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 10
+
+
+ 514 014c 02        		.byte	0x2
+ 515 014d 23        		.byte	0x23
+ 516 014e 02        		.uleb128 0x2
+ 517 014f 0C        		.uleb128 0xc
+ 518 0150 0000 0000 		.long	.LASF22
+ 519 0154 03        		.byte	0x3
+ 520 0155 9801      		.word	0x198
+ 521 0157 7C02 0000 		.long	0x27c
+ 522 015b 02        		.byte	0x2
+ 523 015c 23        		.byte	0x23
+ 524 015d 04        		.uleb128 0x4
+ 525 015e 0C        		.uleb128 0xc
+ 526 015f 0000 0000 		.long	.LASF23
+ 527 0163 03        		.byte	0x3
+ 528 0164 9901      		.word	0x199
+ 529 0166 7300 0000 		.long	0x73
+ 530 016a 02        		.byte	0x2
+ 531 016b 23        		.byte	0x23
+ 532 016c 06        		.uleb128 0x6
+ 533 016d 0C        		.uleb128 0xc
+ 534 016e 0000 0000 		.long	.LASF24
+ 535 0172 03        		.byte	0x3
+ 536 0173 9A01      		.word	0x19a
+ 537 0175 6800 0000 		.long	0x68
+ 538 0179 02        		.byte	0x2
+ 539 017a 23        		.byte	0x23
+ 540 017b 0A        		.uleb128 0xa
+ 541 017c 0C        		.uleb128 0xc
+ 542 017d 0000 0000 		.long	.LASF25
+ 543 0181 03        		.byte	0x3
+ 544 0182 9B01      		.word	0x19b
+ 545 0184 6800 0000 		.long	0x68
+ 546 0188 02        		.byte	0x2
+ 547 0189 23        		.byte	0x23
+ 548 018a 0C        		.uleb128 0xc
+ 549 018b 0C        		.uleb128 0xc
+ 550 018c 0000 0000 		.long	.LASF26
+ 551 0190 03        		.byte	0x3
+ 552 0191 9E01      		.word	0x19e
+ 553 0193 8202 0000 		.long	0x282
+ 554 0197 02        		.byte	0x2
+ 555 0198 23        		.byte	0x23
+ 556 0199 0E        		.uleb128 0xe
+ 557 019a 0C        		.uleb128 0xc
+ 558 019b 0000 0000 		.long	.LASF27
+ 559 019f 03        		.byte	0x3
+ 560 01a0 9F01      		.word	0x19f
+ 561 01a2 8202 0000 		.long	0x282
+ 562 01a6 02        		.byte	0x2
+ 563 01a7 23        		.byte	0x23
+ 564 01a8 10        		.uleb128 0x10
+ 565 01a9 0C        		.uleb128 0xc
+ 566 01aa 0000 0000 		.long	.LASF28
+ 567 01ae 03        		.byte	0x3
+ 568 01af A201      		.word	0x1a2
+ 569 01b1 8802 0000 		.long	0x288
+ 570 01b5 02        		.byte	0x2
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 11
+
+
+ 571 01b6 23        		.byte	0x23
+ 572 01b7 12        		.uleb128 0x12
+ 573 01b8 0C        		.uleb128 0xc
+ 574 01b9 0000 0000 		.long	.LASF29
+ 575 01bd 03        		.byte	0x3
+ 576 01be B001      		.word	0x1b0
+ 577 01c0 6800 0000 		.long	0x68
+ 578 01c4 02        		.byte	0x2
+ 579 01c5 23        		.byte	0x23
+ 580 01c6 14        		.uleb128 0x14
+ 581 01c7 0C        		.uleb128 0xc
+ 582 01c8 0000 0000 		.long	.LASF30
+ 583 01cc 03        		.byte	0x3
+ 584 01cd B101      		.word	0x1b1
+ 585 01cf 5D00 0000 		.long	0x5d
+ 586 01d3 02        		.byte	0x2
+ 587 01d4 23        		.byte	0x23
+ 588 01d5 16        		.uleb128 0x16
+ 589 01d6 0C        		.uleb128 0xc
+ 590 01d7 0000 0000 		.long	.LASF31
+ 591 01db 03        		.byte	0x3
+ 592 01dc B201      		.word	0x1b2
+ 593 01de 5D00 0000 		.long	0x5d
+ 594 01e2 02        		.byte	0x2
+ 595 01e3 23        		.byte	0x23
+ 596 01e4 17        		.uleb128 0x17
+ 597 01e5 0C        		.uleb128 0xc
+ 598 01e6 0000 0000 		.long	.LASF32
+ 599 01ea 03        		.byte	0x3
+ 600 01eb B401      		.word	0x1b4
+ 601 01ed 5D00 0000 		.long	0x5d
+ 602 01f1 02        		.byte	0x2
+ 603 01f2 23        		.byte	0x23
+ 604 01f3 18        		.uleb128 0x18
+ 605 01f4 0C        		.uleb128 0xc
+ 606 01f5 0000 0000 		.long	.LASF33
+ 607 01f9 03        		.byte	0x3
+ 608 01fa B501      		.word	0x1b5
+ 609 01fc 5D00 0000 		.long	0x5d
+ 610 0200 02        		.byte	0x2
+ 611 0201 23        		.byte	0x23
+ 612 0202 19        		.uleb128 0x19
+ 613 0203 0C        		.uleb128 0xc
+ 614 0204 0000 0000 		.long	.LASF34
+ 615 0208 03        		.byte	0x3
+ 616 0209 B601      		.word	0x1b6
+ 617 020b 5D00 0000 		.long	0x5d
+ 618 020f 02        		.byte	0x2
+ 619 0210 23        		.byte	0x23
+ 620 0211 1A        		.uleb128 0x1a
+ 621 0212 0C        		.uleb128 0xc
+ 622 0213 0000 0000 		.long	.LASF35
+ 623 0217 03        		.byte	0x3
+ 624 0218 B701      		.word	0x1b7
+ 625 021a 5D00 0000 		.long	0x5d
+ 626 021e 02        		.byte	0x2
+ 627 021f 23        		.byte	0x23
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 12
+
+
+ 628 0220 1B        		.uleb128 0x1b
+ 629 0221 0C        		.uleb128 0xc
+ 630 0222 0000 0000 		.long	.LASF36
+ 631 0226 03        		.byte	0x3
+ 632 0227 BE01      		.word	0x1be
+ 633 0229 7300 0000 		.long	0x73
+ 634 022d 02        		.byte	0x2
+ 635 022e 23        		.byte	0x23
+ 636 022f 1C        		.uleb128 0x1c
+ 637 0230 0C        		.uleb128 0xc
+ 638 0231 0000 0000 		.long	.LASF37
+ 639 0235 03        		.byte	0x3
+ 640 0236 BF01      		.word	0x1bf
+ 641 0238 7300 0000 		.long	0x73
+ 642 023c 02        		.byte	0x2
+ 643 023d 23        		.byte	0x23
+ 644 023e 20        		.uleb128 0x20
+ 645 023f 0C        		.uleb128 0xc
+ 646 0240 0000 0000 		.long	.LASF38
+ 647 0244 03        		.byte	0x3
+ 648 0245 C001      		.word	0x1c0
+ 649 0247 7300 0000 		.long	0x73
+ 650 024b 02        		.byte	0x2
+ 651 024c 23        		.byte	0x23
+ 652 024d 24        		.uleb128 0x24
+ 653 024e 0C        		.uleb128 0xc
+ 654 024f 0000 0000 		.long	.LASF39
+ 655 0253 03        		.byte	0x3
+ 656 0254 C101      		.word	0x1c1
+ 657 0256 7C02 0000 		.long	0x27c
+ 658 025a 02        		.byte	0x2
+ 659 025b 23        		.byte	0x23
+ 660 025c 28        		.uleb128 0x28
+ 661 025d 0C        		.uleb128 0xc
+ 662 025e 0000 0000 		.long	.LASF40
+ 663 0262 03        		.byte	0x3
+ 664 0263 C201      		.word	0x1c2
+ 665 0265 7300 0000 		.long	0x73
+ 666 0269 02        		.byte	0x2
+ 667 026a 23        		.byte	0x23
+ 668 026b 2A        		.uleb128 0x2a
+ 669 026c 0C        		.uleb128 0xc
+ 670 026d 0000 0000 		.long	.LASF41
+ 671 0271 03        		.byte	0x3
+ 672 0272 C601      		.word	0x1c6
+ 673 0274 0201 0000 		.long	0x102
+ 674 0278 02        		.byte	0x2
+ 675 0279 23        		.byte	0x23
+ 676 027a 2E        		.uleb128 0x2e
+ 677 027b 00        		.byte	0x0
+ 678 027c 0D        		.uleb128 0xd
+ 679 027d 02        		.byte	0x2
+ 680 027e 8500 0000 		.long	0x85
+ 681 0282 0D        		.uleb128 0xd
+ 682 0283 02        		.byte	0x2
+ 683 0284 2401 0000 		.long	0x124
+ 684 0288 0D        		.uleb128 0xd
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 13
+
+
+ 685 0289 02        		.byte	0x2
+ 686 028a 1901 0000 		.long	0x119
+ 687 028e 0E        		.uleb128 0xe
+ 688 028f 0000 0000 		.long	.LASF42
+ 689 0293 03        		.byte	0x3
+ 690 0294 C801      		.word	0x1c8
+ 691 0296 2401 0000 		.long	0x124
+ 692 029a 0F        		.uleb128 0xf
+ 693 029b 01        		.byte	0x1
+ 694 029c 0000 0000 		.long	.LASF60
+ 695 02a0 01        		.byte	0x1
+ 696 02a1 3A        		.byte	0x3a
+ 697 02a2 01        		.byte	0x1
+ 698 02a3 7C02 0000 		.long	0x27c
+ 699 02a7 0000 0000 		.long	.LFB2
+ 700 02ab 0000 0000 		.long	.LFE2
+ 701 02af 02        		.byte	0x2
+ 702 02b0 90        		.byte	0x90
+ 703 02b1 20        		.uleb128 0x20
+ 704 02b2 1603 0000 		.long	0x316
+ 705 02b6 10        		.uleb128 0x10
+ 706 02b7 0000 0000 		.long	.LASF43
+ 707 02bb 01        		.byte	0x1
+ 708 02bc 39        		.byte	0x39
+ 709 02bd 2203 0000 		.long	0x322
+ 710 02c1 0000 0000 		.long	.LLST1
+ 711 02c5 11        		.uleb128 0x11
+ 712 02c6 0000 0000 		.long	.LASF44
+ 713 02ca 01        		.byte	0x1
+ 714 02cb 39        		.byte	0x39
+ 715 02cc ED00 0000 		.long	0xed
+ 716 02d0 06        		.byte	0x6
+ 717 02d1 66        		.byte	0x66
+ 718 02d2 93        		.byte	0x93
+ 719 02d3 01        		.uleb128 0x1
+ 720 02d4 67        		.byte	0x67
+ 721 02d5 93        		.byte	0x93
+ 722 02d6 01        		.uleb128 0x1
+ 723 02d7 11        		.uleb128 0x11
+ 724 02d8 0000 0000 		.long	.LASF45
+ 725 02dc 01        		.byte	0x1
+ 726 02dd 39        		.byte	0x39
+ 727 02de 7C02 0000 		.long	0x27c
+ 728 02e2 06        		.byte	0x6
+ 729 02e3 64        		.byte	0x64
+ 730 02e4 93        		.byte	0x93
+ 731 02e5 01        		.uleb128 0x1
+ 732 02e6 65        		.byte	0x65
+ 733 02e7 93        		.byte	0x93
+ 734 02e8 01        		.uleb128 0x1
+ 735 02e9 12        		.uleb128 0x12
+ 736 02ea 6F70 7400 		.string	"opt"
+ 737 02ee 01        		.byte	0x1
+ 738 02ef 39        		.byte	0x39
+ 739 02f0 6800 0000 		.long	0x68
+ 740 02f4 06        		.byte	0x6
+ 741 02f5 62        		.byte	0x62
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 14
+
+
+ 742 02f6 93        		.byte	0x93
+ 743 02f7 01        		.uleb128 0x1
+ 744 02f8 63        		.byte	0x63
+ 745 02f9 93        		.byte	0x93
+ 746 02fa 01        		.uleb128 0x1
+ 747 02fb 13        		.uleb128 0x13
+ 748 02fc 7374 6B00 		.string	"stk"
+ 749 0300 01        		.byte	0x1
+ 750 0301 3B        		.byte	0x3b
+ 751 0302 2803 0000 		.long	0x328
+ 752 0306 0000 0000 		.long	.LLST2
+ 753 030a 14        		.uleb128 0x14
+ 754 030b 746D 7000 		.string	"tmp"
+ 755 030f 01        		.byte	0x1
+ 756 0310 3C        		.byte	0x3c
+ 757 0311 6800 0000 		.long	0x68
+ 758 0315 00        		.byte	0x0
+ 759 0316 15        		.uleb128 0x15
+ 760 0317 01        		.byte	0x1
+ 761 0318 2203 0000 		.long	0x322
+ 762 031c 16        		.uleb128 0x16
+ 763 031d ED00 0000 		.long	0xed
+ 764 0321 00        		.byte	0x0
+ 765 0322 0D        		.uleb128 0xd
+ 766 0323 02        		.byte	0x2
+ 767 0324 1603 0000 		.long	0x316
+ 768 0328 0D        		.uleb128 0xd
+ 769 0329 02        		.byte	0x2
+ 770 032a 5D00 0000 		.long	0x5d
+ 771 032e 17        		.uleb128 0x17
+ 772 032f 01        		.byte	0x1
+ 773 0330 0000 0000 		.long	.LASF47
+ 774 0334 01        		.byte	0x1
+ 775 0335 7C        		.byte	0x7c
+ 776 0336 01        		.byte	0x1
+ 777 0337 0000 0000 		.long	.LFB3
+ 778 033b 0000 0000 		.long	.LFE3
+ 779 033f 02        		.byte	0x2
+ 780 0340 90        		.byte	0x90
+ 781 0341 20        		.uleb128 0x20
+ 782 0342 5903 0000 		.long	0x359
+ 783 0346 11        		.uleb128 0x11
+ 784 0347 0000 0000 		.long	.LASF46
+ 785 034b 01        		.byte	0x1
+ 786 034c 7B        		.byte	0x7b
+ 787 034d 5903 0000 		.long	0x359
+ 788 0351 06        		.byte	0x6
+ 789 0352 68        		.byte	0x68
+ 790 0353 93        		.byte	0x93
+ 791 0354 01        		.uleb128 0x1
+ 792 0355 69        		.byte	0x69
+ 793 0356 93        		.byte	0x93
+ 794 0357 01        		.uleb128 0x1
+ 795 0358 00        		.byte	0x0
+ 796 0359 0D        		.uleb128 0xd
+ 797 035a 02        		.byte	0x2
+ 798 035b 8E02 0000 		.long	0x28e
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 15
+
+
+ 799 035f 17        		.uleb128 0x17
+ 800 0360 01        		.byte	0x1
+ 801 0361 0000 0000 		.long	.LASF48
+ 802 0365 01        		.byte	0x1
+ 803 0366 8D        		.byte	0x8d
+ 804 0367 01        		.byte	0x1
+ 805 0368 0000 0000 		.long	.LFB4
+ 806 036c 0000 0000 		.long	.LFE4
+ 807 0370 02        		.byte	0x2
+ 808 0371 90        		.byte	0x90
+ 809 0372 20        		.uleb128 0x20
+ 810 0373 8A03 0000 		.long	0x38a
+ 811 0377 11        		.uleb128 0x11
+ 812 0378 0000 0000 		.long	.LASF46
+ 813 037c 01        		.byte	0x1
+ 814 037d 8C        		.byte	0x8c
+ 815 037e 5903 0000 		.long	0x359
+ 816 0382 06        		.byte	0x6
+ 817 0383 68        		.byte	0x68
+ 818 0384 93        		.byte	0x93
+ 819 0385 01        		.uleb128 0x1
+ 820 0386 69        		.byte	0x69
+ 821 0387 93        		.byte	0x93
+ 822 0388 01        		.uleb128 0x1
+ 823 0389 00        		.byte	0x0
+ 824 038a 18        		.uleb128 0x18
+ 825 038b 01        		.byte	0x1
+ 826 038c 0000 0000 		.long	.LASF49
+ 827 0390 01        		.byte	0x1
+ 828 0391 A1        		.byte	0xa1
+ 829 0392 01        		.byte	0x1
+ 830 0393 0000 0000 		.long	.LFB5
+ 831 0397 0000 0000 		.long	.LFE5
+ 832 039b 02        		.byte	0x2
+ 833 039c 90        		.byte	0x90
+ 834 039d 20        		.uleb128 0x20
+ 835 039e 18        		.uleb128 0x18
+ 836 039f 01        		.byte	0x1
+ 837 03a0 0000 0000 		.long	.LASF50
+ 838 03a4 01        		.byte	0x1
+ 839 03a5 AF        		.byte	0xaf
+ 840 03a6 01        		.byte	0x1
+ 841 03a7 0000 0000 		.long	.LFB6
+ 842 03ab 0000 0000 		.long	.LFE6
+ 843 03af 02        		.byte	0x2
+ 844 03b0 90        		.byte	0x90
+ 845 03b1 20        		.uleb128 0x20
+ 846 03b2 18        		.uleb128 0x18
+ 847 03b3 01        		.byte	0x1
+ 848 03b4 0000 0000 		.long	.LASF51
+ 849 03b8 01        		.byte	0x1
+ 850 03b9 BE        		.byte	0xbe
+ 851 03ba 01        		.byte	0x1
+ 852 03bb 0000 0000 		.long	.LFB7
+ 853 03bf 0000 0000 		.long	.LFE7
+ 854 03c3 02        		.byte	0x2
+ 855 03c4 90        		.byte	0x90
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 16
+
+
+ 856 03c5 20        		.uleb128 0x20
+ 857 03c6 17        		.uleb128 0x17
+ 858 03c7 01        		.byte	0x1
+ 859 03c8 0000 0000 		.long	.LASF52
+ 860 03cc 01        		.byte	0x1
+ 861 03cd C2        		.byte	0xc2
+ 862 03ce 01        		.byte	0x1
+ 863 03cf 0000 0000 		.long	.LFB8
+ 864 03d3 0000 0000 		.long	.LFE8
+ 865 03d7 02        		.byte	0x2
+ 866 03d8 90        		.byte	0x90
+ 867 03d9 20        		.uleb128 0x20
+ 868 03da F103 0000 		.long	0x3f1
+ 869 03de 11        		.uleb128 0x11
+ 870 03df 0000 0000 		.long	.LASF46
+ 871 03e3 01        		.byte	0x1
+ 872 03e4 C1        		.byte	0xc1
+ 873 03e5 5903 0000 		.long	0x359
+ 874 03e9 06        		.byte	0x6
+ 875 03ea 68        		.byte	0x68
+ 876 03eb 93        		.byte	0x93
+ 877 03ec 01        		.uleb128 0x1
+ 878 03ed 69        		.byte	0x69
+ 879 03ee 93        		.byte	0x93
+ 880 03ef 01        		.uleb128 0x1
+ 881 03f0 00        		.byte	0x0
+ 882 03f1 18        		.uleb128 0x18
+ 883 03f2 01        		.byte	0x1
+ 884 03f3 0000 0000 		.long	.LASF53
+ 885 03f7 01        		.byte	0x1
+ 886 03f8 C6        		.byte	0xc6
+ 887 03f9 01        		.byte	0x1
+ 888 03fa 0000 0000 		.long	.LFB9
+ 889 03fe 0000 0000 		.long	.LFE9
+ 890 0402 02        		.byte	0x2
+ 891 0403 90        		.byte	0x90
+ 892 0404 20        		.uleb128 0x20
+ 893 0405 18        		.uleb128 0x18
+ 894 0406 01        		.byte	0x1
+ 895 0407 0000 0000 		.long	.LASF54
+ 896 040b 01        		.byte	0x1
+ 897 040c CA        		.byte	0xca
+ 898 040d 01        		.byte	0x1
+ 899 040e 0000 0000 		.long	.LFB10
+ 900 0412 0000 0000 		.long	.LFE10
+ 901 0416 02        		.byte	0x2
+ 902 0417 90        		.byte	0x90
+ 903 0418 20        		.uleb128 0x20
+ 904 0419 18        		.uleb128 0x18
+ 905 041a 01        		.byte	0x1
+ 906 041b 0000 0000 		.long	.LASF55
+ 907 041f 01        		.byte	0x1
+ 908 0420 CE        		.byte	0xce
+ 909 0421 01        		.byte	0x1
+ 910 0422 0000 0000 		.long	.LFB11
+ 911 0426 0000 0000 		.long	.LFE11
+ 912 042a 02        		.byte	0x2
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 17
+
+
+ 913 042b 90        		.byte	0x90
+ 914 042c 20        		.uleb128 0x20
+ 915 042d 00        		.byte	0x0
+ 916               		.section	.debug_abbrev
+ 917 0000 01        		.uleb128 0x1
+ 918 0001 11        		.uleb128 0x11
+ 919 0002 01        		.byte	0x1
+ 920 0003 25        		.uleb128 0x25
+ 921 0004 0E        		.uleb128 0xe
+ 922 0005 13        		.uleb128 0x13
+ 923 0006 0B        		.uleb128 0xb
+ 924 0007 03        		.uleb128 0x3
+ 925 0008 0E        		.uleb128 0xe
+ 926 0009 1B        		.uleb128 0x1b
+ 927 000a 0E        		.uleb128 0xe
+ 928 000b 11        		.uleb128 0x11
+ 929 000c 01        		.uleb128 0x1
+ 930 000d 12        		.uleb128 0x12
+ 931 000e 01        		.uleb128 0x1
+ 932 000f 10        		.uleb128 0x10
+ 933 0010 06        		.uleb128 0x6
+ 934 0011 00        		.byte	0x0
+ 935 0012 00        		.byte	0x0
+ 936 0013 02        		.uleb128 0x2
+ 937 0014 24        		.uleb128 0x24
+ 938 0015 00        		.byte	0x0
+ 939 0016 0B        		.uleb128 0xb
+ 940 0017 0B        		.uleb128 0xb
+ 941 0018 3E        		.uleb128 0x3e
+ 942 0019 0B        		.uleb128 0xb
+ 943 001a 03        		.uleb128 0x3
+ 944 001b 0E        		.uleb128 0xe
+ 945 001c 00        		.byte	0x0
+ 946 001d 00        		.byte	0x0
+ 947 001e 03        		.uleb128 0x3
+ 948 001f 24        		.uleb128 0x24
+ 949 0020 00        		.byte	0x0
+ 950 0021 0B        		.uleb128 0xb
+ 951 0022 0B        		.uleb128 0xb
+ 952 0023 3E        		.uleb128 0x3e
+ 953 0024 0B        		.uleb128 0xb
+ 954 0025 03        		.uleb128 0x3
+ 955 0026 08        		.uleb128 0x8
+ 956 0027 00        		.byte	0x0
+ 957 0028 00        		.byte	0x0
+ 958 0029 04        		.uleb128 0x4
+ 959 002a 16        		.uleb128 0x16
+ 960 002b 00        		.byte	0x0
+ 961 002c 03        		.uleb128 0x3
+ 962 002d 0E        		.uleb128 0xe
+ 963 002e 3A        		.uleb128 0x3a
+ 964 002f 0B        		.uleb128 0xb
+ 965 0030 3B        		.uleb128 0x3b
+ 966 0031 0B        		.uleb128 0xb
+ 967 0032 49        		.uleb128 0x49
+ 968 0033 13        		.uleb128 0x13
+ 969 0034 00        		.byte	0x0
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 18
+
+
+ 970 0035 00        		.byte	0x0
+ 971 0036 05        		.uleb128 0x5
+ 972 0037 13        		.uleb128 0x13
+ 973 0038 01        		.byte	0x1
+ 974 0039 0B        		.uleb128 0xb
+ 975 003a 0B        		.uleb128 0xb
+ 976 003b 3A        		.uleb128 0x3a
+ 977 003c 0B        		.uleb128 0xb
+ 978 003d 3B        		.uleb128 0x3b
+ 979 003e 0B        		.uleb128 0xb
+ 980 003f 01        		.uleb128 0x1
+ 981 0040 13        		.uleb128 0x13
+ 982 0041 00        		.byte	0x0
+ 983 0042 00        		.byte	0x0
+ 984 0043 06        		.uleb128 0x6
+ 985 0044 0D        		.uleb128 0xd
+ 986 0045 00        		.byte	0x0
+ 987 0046 03        		.uleb128 0x3
+ 988 0047 0E        		.uleb128 0xe
+ 989 0048 3A        		.uleb128 0x3a
+ 990 0049 0B        		.uleb128 0xb
+ 991 004a 3B        		.uleb128 0x3b
+ 992 004b 0B        		.uleb128 0xb
+ 993 004c 49        		.uleb128 0x49
+ 994 004d 13        		.uleb128 0x13
+ 995 004e 38        		.uleb128 0x38
+ 996 004f 0A        		.uleb128 0xa
+ 997 0050 00        		.byte	0x0
+ 998 0051 00        		.byte	0x0
+ 999 0052 07        		.uleb128 0x7
+ 1000 0053 0F        		.uleb128 0xf
+ 1001 0054 00        		.byte	0x0
+ 1002 0055 0B        		.uleb128 0xb
+ 1003 0056 0B        		.uleb128 0xb
+ 1004 0057 00        		.byte	0x0
+ 1005 0058 00        		.byte	0x0
+ 1006 0059 08        		.uleb128 0x8
+ 1007 005a 01        		.uleb128 0x1
+ 1008 005b 01        		.byte	0x1
+ 1009 005c 49        		.uleb128 0x49
+ 1010 005d 13        		.uleb128 0x13
+ 1011 005e 01        		.uleb128 0x1
+ 1012 005f 13        		.uleb128 0x13
+ 1013 0060 00        		.byte	0x0
+ 1014 0061 00        		.byte	0x0
+ 1015 0062 09        		.uleb128 0x9
+ 1016 0063 21        		.uleb128 0x21
+ 1017 0064 00        		.byte	0x0
+ 1018 0065 49        		.uleb128 0x49
+ 1019 0066 13        		.uleb128 0x13
+ 1020 0067 2F        		.uleb128 0x2f
+ 1021 0068 0B        		.uleb128 0xb
+ 1022 0069 00        		.byte	0x0
+ 1023 006a 00        		.byte	0x0
+ 1024 006b 0A        		.uleb128 0xa
+ 1025 006c 24        		.uleb128 0x24
+ 1026 006d 00        		.byte	0x0
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 19
+
+
+ 1027 006e 0B        		.uleb128 0xb
+ 1028 006f 0B        		.uleb128 0xb
+ 1029 0070 3E        		.uleb128 0x3e
+ 1030 0071 0B        		.uleb128 0xb
+ 1031 0072 00        		.byte	0x0
+ 1032 0073 00        		.byte	0x0
+ 1033 0074 0B        		.uleb128 0xb
+ 1034 0075 13        		.uleb128 0x13
+ 1035 0076 01        		.byte	0x1
+ 1036 0077 03        		.uleb128 0x3
+ 1037 0078 0E        		.uleb128 0xe
+ 1038 0079 0B        		.uleb128 0xb
+ 1039 007a 0B        		.uleb128 0xb
+ 1040 007b 3A        		.uleb128 0x3a
+ 1041 007c 0B        		.uleb128 0xb
+ 1042 007d 3B        		.uleb128 0x3b
+ 1043 007e 05        		.uleb128 0x5
+ 1044 007f 01        		.uleb128 0x1
+ 1045 0080 13        		.uleb128 0x13
+ 1046 0081 00        		.byte	0x0
+ 1047 0082 00        		.byte	0x0
+ 1048 0083 0C        		.uleb128 0xc
+ 1049 0084 0D        		.uleb128 0xd
+ 1050 0085 00        		.byte	0x0
+ 1051 0086 03        		.uleb128 0x3
+ 1052 0087 0E        		.uleb128 0xe
+ 1053 0088 3A        		.uleb128 0x3a
+ 1054 0089 0B        		.uleb128 0xb
+ 1055 008a 3B        		.uleb128 0x3b
+ 1056 008b 05        		.uleb128 0x5
+ 1057 008c 49        		.uleb128 0x49
+ 1058 008d 13        		.uleb128 0x13
+ 1059 008e 38        		.uleb128 0x38
+ 1060 008f 0A        		.uleb128 0xa
+ 1061 0090 00        		.byte	0x0
+ 1062 0091 00        		.byte	0x0
+ 1063 0092 0D        		.uleb128 0xd
+ 1064 0093 0F        		.uleb128 0xf
+ 1065 0094 00        		.byte	0x0
+ 1066 0095 0B        		.uleb128 0xb
+ 1067 0096 0B        		.uleb128 0xb
+ 1068 0097 49        		.uleb128 0x49
+ 1069 0098 13        		.uleb128 0x13
+ 1070 0099 00        		.byte	0x0
+ 1071 009a 00        		.byte	0x0
+ 1072 009b 0E        		.uleb128 0xe
+ 1073 009c 16        		.uleb128 0x16
+ 1074 009d 00        		.byte	0x0
+ 1075 009e 03        		.uleb128 0x3
+ 1076 009f 0E        		.uleb128 0xe
+ 1077 00a0 3A        		.uleb128 0x3a
+ 1078 00a1 0B        		.uleb128 0xb
+ 1079 00a2 3B        		.uleb128 0x3b
+ 1080 00a3 05        		.uleb128 0x5
+ 1081 00a4 49        		.uleb128 0x49
+ 1082 00a5 13        		.uleb128 0x13
+ 1083 00a6 00        		.byte	0x0
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 20
+
+
+ 1084 00a7 00        		.byte	0x0
+ 1085 00a8 0F        		.uleb128 0xf
+ 1086 00a9 2E        		.uleb128 0x2e
+ 1087 00aa 01        		.byte	0x1
+ 1088 00ab 3F        		.uleb128 0x3f
+ 1089 00ac 0C        		.uleb128 0xc
+ 1090 00ad 03        		.uleb128 0x3
+ 1091 00ae 0E        		.uleb128 0xe
+ 1092 00af 3A        		.uleb128 0x3a
+ 1093 00b0 0B        		.uleb128 0xb
+ 1094 00b1 3B        		.uleb128 0x3b
+ 1095 00b2 0B        		.uleb128 0xb
+ 1096 00b3 27        		.uleb128 0x27
+ 1097 00b4 0C        		.uleb128 0xc
+ 1098 00b5 49        		.uleb128 0x49
+ 1099 00b6 13        		.uleb128 0x13
+ 1100 00b7 11        		.uleb128 0x11
+ 1101 00b8 01        		.uleb128 0x1
+ 1102 00b9 12        		.uleb128 0x12
+ 1103 00ba 01        		.uleb128 0x1
+ 1104 00bb 40        		.uleb128 0x40
+ 1105 00bc 0A        		.uleb128 0xa
+ 1106 00bd 01        		.uleb128 0x1
+ 1107 00be 13        		.uleb128 0x13
+ 1108 00bf 00        		.byte	0x0
+ 1109 00c0 00        		.byte	0x0
+ 1110 00c1 10        		.uleb128 0x10
+ 1111 00c2 05        		.uleb128 0x5
+ 1112 00c3 00        		.byte	0x0
+ 1113 00c4 03        		.uleb128 0x3
+ 1114 00c5 0E        		.uleb128 0xe
+ 1115 00c6 3A        		.uleb128 0x3a
+ 1116 00c7 0B        		.uleb128 0xb
+ 1117 00c8 3B        		.uleb128 0x3b
+ 1118 00c9 0B        		.uleb128 0xb
+ 1119 00ca 49        		.uleb128 0x49
+ 1120 00cb 13        		.uleb128 0x13
+ 1121 00cc 02        		.uleb128 0x2
+ 1122 00cd 06        		.uleb128 0x6
+ 1123 00ce 00        		.byte	0x0
+ 1124 00cf 00        		.byte	0x0
+ 1125 00d0 11        		.uleb128 0x11
+ 1126 00d1 05        		.uleb128 0x5
+ 1127 00d2 00        		.byte	0x0
+ 1128 00d3 03        		.uleb128 0x3
+ 1129 00d4 0E        		.uleb128 0xe
+ 1130 00d5 3A        		.uleb128 0x3a
+ 1131 00d6 0B        		.uleb128 0xb
+ 1132 00d7 3B        		.uleb128 0x3b
+ 1133 00d8 0B        		.uleb128 0xb
+ 1134 00d9 49        		.uleb128 0x49
+ 1135 00da 13        		.uleb128 0x13
+ 1136 00db 02        		.uleb128 0x2
+ 1137 00dc 0A        		.uleb128 0xa
+ 1138 00dd 00        		.byte	0x0
+ 1139 00de 00        		.byte	0x0
+ 1140 00df 12        		.uleb128 0x12
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 21
+
+
+ 1141 00e0 05        		.uleb128 0x5
+ 1142 00e1 00        		.byte	0x0
+ 1143 00e2 03        		.uleb128 0x3
+ 1144 00e3 08        		.uleb128 0x8
+ 1145 00e4 3A        		.uleb128 0x3a
+ 1146 00e5 0B        		.uleb128 0xb
+ 1147 00e6 3B        		.uleb128 0x3b
+ 1148 00e7 0B        		.uleb128 0xb
+ 1149 00e8 49        		.uleb128 0x49
+ 1150 00e9 13        		.uleb128 0x13
+ 1151 00ea 02        		.uleb128 0x2
+ 1152 00eb 0A        		.uleb128 0xa
+ 1153 00ec 00        		.byte	0x0
+ 1154 00ed 00        		.byte	0x0
+ 1155 00ee 13        		.uleb128 0x13
+ 1156 00ef 34        		.uleb128 0x34
+ 1157 00f0 00        		.byte	0x0
+ 1158 00f1 03        		.uleb128 0x3
+ 1159 00f2 08        		.uleb128 0x8
+ 1160 00f3 3A        		.uleb128 0x3a
+ 1161 00f4 0B        		.uleb128 0xb
+ 1162 00f5 3B        		.uleb128 0x3b
+ 1163 00f6 0B        		.uleb128 0xb
+ 1164 00f7 49        		.uleb128 0x49
+ 1165 00f8 13        		.uleb128 0x13
+ 1166 00f9 02        		.uleb128 0x2
+ 1167 00fa 06        		.uleb128 0x6
+ 1168 00fb 00        		.byte	0x0
+ 1169 00fc 00        		.byte	0x0
+ 1170 00fd 14        		.uleb128 0x14
+ 1171 00fe 34        		.uleb128 0x34
+ 1172 00ff 00        		.byte	0x0
+ 1173 0100 03        		.uleb128 0x3
+ 1174 0101 08        		.uleb128 0x8
+ 1175 0102 3A        		.uleb128 0x3a
+ 1176 0103 0B        		.uleb128 0xb
+ 1177 0104 3B        		.uleb128 0x3b
+ 1178 0105 0B        		.uleb128 0xb
+ 1179 0106 49        		.uleb128 0x49
+ 1180 0107 13        		.uleb128 0x13
+ 1181 0108 00        		.byte	0x0
+ 1182 0109 00        		.byte	0x0
+ 1183 010a 15        		.uleb128 0x15
+ 1184 010b 15        		.uleb128 0x15
+ 1185 010c 01        		.byte	0x1
+ 1186 010d 27        		.uleb128 0x27
+ 1187 010e 0C        		.uleb128 0xc
+ 1188 010f 01        		.uleb128 0x1
+ 1189 0110 13        		.uleb128 0x13
+ 1190 0111 00        		.byte	0x0
+ 1191 0112 00        		.byte	0x0
+ 1192 0113 16        		.uleb128 0x16
+ 1193 0114 05        		.uleb128 0x5
+ 1194 0115 00        		.byte	0x0
+ 1195 0116 49        		.uleb128 0x49
+ 1196 0117 13        		.uleb128 0x13
+ 1197 0118 00        		.byte	0x0
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 22
+
+
+ 1198 0119 00        		.byte	0x0
+ 1199 011a 17        		.uleb128 0x17
+ 1200 011b 2E        		.uleb128 0x2e
+ 1201 011c 01        		.byte	0x1
+ 1202 011d 3F        		.uleb128 0x3f
+ 1203 011e 0C        		.uleb128 0xc
+ 1204 011f 03        		.uleb128 0x3
+ 1205 0120 0E        		.uleb128 0xe
+ 1206 0121 3A        		.uleb128 0x3a
+ 1207 0122 0B        		.uleb128 0xb
+ 1208 0123 3B        		.uleb128 0x3b
+ 1209 0124 0B        		.uleb128 0xb
+ 1210 0125 27        		.uleb128 0x27
+ 1211 0126 0C        		.uleb128 0xc
+ 1212 0127 11        		.uleb128 0x11
+ 1213 0128 01        		.uleb128 0x1
+ 1214 0129 12        		.uleb128 0x12
+ 1215 012a 01        		.uleb128 0x1
+ 1216 012b 40        		.uleb128 0x40
+ 1217 012c 0A        		.uleb128 0xa
+ 1218 012d 01        		.uleb128 0x1
+ 1219 012e 13        		.uleb128 0x13
+ 1220 012f 00        		.byte	0x0
+ 1221 0130 00        		.byte	0x0
+ 1222 0131 18        		.uleb128 0x18
+ 1223 0132 2E        		.uleb128 0x2e
+ 1224 0133 00        		.byte	0x0
+ 1225 0134 3F        		.uleb128 0x3f
+ 1226 0135 0C        		.uleb128 0xc
+ 1227 0136 03        		.uleb128 0x3
+ 1228 0137 0E        		.uleb128 0xe
+ 1229 0138 3A        		.uleb128 0x3a
+ 1230 0139 0B        		.uleb128 0xb
+ 1231 013a 3B        		.uleb128 0x3b
+ 1232 013b 0B        		.uleb128 0xb
+ 1233 013c 27        		.uleb128 0x27
+ 1234 013d 0C        		.uleb128 0xc
+ 1235 013e 11        		.uleb128 0x11
+ 1236 013f 01        		.uleb128 0x1
+ 1237 0140 12        		.uleb128 0x12
+ 1238 0141 01        		.uleb128 0x1
+ 1239 0142 40        		.uleb128 0x40
+ 1240 0143 0A        		.uleb128 0xa
+ 1241 0144 00        		.byte	0x0
+ 1242 0145 00        		.byte	0x0
+ 1243 0146 00        		.byte	0x0
+ 1244               		.section	.debug_pubnames,"",@progbits
+ 1245 0000 C900 0000 		.long	0xc9
+ 1246 0004 0200      		.word	0x2
+ 1247 0006 0000 0000 		.long	.Ldebug_info0
+ 1248 000a 2E04 0000 		.long	0x42e
+ 1249 000e 9A02 0000 		.long	0x29a
+ 1250 0012 4F53 5461 		.string	"OSTaskStkInit"
+ 1250      736B 5374 
+ 1250      6B49 6E69 
+ 1250      7400 
+ 1251 0020 2E03 0000 		.long	0x32e
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 23
+
+
+ 1252 0024 4F53 5461 		.string	"OSTaskCreateHook"
+ 1252      736B 4372 
+ 1252      6561 7465 
+ 1252      486F 6F6B 
+ 1252      00
+ 1253 0035 5F03 0000 		.long	0x35f
+ 1254 0039 4F53 5461 		.string	"OSTaskDelHook"
+ 1254      736B 4465 
+ 1254      6C48 6F6F 
+ 1254      6B00 
+ 1255 0047 8A03 0000 		.long	0x38a
+ 1256 004b 4F53 5461 		.string	"OSTaskSwHook"
+ 1256      736B 5377 
+ 1256      486F 6F6B 
+ 1256      00
+ 1257 0058 9E03 0000 		.long	0x39e
+ 1258 005c 4F53 5461 		.string	"OSTaskStatHook"
+ 1258      736B 5374 
+ 1258      6174 486F 
+ 1258      6F6B 00
+ 1259 006b B203 0000 		.long	0x3b2
+ 1260 006f 4F53 5469 		.string	"OSTimeTickHook"
+ 1260      6D65 5469 
+ 1260      636B 486F 
+ 1260      6F6B 00
+ 1261 007e C603 0000 		.long	0x3c6
+ 1262 0082 4F53 5443 		.string	"OSTCBInitHook"
+ 1262      4249 6E69 
+ 1262      7448 6F6F 
+ 1262      6B00 
+ 1263 0090 F103 0000 		.long	0x3f1
+ 1264 0094 4F53 5461 		.string	"OSTaskIdleHook"
+ 1264      736B 4964 
+ 1264      6C65 486F 
+ 1264      6F6B 00
+ 1265 00a3 0504 0000 		.long	0x405
+ 1266 00a7 4F53 496E 		.string	"OSInitHookBegin"
+ 1266      6974 486F 
+ 1266      6F6B 4265 
+ 1266      6769 6E00 
+ 1267 00b7 1904 0000 		.long	0x419
+ 1268 00bb 4F53 496E 		.string	"OSInitHookEnd"
+ 1268      6974 486F 
+ 1268      6F6B 456E 
+ 1268      6400 
+ 1269 00c9 0000 0000 		.long	0x0
+ 1270               		.section	.debug_aranges,"",@progbits
+ 1271 0000 1C00 0000 		.long	0x1c
+ 1272 0004 0200      		.word	0x2
+ 1273 0006 0000 0000 		.long	.Ldebug_info0
+ 1274 000a 04        		.byte	0x4
+ 1275 000b 00        		.byte	0x0
+ 1276 000c 0000      		.word	0x0
+ 1277 000e 0000      		.word	0x0
+ 1278 0010 0000 0000 		.long	.Ltext0
+ 1279 0014 6600 0000 		.long	.Letext0-.Ltext0
+ 1280 0018 0000 0000 		.long	0x0
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 24
+
+
+ 1281 001c 0000 0000 		.long	0x0
+ 1282               		.section	.debug_line
+ 1283 0000 2302 0000 		.long	.LELT0-.LSLT0
+ 1284               	.LSLT0:
+ 1285 0004 0200      		.word	0x2
+ 1286 0006 5B00 0000 		.long	.LELTP0-.LASLTP0
+ 1287               	.LASLTP0:
+ 1288 000a 01        		.byte	0x1
+ 1289 000b 01        		.byte	0x1
+ 1290 000c F6        		.byte	0xf6
+ 1291 000d F5        		.byte	0xf5
+ 1292 000e 0A        		.byte	0xa
+ 1293 000f 00        		.byte	0x0
+ 1294 0010 01        		.byte	0x1
+ 1295 0011 01        		.byte	0x1
+ 1296 0012 01        		.byte	0x1
+ 1297 0013 01        		.byte	0x1
+ 1298 0014 00        		.byte	0x0
+ 1299 0015 00        		.byte	0x0
+ 1300 0016 00        		.byte	0x0
+ 1301 0017 01        		.byte	0x1
+ 1302 0018 2E2E 2F73 		.ascii	"../source"
+ 1302      6F75 7263 
+ 1302      65
+ 1303 0021 00        		.byte	0
+ 1304 0022 2E2E 5C2E 		.ascii	"..\\..\\..\\source"
+ 1304      2E5C 2E2E 
+ 1304      5C73 6F75 
+ 1304      7263 65
+ 1305 0031 00        		.byte	0
+ 1306 0032 2E2E 5C73 		.ascii	"..\\source"
+ 1306      6F75 7263 
+ 1306      65
+ 1307 003b 00        		.byte	0
+ 1308 003c 00        		.byte	0x0
+ 1309 003d 6F73 5F63 		.string	"os_cpu_c.c"
+ 1309      7075 5F63 
+ 1309      2E63 00
+ 1310 0048 01        		.uleb128 0x1
+ 1311 0049 00        		.uleb128 0x0
+ 1312 004a 00        		.uleb128 0x0
+ 1313 004b 6F73 5F63 		.string	"os_cpu.h"
+ 1313      7075 2E68 
+ 1313      00
+ 1314 0054 03        		.uleb128 0x3
+ 1315 0055 00        		.uleb128 0x0
+ 1316 0056 00        		.uleb128 0x0
+ 1317 0057 7563 6F73 		.string	"ucos_ii.h"
+ 1317      5F69 692E 
+ 1317      6800 
+ 1318 0061 02        		.uleb128 0x2
+ 1319 0062 00        		.uleb128 0x0
+ 1320 0063 00        		.uleb128 0x0
+ 1321 0064 00        		.byte	0x0
+ 1322               	.LELTP0:
+ 1323 0065 00        		.byte	0x0
+ 1324 0066 05        		.uleb128 0x5
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 25
+
+
+ 1325 0067 02        		.byte	0x2
+ 1326 0068 0000 0000 		.long	.LM1
+ 1327 006c 4D        		.byte	0x4d
+ 1328 006d 00        		.byte	0x0
+ 1329 006e 05        		.uleb128 0x5
+ 1330 006f 02        		.byte	0x2
+ 1331 0070 0000 0000 		.long	.LM2
+ 1332 0074 1E        		.byte	0x1e
+ 1333 0075 00        		.byte	0x0
+ 1334 0076 05        		.uleb128 0x5
+ 1335 0077 02        		.byte	0x2
+ 1336 0078 0000 0000 		.long	.LM3
+ 1337 007c 15        		.byte	0x15
+ 1338 007d 00        		.byte	0x0
+ 1339 007e 05        		.uleb128 0x5
+ 1340 007f 02        		.byte	0x2
+ 1341 0080 0000 0000 		.long	.LM4
+ 1342 0084 16        		.byte	0x16
+ 1343 0085 00        		.byte	0x0
+ 1344 0086 05        		.uleb128 0x5
+ 1345 0087 02        		.byte	0x2
+ 1346 0088 0000 0000 		.long	.LM5
+ 1347 008c 15        		.byte	0x15
+ 1348 008d 00        		.byte	0x0
+ 1349 008e 05        		.uleb128 0x5
+ 1350 008f 02        		.byte	0x2
+ 1351 0090 0000 0000 		.long	.LM6
+ 1352 0094 15        		.byte	0x15
+ 1353 0095 00        		.byte	0x0
+ 1354 0096 05        		.uleb128 0x5
+ 1355 0097 02        		.byte	0x2
+ 1356 0098 0000 0000 		.long	.LM7
+ 1357 009c 15        		.byte	0x15
+ 1358 009d 00        		.byte	0x0
+ 1359 009e 05        		.uleb128 0x5
+ 1360 009f 02        		.byte	0x2
+ 1361 00a0 0000 0000 		.long	.LM8
+ 1362 00a4 15        		.byte	0x15
+ 1363 00a5 00        		.byte	0x0
+ 1364 00a6 05        		.uleb128 0x5
+ 1365 00a7 02        		.byte	0x2
+ 1366 00a8 0000 0000 		.long	.LM9
+ 1367 00ac 15        		.byte	0x15
+ 1368 00ad 00        		.byte	0x0
+ 1369 00ae 05        		.uleb128 0x5
+ 1370 00af 02        		.byte	0x2
+ 1371 00b0 0000 0000 		.long	.LM10
+ 1372 00b4 15        		.byte	0x15
+ 1373 00b5 00        		.byte	0x0
+ 1374 00b6 05        		.uleb128 0x5
+ 1375 00b7 02        		.byte	0x2
+ 1376 00b8 0000 0000 		.long	.LM11
+ 1377 00bc 15        		.byte	0x15
+ 1378 00bd 00        		.byte	0x0
+ 1379 00be 05        		.uleb128 0x5
+ 1380 00bf 02        		.byte	0x2
+ 1381 00c0 0000 0000 		.long	.LM12
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 26
+
+
+ 1382 00c4 15        		.byte	0x15
+ 1383 00c5 00        		.byte	0x0
+ 1384 00c6 05        		.uleb128 0x5
+ 1385 00c7 02        		.byte	0x2
+ 1386 00c8 0000 0000 		.long	.LM13
+ 1387 00cc 15        		.byte	0x15
+ 1388 00cd 00        		.byte	0x0
+ 1389 00ce 05        		.uleb128 0x5
+ 1390 00cf 02        		.byte	0x2
+ 1391 00d0 0000 0000 		.long	.LM14
+ 1392 00d4 15        		.byte	0x15
+ 1393 00d5 00        		.byte	0x0
+ 1394 00d6 05        		.uleb128 0x5
+ 1395 00d7 02        		.byte	0x2
+ 1396 00d8 0000 0000 		.long	.LM15
+ 1397 00dc 15        		.byte	0x15
+ 1398 00dd 00        		.byte	0x0
+ 1399 00de 05        		.uleb128 0x5
+ 1400 00df 02        		.byte	0x2
+ 1401 00e0 0000 0000 		.long	.LM16
+ 1402 00e4 15        		.byte	0x15
+ 1403 00e5 00        		.byte	0x0
+ 1404 00e6 05        		.uleb128 0x5
+ 1405 00e7 02        		.byte	0x2
+ 1406 00e8 0000 0000 		.long	.LM17
+ 1407 00ec 15        		.byte	0x15
+ 1408 00ed 00        		.byte	0x0
+ 1409 00ee 05        		.uleb128 0x5
+ 1410 00ef 02        		.byte	0x2
+ 1411 00f0 0000 0000 		.long	.LM18
+ 1412 00f4 15        		.byte	0x15
+ 1413 00f5 00        		.byte	0x0
+ 1414 00f6 05        		.uleb128 0x5
+ 1415 00f7 02        		.byte	0x2
+ 1416 00f8 0000 0000 		.long	.LM19
+ 1417 00fc 15        		.byte	0x15
+ 1418 00fd 00        		.byte	0x0
+ 1419 00fe 05        		.uleb128 0x5
+ 1420 00ff 02        		.byte	0x2
+ 1421 0100 0000 0000 		.long	.LM20
+ 1422 0104 15        		.byte	0x15
+ 1423 0105 00        		.byte	0x0
+ 1424 0106 05        		.uleb128 0x5
+ 1425 0107 02        		.byte	0x2
+ 1426 0108 0000 0000 		.long	.LM21
+ 1427 010c 15        		.byte	0x15
+ 1428 010d 00        		.byte	0x0
+ 1429 010e 05        		.uleb128 0x5
+ 1430 010f 02        		.byte	0x2
+ 1431 0110 0000 0000 		.long	.LM22
+ 1432 0114 15        		.byte	0x15
+ 1433 0115 00        		.byte	0x0
+ 1434 0116 05        		.uleb128 0x5
+ 1435 0117 02        		.byte	0x2
+ 1436 0118 0000 0000 		.long	.LM23
+ 1437 011c 15        		.byte	0x15
+ 1438 011d 00        		.byte	0x0
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 27
+
+
+ 1439 011e 05        		.uleb128 0x5
+ 1440 011f 02        		.byte	0x2
+ 1441 0120 0000 0000 		.long	.LM24
+ 1442 0124 15        		.byte	0x15
+ 1443 0125 00        		.byte	0x0
+ 1444 0126 05        		.uleb128 0x5
+ 1445 0127 02        		.byte	0x2
+ 1446 0128 0000 0000 		.long	.LM25
+ 1447 012c 15        		.byte	0x15
+ 1448 012d 00        		.byte	0x0
+ 1449 012e 05        		.uleb128 0x5
+ 1450 012f 02        		.byte	0x2
+ 1451 0130 0000 0000 		.long	.LM26
+ 1452 0134 15        		.byte	0x15
+ 1453 0135 00        		.byte	0x0
+ 1454 0136 05        		.uleb128 0x5
+ 1455 0137 02        		.byte	0x2
+ 1456 0138 0000 0000 		.long	.LM27
+ 1457 013c 15        		.byte	0x15
+ 1458 013d 00        		.byte	0x0
+ 1459 013e 05        		.uleb128 0x5
+ 1460 013f 02        		.byte	0x2
+ 1461 0140 0000 0000 		.long	.LM28
+ 1462 0144 17        		.byte	0x17
+ 1463 0145 00        		.byte	0x0
+ 1464 0146 05        		.uleb128 0x5
+ 1465 0147 02        		.byte	0x2
+ 1466 0148 0000 0000 		.long	.LM29
+ 1467 014c 15        		.byte	0x15
+ 1468 014d 00        		.byte	0x0
+ 1469 014e 05        		.uleb128 0x5
+ 1470 014f 02        		.byte	0x2
+ 1471 0150 0000 0000 		.long	.LM30
+ 1472 0154 16        		.byte	0x16
+ 1473 0155 00        		.byte	0x0
+ 1474 0156 05        		.uleb128 0x5
+ 1475 0157 02        		.byte	0x2
+ 1476 0158 0000 0000 		.long	.LM31
+ 1477 015c 15        		.byte	0x15
+ 1478 015d 00        		.byte	0x0
+ 1479 015e 05        		.uleb128 0x5
+ 1480 015f 02        		.byte	0x2
+ 1481 0160 0000 0000 		.long	.LM32
+ 1482 0164 15        		.byte	0x15
+ 1483 0165 00        		.byte	0x0
+ 1484 0166 05        		.uleb128 0x5
+ 1485 0167 02        		.byte	0x2
+ 1486 0168 0000 0000 		.long	.LM33
+ 1487 016c 15        		.byte	0x15
+ 1488 016d 00        		.byte	0x0
+ 1489 016e 05        		.uleb128 0x5
+ 1490 016f 02        		.byte	0x2
+ 1491 0170 0000 0000 		.long	.LM34
+ 1492 0174 15        		.byte	0x15
+ 1493 0175 00        		.byte	0x0
+ 1494 0176 05        		.uleb128 0x5
+ 1495 0177 02        		.byte	0x2
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 28
+
+
+ 1496 0178 0000 0000 		.long	.LM35
+ 1497 017c 15        		.byte	0x15
+ 1498 017d 00        		.byte	0x0
+ 1499 017e 05        		.uleb128 0x5
+ 1500 017f 02        		.byte	0x2
+ 1501 0180 0000 0000 		.long	.LM36
+ 1502 0184 15        		.byte	0x15
+ 1503 0185 00        		.byte	0x0
+ 1504 0186 05        		.uleb128 0x5
+ 1505 0187 02        		.byte	0x2
+ 1506 0188 0000 0000 		.long	.LM37
+ 1507 018c 16        		.byte	0x16
+ 1508 018d 00        		.byte	0x0
+ 1509 018e 05        		.uleb128 0x5
+ 1510 018f 02        		.byte	0x2
+ 1511 0190 0000 0000 		.long	.LM38
+ 1512 0194 24        		.byte	0x24
+ 1513 0195 00        		.byte	0x0
+ 1514 0196 05        		.uleb128 0x5
+ 1515 0197 02        		.byte	0x2
+ 1516 0198 0000 0000 		.long	.LM39
+ 1517 019c 16        		.byte	0x16
+ 1518 019d 00        		.byte	0x0
+ 1519 019e 05        		.uleb128 0x5
+ 1520 019f 02        		.byte	0x2
+ 1521 01a0 0000 0000 		.long	.LM40
+ 1522 01a4 23        		.byte	0x23
+ 1523 01a5 00        		.byte	0x0
+ 1524 01a6 05        		.uleb128 0x5
+ 1525 01a7 02        		.byte	0x2
+ 1526 01a8 0000 0000 		.long	.LM41
+ 1527 01ac 16        		.byte	0x16
+ 1528 01ad 00        		.byte	0x0
+ 1529 01ae 05        		.uleb128 0x5
+ 1530 01af 02        		.byte	0x2
+ 1531 01b0 0000 0000 		.long	.LM42
+ 1532 01b4 26        		.byte	0x26
+ 1533 01b5 00        		.byte	0x0
+ 1534 01b6 05        		.uleb128 0x5
+ 1535 01b7 02        		.byte	0x2
+ 1536 01b8 0000 0000 		.long	.LM43
+ 1537 01bc 15        		.byte	0x15
+ 1538 01bd 00        		.byte	0x0
+ 1539 01be 05        		.uleb128 0x5
+ 1540 01bf 02        		.byte	0x2
+ 1541 01c0 0000 0000 		.long	.LM44
+ 1542 01c4 21        		.byte	0x21
+ 1543 01c5 00        		.byte	0x0
+ 1544 01c6 05        		.uleb128 0x5
+ 1545 01c7 02        		.byte	0x2
+ 1546 01c8 0000 0000 		.long	.LM45
+ 1547 01cc 15        		.byte	0x15
+ 1548 01cd 00        		.byte	0x0
+ 1549 01ce 05        		.uleb128 0x5
+ 1550 01cf 02        		.byte	0x2
+ 1551 01d0 0000 0000 		.long	.LM46
+ 1552 01d4 22        		.byte	0x22
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 29
+
+
+ 1553 01d5 00        		.byte	0x0
+ 1554 01d6 05        		.uleb128 0x5
+ 1555 01d7 02        		.byte	0x2
+ 1556 01d8 0000 0000 		.long	.LM47
+ 1557 01dc 15        		.byte	0x15
+ 1558 01dd 00        		.byte	0x0
+ 1559 01de 05        		.uleb128 0x5
+ 1560 01df 02        		.byte	0x2
+ 1561 01e0 0000 0000 		.long	.LM48
+ 1562 01e4 17        		.byte	0x17
+ 1563 01e5 00        		.byte	0x0
+ 1564 01e6 05        		.uleb128 0x5
+ 1565 01e7 02        		.byte	0x2
+ 1566 01e8 0000 0000 		.long	.LM49
+ 1567 01ec 15        		.byte	0x15
+ 1568 01ed 00        		.byte	0x0
+ 1569 01ee 05        		.uleb128 0x5
+ 1570 01ef 02        		.byte	0x2
+ 1571 01f0 0000 0000 		.long	.LM50
+ 1572 01f4 17        		.byte	0x17
+ 1573 01f5 00        		.byte	0x0
+ 1574 01f6 05        		.uleb128 0x5
+ 1575 01f7 02        		.byte	0x2
+ 1576 01f8 0000 0000 		.long	.LM51
+ 1577 01fc 15        		.byte	0x15
+ 1578 01fd 00        		.byte	0x0
+ 1579 01fe 05        		.uleb128 0x5
+ 1580 01ff 02        		.byte	0x2
+ 1581 0200 0000 0000 		.long	.LM52
+ 1582 0204 17        		.byte	0x17
+ 1583 0205 00        		.byte	0x0
+ 1584 0206 05        		.uleb128 0x5
+ 1585 0207 02        		.byte	0x2
+ 1586 0208 0000 0000 		.long	.LM53
+ 1587 020c 15        		.byte	0x15
+ 1588 020d 00        		.byte	0x0
+ 1589 020e 05        		.uleb128 0x5
+ 1590 020f 02        		.byte	0x2
+ 1591 0210 0000 0000 		.long	.LM54
+ 1592 0214 17        		.byte	0x17
+ 1593 0215 00        		.byte	0x0
+ 1594 0216 05        		.uleb128 0x5
+ 1595 0217 02        		.byte	0x2
+ 1596 0218 0000 0000 		.long	.LM55
+ 1597 021c 15        		.byte	0x15
+ 1598 021d 00        		.byte	0x0
+ 1599 021e 05        		.uleb128 0x5
+ 1600 021f 02        		.byte	0x2
+ 1601 0220 0000 0000 		.long	.Letext0
+ 1602 0224 00        		.byte	0x0
+ 1603 0225 01        		.uleb128 0x1
+ 1604 0226 01        		.byte	0x1
+ 1605               	.LELT0:
+ 1606 0227 1600 0000 		.section	.debug_str,"MS",@progbits,1
+ 1606      0200 1000 
+ 1606      0000 0101 
+ 1606      FB0E 0A00 
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 30
+
+
+ 1606      0101 0101 
+ 1607               	.LASF56:
+ 1608 0000 474E 5520 		.string	"GNU C 4.3.3"
+ 1608      4320 342E 
+ 1608      332E 3300 
+ 1609               	.LASF39:
+ 1610 000c 4F53 5443 		.string	"OSTCBStkBase"
+ 1610      4253 746B 
+ 1610      4261 7365 
+ 1610      00
+ 1611               	.LASF24:
+ 1612 0019 4F53 5443 		.string	"OSTCBOpt"
+ 1612      424F 7074 
+ 1612      00
+ 1613               	.LASF46:
+ 1614 0022 7074 6362 		.string	"ptcb"
+ 1614      00
+ 1615               	.LASF17:
+ 1616 0027 4F53 4576 		.string	"OSEventName"
+ 1616      656E 744E 
+ 1616      616D 6500 
+ 1617               	.LASF11:
+ 1618 0033 4F53 5F53 		.string	"OS_STK"
+ 1618      544B 00
+ 1619               	.LASF43:
+ 1620 003a 7461 736B 		.string	"task"
+ 1620      00
+ 1621               	.LASF40:
+ 1622 003f 4F53 5443 		.string	"OSTCBStkUsed"
+ 1622      4253 746B 
+ 1622      5573 6564 
+ 1622      00
+ 1623               	.LASF53:
+ 1624 004c 4F53 5461 		.string	"OSTaskIdleHook"
+ 1624      736B 4964 
+ 1624      6C65 486F 
+ 1624      6F6B 00
+ 1625               	.LASF14:
+ 1626 005b 4F53 4576 		.string	"OSEventCnt"
+ 1626      656E 7443 
+ 1626      6E74 00
+ 1627               	.LASF8:
+ 1628 0066 494E 5431 		.string	"INT16U"
+ 1628      3655 00
+ 1629               	.LASF20:
+ 1630 006d 4F53 5443 		.string	"OSTCBStkPtr"
+ 1630      4253 746B 
+ 1630      5074 7200 
+ 1631               	.LASF27:
+ 1632 0079 4F53 5443 		.string	"OSTCBPrev"
+ 1632      4250 7265 
+ 1632      7600 
+ 1633               	.LASF9:
+ 1634 0083 494E 5433 		.string	"INT32U"
+ 1634      3255 00
+ 1635               	.LASF31:
+ 1636 008a 4F53 5443 		.string	"OSTCBPrio"
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 31
+
+
+ 1636      4250 7269 
+ 1636      6F00 
+ 1637               	.LASF26:
+ 1638 0094 4F53 5443 		.string	"OSTCBNext"
+ 1638      424E 6578 
+ 1638      7400 
+ 1639               	.LASF60:
+ 1640 009e 4F53 5461 		.string	"OSTaskStkInit"
+ 1640      736B 5374 
+ 1640      6B49 6E69 
+ 1640      7400 
+ 1641               	.LASF58:
+ 1642 00ac 463A 5C70 		.string	"F:\\projects\\truth\\truth\\os\\ucos_ii\\uCOS-II\\AT-AVR\\gcc\\test"
+ 1642      726F 6A65 
+ 1642      6374 735C 
+ 1642      7472 7574 
+ 1642      685C 7472 
+ 1643               	.LASF15:
+ 1644 00e7 4F53 4576 		.string	"OSEventPtr"
+ 1644      656E 7450 
+ 1644      7472 00
+ 1645               	.LASF10:
+ 1646 00f2 666C 6F61 		.string	"float"
+ 1646      7400 
+ 1647               	.LASF49:
+ 1648 00f8 4F53 5461 		.string	"OSTaskSwHook"
+ 1648      736B 5377 
+ 1648      486F 6F6B 
+ 1648      00
+ 1649               	.LASF29:
+ 1650 0105 4F53 5443 		.string	"OSTCBDly"
+ 1650      4244 6C79 
+ 1650      00
+ 1651               	.LASF5:
+ 1652 010e 6C6F 6E67 		.string	"long long int"
+ 1652      206C 6F6E 
+ 1652      6720 696E 
+ 1652      7400 
+ 1653               	.LASF44:
+ 1654 011c 7064 6174 		.string	"pdata"
+ 1654      6100 
+ 1655               	.LASF19:
+ 1656 0122 4F53 5F45 		.string	"OS_EVENT"
+ 1656      5645 4E54 
+ 1656      00
+ 1657               	.LASF3:
+ 1658 012b 6C6F 6E67 		.string	"long int"
+ 1658      2069 6E74 
+ 1658      00
+ 1659               	.LASF32:
+ 1660 0134 4F53 5443 		.string	"OSTCBX"
+ 1660      4258 00
+ 1661               	.LASF33:
+ 1662 013b 4F53 5443 		.string	"OSTCBY"
+ 1662      4259 00
+ 1663               	.LASF25:
+ 1664 0142 4F53 5443 		.string	"OSTCBId"
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 32
+
+
+ 1664      4249 6400 
+ 1665               	.LASF23:
+ 1666 014a 4F53 5443 		.string	"OSTCBStkSize"
+ 1666      4253 746B 
+ 1666      5369 7A65 
+ 1666      00
+ 1667               	.LASF59:
+ 1668 0157 6F73 5F74 		.string	"os_tcb"
+ 1668      6362 00
+ 1669               	.LASF7:
+ 1670 015e 494E 5438 		.string	"INT8U"
+ 1670      5500 
+ 1671               	.LASF42:
+ 1672 0164 4F53 5F54 		.string	"OS_TCB"
+ 1672      4342 00
+ 1673               	.LASF38:
+ 1674 016b 4F53 5443 		.string	"OSTCBCyclesStart"
+ 1674      4243 7963 
+ 1674      6C65 7353 
+ 1674      7461 7274 
+ 1674      00
+ 1675               	.LASF36:
+ 1676 017c 4F53 5443 		.string	"OSTCBCtxSwCtr"
+ 1676      4243 7478 
+ 1676      5377 4374 
+ 1676      7200 
+ 1677               	.LASF1:
+ 1678 018a 756E 7369 		.string	"unsigned char"
+ 1678      676E 6564 
+ 1678      2063 6861 
+ 1678      7200 
+ 1679               	.LASF34:
+ 1680 0198 4F53 5443 		.string	"OSTCBBitX"
+ 1680      4242 6974 
+ 1680      5800 
+ 1681               	.LASF35:
+ 1682 01a2 4F53 5443 		.string	"OSTCBBitY"
+ 1682      4242 6974 
+ 1682      5900 
+ 1683               	.LASF0:
+ 1684 01ac 7369 676E 		.string	"signed char"
+ 1684      6564 2063 
+ 1684      6861 7200 
+ 1685               	.LASF21:
+ 1686 01b8 4F53 5443 		.string	"OSTCBExtPtr"
+ 1686      4245 7874 
+ 1686      5074 7200 
+ 1687               	.LASF6:
+ 1688 01c4 6C6F 6E67 		.string	"long long unsigned int"
+ 1688      206C 6F6E 
+ 1688      6720 756E 
+ 1688      7369 676E 
+ 1688      6564 2069 
+ 1689               	.LASF2:
+ 1690 01db 756E 7369 		.string	"unsigned int"
+ 1690      676E 6564 
+ 1690      2069 6E74 
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 33
+
+
+ 1690      00
+ 1691               	.LASF28:
+ 1692 01e8 4F53 5443 		.string	"OSTCBEventPtr"
+ 1692      4245 7665 
+ 1692      6E74 5074 
+ 1692      7200 
+ 1693               	.LASF54:
+ 1694 01f6 4F53 496E 		.string	"OSInitHookBegin"
+ 1694      6974 486F 
+ 1694      6F6B 4265 
+ 1694      6769 6E00 
+ 1695               	.LASF18:
+ 1696 0206 6368 6172 		.string	"char"
+ 1696      00
+ 1697               	.LASF45:
+ 1698 020b 7074 6F73 		.string	"ptos"
+ 1698      00
+ 1699               	.LASF12:
+ 1700 0210 4F53 4576 		.string	"OSEventType"
+ 1700      656E 7454 
+ 1700      7970 6500 
+ 1701               	.LASF30:
+ 1702 021c 4F53 5443 		.string	"OSTCBStat"
+ 1702      4253 7461 
+ 1702      7400 
+ 1703               	.LASF37:
+ 1704 0226 4F53 5443 		.string	"OSTCBCyclesTot"
+ 1704      4243 7963 
+ 1704      6C65 7354 
+ 1704      6F74 00
+ 1705               	.LASF22:
+ 1706 0235 4F53 5443 		.string	"OSTCBStkBottom"
+ 1706      4253 746B 
+ 1706      426F 7474 
+ 1706      6F6D 00
+ 1707               	.LASF4:
+ 1708 0244 6C6F 6E67 		.string	"long unsigned int"
+ 1708      2075 6E73 
+ 1708      6967 6E65 
+ 1708      6420 696E 
+ 1708      7400 
+ 1709               	.LASF13:
+ 1710 0256 4F53 4576 		.string	"OSEventGrp"
+ 1710      656E 7447 
+ 1710      7270 00
+ 1711               	.LASF48:
+ 1712 0261 4F53 5461 		.string	"OSTaskDelHook"
+ 1712      736B 4465 
+ 1712      6C48 6F6F 
+ 1712      6B00 
+ 1713               	.LASF52:
+ 1714 026f 4F53 5443 		.string	"OSTCBInitHook"
+ 1714      4249 6E69 
+ 1714      7448 6F6F 
+ 1714      6B00 
+ 1715               	.LASF50:
+ 1716 027d 4F53 5461 		.string	"OSTaskStatHook"
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 34
+
+
+ 1716      736B 5374 
+ 1716      6174 486F 
+ 1716      6F6B 00
+ 1717               	.LASF57:
+ 1718 028c 2E2E 2F73 		.string	"../source/os_cpu_c.c"
+ 1718      6F75 7263 
+ 1718      652F 6F73 
+ 1718      5F63 7075 
+ 1718      5F63 2E63 
+ 1719               	.LASF51:
+ 1720 02a1 4F53 5469 		.string	"OSTimeTickHook"
+ 1720      6D65 5469 
+ 1720      636B 486F 
+ 1720      6F6B 00
+ 1721               	.LASF47:
+ 1722 02b0 4F53 5461 		.string	"OSTaskCreateHook"
+ 1722      736B 4372 
+ 1722      6561 7465 
+ 1722      486F 6F6B 
+ 1722      00
+ 1723               	.LASF41:
+ 1724 02c1 4F53 5443 		.string	"OSTCBTaskName"
+ 1724      4254 6173 
+ 1724      6B4E 616D 
+ 1724      6500 
+ 1725               	.LASF55:
+ 1726 02cf 4F53 496E 		.string	"OSInitHookEnd"
+ 1726      6974 486F 
+ 1726      6F6B 456E 
+ 1726      6400 
+ 1727               	.LASF16:
+ 1728 02dd 4F53 4576 		.string	"OSEventTbl"
+ 1728      656E 7454 
+ 1728      626C 00
+GAS LISTING C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s 			page 35
+
+
+DEFINED SYMBOLS
+                            *ABS*:00000000 os_cpu_c.c
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:2      *ABS*:0000003f __SREG__
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:3      *ABS*:0000003e __SP_H__
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:4      *ABS*:0000003d __SP_L__
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:5      *ABS*:00000034 __CCP__
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:6      *ABS*:00000000 __tmp_reg__
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:7      *ABS*:00000001 __zero_reg__
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:18     .text:00000000 OSTaskStkInit
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:112    .text:00000054 OSTaskCreateHook
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:125    .text:00000056 OSTaskDelHook
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:138    .text:00000058 OSTaskSwHook
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:150    .text:0000005a OSTaskStatHook
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:162    .text:0000005c OSTimeTickHook
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:174    .text:0000005e OSTCBInitHook
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:187    .text:00000060 OSTaskIdleHook
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:199    .text:00000062 OSInitHookBegin
+C:\DOCUME~1\KEUNSO~1\LOCALS~1\Temp/ccuaWzIo.s:211    .text:00000064 OSInitHookEnd
+
+NO UNDEFINED SYMBOLS

@@ -1,0 +1,728 @@
+Archive member included because of file (symbol)
+
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_mulsi3.o)
+                              ../OBJ/test.o (__mulsi3)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodqi4.o)
+                              ../OBJ/test.o (__udivmodqi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodhi4.o)
+                              ../OBJ/test.o (__udivmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+                              ../OBJ/test.o (__divmodhi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodsi4.o)
+                              ../OBJ/ucos_ii.o (__udivmodsi4)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o (exit)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+                              ../OBJ/test.o (__do_clear_bss)
+c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31\libc.a(strcpy.o)
+                              ../OBJ/ucos_ii.o (strcpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+OSLockNesting       0x1               ../OBJ/ucos_ii.o
+OSRunning           0x1               ../OBJ/ucos_ii.o
+UartTxRdPtr         0x1               ../OBJ/test.o
+OSIdleCtr           0x4               ../OBJ/ucos_ii.o
+OSPrioHighRdy       0x1               ../OBJ/ucos_ii.o
+OSPrioCur           0x1               ../OBJ/ucos_ii.o
+OSTCBList           0x2               ../OBJ/ucos_ii.o
+OSTaskStatStk       0x200             ../OBJ/ucos_ii.o
+OSCtxSwCtr          0x4               ../OBJ/ucos_ii.o
+RandomSem           0x2               ../OBJ/test.o
+OSIdleCtrMax        0x4               ../OBJ/ucos_ii.o
+OSTCBFreeList       0x2               ../OBJ/ucos_ii.o
+UartTxCount         0x1               ../OBJ/test.o
+OSCPUUsage          0x1               ../OBJ/ucos_ii.o
+DispStrSem          0x2               ../OBJ/test.o
+OSTaskCtr           0x1               ../OBJ/ucos_ii.o
+kurt                0x1               ../OBJ/test.o
+UartTxWrPtr         0x1               ../OBJ/test.o
+OSTCBHighRdy        0x2               ../OBJ/ucos_ii.o
+OSRdyGrp            0x1               ../OBJ/ucos_ii.o
+OSRdyTbl            0x2               ../OBJ/ucos_ii.o
+TaskData            0xa               ../OBJ/test.o
+UartTxBuf           0x100             ../OBJ/test.o
+OSEventFreeList     0x2               ../OBJ/ucos_ii.o
+OSIntExitY          0x1               ../OBJ/ucos_ii.o
+OSIntNesting        0x1               ../OBJ/ucos_ii.o
+TaskStartStk        0x200             ../OBJ/test.o
+OSTCBCur            0x2               ../OBJ/ucos_ii.o
+TaskStk             0x1400            ../OBJ/test.o
+OSTime              0x4               ../OBJ/ucos_ii.o
+OSTaskIdleStk       0x200             ../OBJ/ucos_ii.o
+OSEventTbl          0x78              ../OBJ/ucos_ii.o
+OSTCBTbl            0x3f6             ../OBJ/ucos_ii.o
+OSStatRdy           0x1               ../OBJ/ucos_ii.o
+OSTCBPrioTbl        0x1a              ../OBJ/ucos_ii.o
+UartTxSem           0x2               ../OBJ/test.o
+OSIdleCtrRun        0x4               ../OBJ/ucos_ii.o
+RndNext             0x4               ../OBJ/test.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00000060         0x00001000         rw !x
+bss              0x00001060         0x00006fa0         rw !x
+eeprom           0x00000000         0x00001000         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+LOAD ../OBJ/test.o
+LOAD ../OBJ/os_cpu_c.o
+LOAD ../OBJ/ucos_ii.o
+LOAD ../OBJ/os_cpu_a.o
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31\libc.a
+LOAD c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.vectors        0x00000000       0x60
+ *(.vectors)
+ .vectors       0x00000000       0x60 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+
+.init2          0x00000060        0xc
+ *(.init2)
+ .init2         0x00000060        0xc c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+
+.init4          0x0000006c       0x30
+ *(.init4)
+ .init4         0x0000006c       0x20 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+                0x0000006c                __do_copy_data
+ .init4         0x0000008c       0x10 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+                0x0000008c                __do_clear_bss
+
+.init9          0x0000009c        0x8
+ *(.init9)
+ .init9         0x0000009c        0x8 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+
+.fini0          0x000000a4        0x4
+ *(.fini0)
+ .fini0         0x000000a4        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+
+.text           0x000000a8     0x39c4
+ *(.init)
+ *(.progmem.gcc*)
+ *(.progmem*)
+                0x000000a8                . = ALIGN (0x2)
+ *(.text)
+ .text          0x000000a8        0x4 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+                0x000000a8                __vector_22
+                0x000000a8                __vector_1
+                0x000000a8                __vector_12
+                0x000000a8                __bad_interrupt
+                0x000000a8                __vector_6
+                0x000000a8                __vector_3
+                0x000000a8                __vector_23
+                0x000000a8                __vector_11
+                0x000000a8                __vector_13
+                0x000000a8                __vector_17
+                0x000000a8                __vector_19
+                0x000000a8                __vector_7
+                0x000000a8                __vector_5
+                0x000000a8                __vector_4
+                0x000000a8                __vector_9
+                0x000000a8                __vector_2
+                0x000000a8                __vector_21
+                0x000000a8                __vector_15
+                0x000000a8                __vector_8
+                0x000000a8                __vector_14
+                0x000000a8                __vector_10
+                0x000000a8                __vector_16
+                0x000000a8                __vector_18
+ .text          0x000000ac     0x1906 ../OBJ/test.o
+                0x0000016a                random
+                0x000003f0                PutDec
+                0x00000938                VT102DispStr
+                0x00000342                PutString
+                0x0000070a                VT102DispClrScr
+                0x000000d0                SPrintDec
+                0x00000d24                VT102DispChar
+                0x000002b8                main
+                0x000000ac                AvrInit
+                0x000001ca                PutChar
+                0x0000152a                TaskStart
+                0x00000240                __vector_20
+                0x000010e2                Task
+                0x00000556                VT102Attribute
+ .text          0x000019b2       0x66 ../OBJ/os_cpu_c.o
+                0x00001a06                OSTaskCreateHook
+                0x00001a0c                OSTaskStatHook
+                0x00001a14                OSInitHookBegin
+                0x00001a08                OSTaskDelHook
+                0x00001a0e                OSTimeTickHook
+                0x00001a10                OSTCBInitHook
+                0x000019b2                OSTaskStkInit
+                0x00001a16                OSInitHookEnd
+                0x00001a0a                OSTaskSwHook
+                0x00001a12                OSTaskIdleHook
+ .text          0x00001a18     0x1d12 ../OBJ/ucos_ii.o
+                0x00001d56                OSTimeSet
+                0x00001a18                OSIntEnter
+                0x00001faa                OS_TCBInit
+                0x0000222e                OSTaskCreateExt
+                0x00002342                OSTaskCreate
+                0x00001ef4                OSEventNameGet
+                0x0000260c                OSIntExit
+                0x00002108                OS_Sched
+                0x00001db0                OSTaskNameSet
+                0x0000243e                OSSemPend
+                0x00001bb6                OSSemAccept
+                0x00002ca8                OS_TaskStat
+                0x00001a38                OS_EventTaskRdy
+                0x00003036                OSTimeDly
+                0x00003348                OSTimeDlyHMSM
+                0x000023f2                OSSemPost
+                0x0000312c                OSStatInit
+                0x00001e96                OSEventNameSet
+                0x00001ae8                OS_EventTaskWait
+                0x000026ca                OS_TaskStatStkChk
+                0x000025b2                OSStart
+                0x00001e1e                OSTaskNameGet
+                0x000024f4                OSTimeTick
+                0x00001f54                OSSemCreate
+                0x00001bea                OSSemQuery
+                0x000021b0                OSTimeDlyResume
+                0x00001c24                OSTaskStkChk
+                0x0000291c                OSInit
+                0x00001d6c                OSTaskQuery
+                0x00001b58                OS_EventTO
+                0x00001d38                OSTimeGet
+                0x0000278e                OSSemDel
+                0x00001a32                OSVersion
+                0x00001d14                OS_TaskStkClr
+                0x00001baa                OS_EventWaitListInit
+                0x000020d8                OS_TaskIdle
+ .text          0x0000372a      0x242 ../OBJ/os_cpu_a.o
+                0x0000372a                OSStartHighRdy
+                0x000038c8                _overflow0_
+                0x0000378e                OSCtxSw
+                0x0000384c                OSIntCtxSw
+                0x000038c8                OSTickISR
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_mulsi3.o)
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodqi4.o)
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodhi4.o)
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodsi4.o)
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+ .text          0x0000396c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31\libc.a(strcpy.o)
+                0x0000396c                . = ALIGN (0x2)
+ *(.text.*)
+ .text.libgcc   0x0000396c       0x36 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_mulsi3.o)
+                0x0000396c                __mulsi3
+ .text.libgcc   0x000039a2       0x18 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodqi4.o)
+                0x000039a2                __udivmodqi4
+ .text.libgcc   0x000039ba       0x2c c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodhi4.o)
+                0x000039ba                __udivmodhi4
+ .text.libgcc   0x000039e6       0x26 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+                0x000039e6                __divmodhi4
+                0x000039e6                _div
+ .text.libgcc   0x00003a0c       0x4e c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodsi4.o)
+                0x00003a0c                __udivmodsi4
+ .text.libgcc   0x00003a5a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+ .text.libgcc   0x00003a5a        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+ .text.avr-libc
+                0x00003a5a       0x12 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31\libc.a(strcpy.o)
+                0x00003a5a                strcpy
+                0x00003a6c                . = ALIGN (0x2)
+ *(.fini)
+                0x00003a6c                _etext = .
+
+.trampolines    0x00003a6c        0x0
+ .trampolines   0x00003a6c        0x0 linker stubs
+
+.init0          0x00003a6c        0x0
+ .init0         0x00003a6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+
+.fini9          0x00003a6c        0x0
+ .fini9         0x00003a6c        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+
+.data           0x00000060      0x1d4 load address 0x00003a6c
+                0x00000060                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00000060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+ .data          0x00000060       0xc9 ../OBJ/test.o
+ .data          0x00000129        0x0 ../OBJ/os_cpu_c.o
+ .data          0x00000129      0x10a ../OBJ/ucos_ii.o
+                0x00000129                OSMapTbl
+                0x00000131                OSUnMapTbl
+                0x00000231                OSDebugEn
+ .data          0x00000233        0x0 ../OBJ/os_cpu_a.o
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_mulsi3.o)
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodqi4.o)
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodhi4.o)
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodsi4.o)
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+ .data          0x00000233        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31\libc.a(strcpy.o)
+ *(.gnu.linkonce.d*)
+                0x00000234                . = ALIGN (0x2)
+ *fill*         0x00000233        0x1 00
+                0x00000234                PROVIDE (__data_end, .)
+                0x00000234                _edata = .
+                0x00003a6c                __data_load_start = LOADADDR (.data)
+                0x00003c40                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.bss            0x00001060     0x1fca load address 0x00003c40
+                0x00001060                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+ .bss           0x00001060        0x0 ../OBJ/test.o
+ .bss           0x00001060        0x0 ../OBJ/os_cpu_c.o
+ .bss           0x00001060        0x0 ../OBJ/ucos_ii.o
+ .bss           0x00001060        0x0 ../OBJ/os_cpu_a.o
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_mulsi3.o)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodqi4.o)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodhi4.o)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodsi4.o)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+ .bss           0x00001060        0x0 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31\libc.a(strcpy.o)
+ *(COMMON)
+ COMMON         0x00001060     0x1718 ../OBJ/test.o
+                0x00001060                UartTxRdPtr
+                0x00001061                RandomSem
+                0x00001063                UartTxCount
+                0x00001064                DispStrSem
+                0x00001066                kurt
+                0x00001067                UartTxWrPtr
+                0x00001068                TaskData
+                0x00001072                UartTxBuf
+                0x00001172                TaskStartStk
+                0x00001372                TaskStk
+                0x00002772                UartTxSem
+                0x00002774                RndNext
+ COMMON         0x00002778      0x8b2 ../OBJ/ucos_ii.o
+                0x00002778                OSLockNesting
+                0x00002779                OSRunning
+                0x0000277a                OSIdleCtr
+                0x0000277e                OSPrioHighRdy
+                0x0000277f                OSPrioCur
+                0x00002780                OSTCBList
+                0x00002782                OSTaskStatStk
+                0x00002982                OSCtxSwCtr
+                0x00002986                OSIdleCtrMax
+                0x0000298a                OSTCBFreeList
+                0x0000298c                OSCPUUsage
+                0x0000298d                OSTaskCtr
+                0x0000298e                OSTCBHighRdy
+                0x00002990                OSRdyGrp
+                0x00002991                OSRdyTbl
+                0x00002993                OSEventFreeList
+                0x00002995                OSIntExitY
+                0x00002996                OSIntNesting
+                0x00002997                OSTCBCur
+                0x00002999                OSTime
+                0x0000299d                OSTaskIdleStk
+                0x00002b9d                OSEventTbl
+                0x00002c15                OSTCBTbl
+                0x0000300b                OSStatRdy
+                0x0000300c                OSTCBPrioTbl
+                0x00003026                OSIdleCtrRun
+                0x0000302a                PROVIDE (__bss_end, .)
+                0x0000302a                _end = .
+
+.eeprom         0x00000000        0x0
+ *(.eeprom*)
+                0x00000000                __eeprom_end = .
+
+.stab           0x00000000      0x324
+ *(.stab)
+ .stab          0x00000000      0x324 ../OBJ/os_cpu_a.o
+
+.stabstr        0x00000000       0x46
+ *(.stabstr)
+ .stabstr       0x00000000       0x46 ../OBJ/os_cpu_a.o
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment
+ *(.comment)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges  0x00000000       0x60
+ *(.debug_aranges)
+ .debug_aranges
+                0x00000000       0x20 ../OBJ/test.o
+ .debug_aranges
+                0x00000020       0x20 ../OBJ/os_cpu_c.o
+ .debug_aranges
+                0x00000040       0x20 ../OBJ/ucos_ii.o
+
+.debug_pubnames
+                0x00000000      0x666
+ *(.debug_pubnames)
+ .debug_pubnames
+                0x00000000      0x17e ../OBJ/test.o
+ .debug_pubnames
+                0x0000017e       0xcd ../OBJ/os_cpu_c.o
+ .debug_pubnames
+                0x0000024b      0x41b ../OBJ/ucos_ii.o
+
+.debug_info     0x00000000     0x2b14
+ *(.debug_info)
+ .debug_info    0x00000000      0xfb9 ../OBJ/test.o
+ .debug_info    0x00000fb9      0x42e ../OBJ/os_cpu_c.o
+ .debug_info    0x000013e7     0x172d ../OBJ/ucos_ii.o
+
+.debug_abbrev   0x00000000      0x7e1
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x2d3 ../OBJ/test.o
+ .debug_abbrev  0x000002d3      0x147 ../OBJ/os_cpu_c.o
+ .debug_abbrev  0x0000041a      0x3c7 ../OBJ/ucos_ii.o
+
+.debug_line     0x00000000     0x340d
+ *(.debug_line)
+ .debug_line    0x00000000     0x17a7 ../OBJ/test.o
+ .debug_line    0x000017a7      0x241 ../OBJ/os_cpu_c.o
+ .debug_line    0x000019e8     0x1a25 ../OBJ/ucos_ii.o
+
+.debug_frame    0x00000000      0x3f0
+ *(.debug_frame)
+ .debug_frame   0x00000000       0xf0 ../OBJ/test.o
+ .debug_frame   0x000000f0       0xb0 ../OBJ/os_cpu_c.o
+ .debug_frame   0x000001a0      0x250 ../OBJ/ucos_ii.o
+
+.debug_str      0x00000000      0x832
+ *(.debug_str)
+ .debug_str     0x00000000      0x229 ../OBJ/test.o
+                                0x267 (size before relaxing)
+ .debug_str     0x00000229      0x1c7 ../OBJ/os_cpu_c.o
+                                0x2e8 (size before relaxing)
+ .debug_str     0x000003f0      0x442 ../OBJ/ucos_ii.o
+                                0x6ad (size before relaxing)
+
+.debug_loc      0x00000000     0x1be7
+ *(.debug_loc)
+ .debug_loc     0x00000000      0x5cd ../OBJ/test.o
+ .debug_loc     0x000005cd       0x30 ../OBJ/os_cpu_c.o
+ .debug_loc     0x000005fd     0x15ea ../OBJ/ucos_ii.o
+
+.debug_macinfo
+ *(.debug_macinfo)
+                0x0000025f                PROVIDE (__ddf, 0x25f)
+OUTPUT(test.elf elf32-avr)
+LOAD linker stubs
+
+.debug_ranges   0x00000000      0xdf8
+ .debug_ranges  0x00000000      0xc18 ../OBJ/test.o
+ .debug_ranges  0x00000c18      0x1e0 ../OBJ/ucos_ii.o
+
+Cross Reference Table
+
+Symbol                                            File
+AvrInit                                           ../OBJ/test.o
+DispStrSem                                        ../OBJ/test.o
+OSCPUUsage                                        ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSCtxSw                                           ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSCtxSwCtr                                        ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSDebugEn                                         ../OBJ/ucos_ii.o
+OSEventFreeList                                   ../OBJ/ucos_ii.o
+OSEventNameGet                                    ../OBJ/ucos_ii.o
+OSEventNameSet                                    ../OBJ/ucos_ii.o
+OSEventTbl                                        ../OBJ/ucos_ii.o
+OSIdleCtr                                         ../OBJ/ucos_ii.o
+OSIdleCtrMax                                      ../OBJ/ucos_ii.o
+OSIdleCtrRun                                      ../OBJ/ucos_ii.o
+OSInit                                            ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSInitHookBegin                                   ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSInitHookEnd                                     ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSIntCtxSw                                        ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSIntEnter                                        ../OBJ/ucos_ii.o
+OSIntExit                                         ../OBJ/ucos_ii.o
+                                                  ../OBJ/os_cpu_a.o
+OSIntExitY                                        ../OBJ/ucos_ii.o
+OSIntNesting                                      ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSLockNesting                                     ../OBJ/ucos_ii.o
+OSMapTbl                                          ../OBJ/ucos_ii.o
+OSPrioCur                                         ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSPrioHighRdy                                     ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSRdyGrp                                          ../OBJ/ucos_ii.o
+OSRdyTbl                                          ../OBJ/ucos_ii.o
+OSRunning                                         ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSSemAccept                                       ../OBJ/ucos_ii.o
+OSSemCreate                                       ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSSemDel                                          ../OBJ/ucos_ii.o
+OSSemPend                                         ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSSemPost                                         ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSSemQuery                                        ../OBJ/ucos_ii.o
+OSStart                                           ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSStartHighRdy                                    ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSStatInit                                        ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSStatRdy                                         ../OBJ/ucos_ii.o
+OSTCBCur                                          ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSTCBFreeList                                     ../OBJ/ucos_ii.o
+OSTCBHighRdy                                      ../OBJ/os_cpu_a.o
+                                                  ../OBJ/ucos_ii.o
+OSTCBInitHook                                     ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSTCBList                                         ../OBJ/ucos_ii.o
+OSTCBPrioTbl                                      ../OBJ/ucos_ii.o
+OSTCBTbl                                          ../OBJ/ucos_ii.o
+OSTaskCreate                                      ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSTaskCreateExt                                   ../OBJ/ucos_ii.o
+OSTaskCreateHook                                  ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSTaskCtr                                         ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSTaskDelHook                                     ../OBJ/os_cpu_c.o
+OSTaskIdleHook                                    ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSTaskIdleStk                                     ../OBJ/ucos_ii.o
+OSTaskNameGet                                     ../OBJ/ucos_ii.o
+OSTaskNameSet                                     ../OBJ/ucos_ii.o
+OSTaskQuery                                       ../OBJ/ucos_ii.o
+OSTaskStatHook                                    ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSTaskStatStk                                     ../OBJ/ucos_ii.o
+OSTaskStkChk                                      ../OBJ/ucos_ii.o
+OSTaskStkInit                                     ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSTaskSwHook                                      ../OBJ/os_cpu_c.o
+                                                  ../OBJ/os_cpu_a.o
+OSTickISR                                         ../OBJ/os_cpu_a.o
+OSTime                                            ../OBJ/ucos_ii.o
+OSTimeDly                                         ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSTimeDlyHMSM                                     ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+OSTimeDlyResume                                   ../OBJ/ucos_ii.o
+OSTimeGet                                         ../OBJ/ucos_ii.o
+OSTimeSet                                         ../OBJ/ucos_ii.o
+OSTimeTick                                        ../OBJ/ucos_ii.o
+                                                  ../OBJ/os_cpu_a.o
+OSTimeTickHook                                    ../OBJ/os_cpu_c.o
+                                                  ../OBJ/ucos_ii.o
+OSUnMapTbl                                        ../OBJ/ucos_ii.o
+OSVersion                                         ../OBJ/ucos_ii.o
+OS_EventTO                                        ../OBJ/ucos_ii.o
+OS_EventTaskRdy                                   ../OBJ/ucos_ii.o
+OS_EventTaskWait                                  ../OBJ/ucos_ii.o
+OS_EventWaitListInit                              ../OBJ/ucos_ii.o
+OS_Sched                                          ../OBJ/ucos_ii.o
+OS_TCBInit                                        ../OBJ/ucos_ii.o
+OS_TaskIdle                                       ../OBJ/ucos_ii.o
+OS_TaskStat                                       ../OBJ/ucos_ii.o
+OS_TaskStatStkChk                                 ../OBJ/ucos_ii.o
+OS_TaskStkClr                                     ../OBJ/ucos_ii.o
+PutChar                                           ../OBJ/test.o
+PutDec                                            ../OBJ/test.o
+PutString                                         ../OBJ/test.o
+RandomSem                                         ../OBJ/test.o
+RndNext                                           ../OBJ/test.o
+SPrintDec                                         ../OBJ/test.o
+Task                                              ../OBJ/test.o
+TaskData                                          ../OBJ/test.o
+TaskStart                                         ../OBJ/test.o
+TaskStartStk                                      ../OBJ/test.o
+TaskStk                                           ../OBJ/test.o
+UartTxBuf                                         ../OBJ/test.o
+UartTxCount                                       ../OBJ/test.o
+UartTxRdPtr                                       ../OBJ/test.o
+UartTxSem                                         ../OBJ/test.o
+UartTxWrPtr                                       ../OBJ/test.o
+VT102Attribute                                    ../OBJ/test.o
+VT102DispChar                                     ../OBJ/test.o
+VT102DispClrScr                                   ../OBJ/test.o
+VT102DispStr                                      ../OBJ/test.o
+__bad_interrupt                                   c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__bss_end                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+__bss_start                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+__data_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__data_load_start                                 c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__data_start                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__divmodhi4                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+                                                  ../OBJ/test.o
+__do_clear_bss                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_clear_bss.o)
+                                                  ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+__do_copy_data                                    c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+                                                  ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+__heap_end                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__init                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__mulsi3                                          c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_mulsi3.o)
+                                                  ../OBJ/ucos_ii.o
+                                                  ../OBJ/test.o
+__stack                                           c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__udivmodhi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodhi4.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+                                                  ../OBJ/test.o
+__udivmodqi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodqi4.o)
+                                                  ../OBJ/test.o
+__udivmodsi4                                      c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_udivmodsi4.o)
+                                                  ../OBJ/ucos_ii.o
+__vector_1                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_10                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_11                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_12                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_13                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_14                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_15                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_16                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_17                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_18                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_19                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_2                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_20                                       ../OBJ/test.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_21                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_22                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_23                                       c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_3                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_4                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_5                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_6                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_7                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_8                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_9                                        c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vector_default                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+__vectors                                         c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+_div                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_divmodhi4.o)
+_exit                                             c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+_overflow0_                                       ../OBJ/os_cpu_a.o
+exit                                              c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/avr31\libgcc.a(_exit.o)
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+kurt                                              ../OBJ/test.o
+main                                              ../OBJ/test.o
+                                                  c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31/crtm103.o
+random                                            ../OBJ/test.o
+strcpy                                            c:/winavr-20100110/bin/../lib/gcc/avr/4.3.3/../../../../avr/lib/avr31\libc.a(strcpy.o)
+                                                  ../OBJ/ucos_ii.o
