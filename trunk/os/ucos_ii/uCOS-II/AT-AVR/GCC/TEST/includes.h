@@ -17,7 +17,7 @@
 
 #include  "..\source\os_cpu.h"
 #include  "os_cfg.h"
-#include  "..\..\..\source\ucos_ii.h"
+//#include  "..\..\..\source\ucos_ii.h"
 
 
 #define  COLOR_BLACK     0                       /* VT102 Color Codes                                  */

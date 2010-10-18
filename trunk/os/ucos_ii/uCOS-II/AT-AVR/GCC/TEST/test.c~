@@ -89,7 +89,7 @@ int main (void)
 {
     AvrInit();                                          /* Initialize the AVR UART and Timer                */
     PutString("Truth");
-                   
+                   */
     return 0;
 }
 
