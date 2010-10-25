@@ -1,0 +1,32 @@
+#summary Setup for development environment
+
+= Compiler =
+
+== GNU-MIPS ==
+ 
+ * Installs GMP 4.3.2 
+
+ configure
+ make
+ make install
+
+ * Installs MPFR 2.3.2
+
+ configure --target=mips-elf
+ make
+ make install
+
+ * Installs Binutil 2.19
+
+ configure --target=mips-elf --prefix=/usr/local/mips-elf
+ make
+ make install
+
+ * Installs GCC 4.3.2
+
+ configure --target=
+ 
+
+ 
+ 
+
