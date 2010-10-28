@@ -1,6 +1,35 @@
 #summary Setup for development environment
 
+0. Environment
+
+Windows + Cygwin
+
+1. Download Leon3
+
+Used version: grlib-gpl-1.1.0-b4102
+
+2. Configure Leon3
+
+cd designs/leon3-xilinx-ml507
+make config
+
+3. Open created ise project
+
+filename: leon3mp.xise
+
+synthesize, implement, generate program file (8:18)
+
 = Compiler =
+
+== Compiler for SPARC/Leon3 ==
+
+
+== Debugger for SPARC/Leon3 ==
+
+1. Install Xilinx USB Driver
+
+http://sourceforge.net/apps/trac/libusb-win32/wiki
+
 
 == GNU-MIPS ==
  
