@@ -4,33 +4,32 @@
 
 Windows + Cygwin
 
+Hardware altera-ep2s60-ddr (fast synthesis)
+
 1. Download Leon3
 
 Used version: grlib-gpl-1.1.0-b4102
 
 2. Configure Leon3
 
-cd designs/leon3-xilinx-ml507
+cd designs/leon3-altera-ep2s60-ddr
 make config
 
-3. Open created ise project
+3. Open created quartus project
 
-filename: leon3mp.xise
+filename: leon3mp.qpf
 
-synthesize, implement, generate program file (8:18)
-
+synthesize, implement, generate program file
 
 = Compiler =
 
 == Compiler for SPARC/Leon3 ==
-
 
 == Debugger for SPARC/Leon3 ==
 
 1. Install Xilinx USB Driver
 
 http://sourceforge.net/apps/trac/libusb-win32/wiki
-
 
 = Linux for SPARC/Leon3 ==
 
@@ -46,7 +45,6 @@ CROSS_COMPILER_ROOT = $(shell which $(CROSS_COMPILE)gcc |sed -e
 must be replaced for:
 
 CROSS_COMPILER_ROOT = /opt/sparc-linux-3.4.4/
-
 
 == GNU-MIPS ==
  
