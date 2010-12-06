@@ -22,12 +22,13 @@ filename: leon3mp.qpf
 synthesize, implement, generate program file
 
 
-Simulation Setup
+* Simulation Setup
 
 make vsim (to generate testbench.mpf)
 
 make soft (to build ROM and RAM images)
 
+we use the file under leon3-digilient-xup instead of one for altera for simulation
 
 
 = Compiler =
