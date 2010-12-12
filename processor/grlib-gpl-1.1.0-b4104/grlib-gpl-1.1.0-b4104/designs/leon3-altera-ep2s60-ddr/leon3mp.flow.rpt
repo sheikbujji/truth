@@ -1,0 +1,114 @@
+Flow report for leon3mp
+Tue Dec 07 00:20:44 2010
+Quartus II Version 7.1 Build 156 04/30/2007 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2007 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------------------------------------+
+; Flow Summary                                                             ;
++-------------------------------+------------------------------------------+
+; Flow Status                   ; Successful - Tue Dec 07 00:20:44 2010    ;
+; Quartus II Version            ; 7.1 Build 156 04/30/2007 SJ Full Version ;
+; Revision Name                 ; leon3mp                                  ;
+; Top-level Entity Name         ; leon3mp                                  ;
+; Family                        ; Stratix II                               ;
+; Device                        ; EP2S60F672C3                             ;
+; Timing Models                 ; Final                                    ;
+; Met timing requirements       ; Yes                                      ;
+; Logic utilization             ; 32 %                                     ;
+;     Combinational ALUTs       ; 12,806 / 48,352 ( 26 % )                 ;
+;     Dedicated logic registers ; 8,013 / 48,352 ( 17 % )                  ;
+; Total registers               ; 8207                                     ;
+; Total pins                    ; 264 / 493 ( 54 % )                       ;
+; Total virtual pins            ; 0                                        ;
+; Total block memory bits       ; 516,800 / 2,544,192 ( 20 % )             ;
+; DSP block 9-bit elements      ; 8 / 288 ( 3 % )                          ;
+; Total PLLs                    ; 2 / 6 ( 33 % )                           ;
+; Total DLLs                    ; 1 / 2 ( 50 % )                           ;
++-------------------------------+------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 12/06/2010 23:58:18 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; leon3mp             ;
++-------------------+---------------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                                         ;
++-------------------------------------+----------------------------------------+--------------------------------+-------------+------------+
+; Assignment Name                     ; Value                                  ; Default Value                  ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------------+--------------------------------+-------------+------------+
+; ADV_NETLIST_OPT_SYNTH_GATE_RETIME   ; On                                     ; Off                            ; --          ; --         ;
+; ADV_NETLIST_OPT_SYNTH_WYSIWYG_REMAP ; On                                     ; Off                            ; --          ; --         ;
+; EDA_SIMULATION_TOOL                 ; ModelSim (VHDL output from Quartus II) ; <None>                         ; --          ; --         ;
+; FMAX_REQUIREMENT                    ; 50 MHz                                 ; --                             ; --          ; --         ;
+; NUM_PARALLEL_PROCESSORS             ; 2                                      ; 1                              ; --          ; --         ;
+; OPTIMIZE_HOLD_TIMING                ; All paths                              ; IO Paths and Minimum TPD Paths ; --          ; --         ;
+; OPTIMIZE_POWER_DURING_FITTING       ; Off                                    ; Normal compilation             ; --          ; --         ;
+; OPTIMIZE_POWER_DURING_SYNTHESIS     ; Off                                    ; Normal compilation             ; --          ; --         ;
+; STATE_MACHINE_PROCESSING            ; One-Hot                                ; Auto                           ; --          ; --         ;
+; STRATIXII_OPTIMIZATION_TECHNIQUE    ; Speed                                  ; Balanced                       ; --          ; --         ;
++-------------------------------------+----------------------------------------+--------------------------------+-------------+------------+
+
+
++----------------------------------------+
+; Flow Elapsed Time                      ;
++-------------------------+--------------+
+; Module Name             ; Elapsed Time ;
++-------------------------+--------------+
+; Analysis & Synthesis    ; 00:12:17     ;
+; Fitter                  ; 00:06:45     ;
+; Assembler               ; 00:00:31     ;
+; Classic Timing Analyzer ; 00:01:10     ;
+; EDA Netlist Writer      ; 00:01:01     ;
+; Total                   ; 00:21:44     ;
++-------------------------+--------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off leon3mp -c leon3mp
+quartus_fit --read_settings_files=off --write_settings_files=off leon3mp -c leon3mp
+quartus_asm --read_settings_files=off --write_settings_files=off leon3mp -c leon3mp
+quartus_tan --read_settings_files=off --write_settings_files=off leon3mp -c leon3mp --timing_analysis_only
+quartus_eda --read_settings_files=off --write_settings_files=off leon3mp -c leon3mp
+
+
+

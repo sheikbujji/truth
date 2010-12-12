@@ -1,0 +1,36 @@
+source compile.synp
+add_file -vhdl -lib work config.vhd
+add_file -vhdl -lib work ahbrom.vhd
+add_file -vhdl -lib work smc_mctrl.vhd
+add_file -vhdl -lib work leon3mp.vhd
+add_file -constraint  ../../boards/altera-ep2s60-ddr/default.sdc
+
+#implementation: "synplify"
+impl -add synplify
+
+#device options
+set_option -technology STRATIXII
+set_option -part EP2S60
+set_option -speed_grade -3
+
+#compilation/mapping options
+set_option -symbolic_fsm_compiler 0
+set_option -resource_sharing 0
+set_option -use_fsm_explorer 0
+set_option -write_vhdl 1
+#set_option -disable_io_insertion 0
+
+#map options
+set_option -frequency 140
+
+set_option -top_module leon3mp
+
+#set result format/file last
+project -result_file "synplify/leon3mp.edf"
+
+#implementation attributes
+set_option -vlog_std v95
+set_option -compiler_compatible 0
+set_option -package FC672
+set_option -pipe 1; set_option -retiming 1; set_option -verification_mode 1; set_option -write_apr_constraint 0
+impl -active "synplify"

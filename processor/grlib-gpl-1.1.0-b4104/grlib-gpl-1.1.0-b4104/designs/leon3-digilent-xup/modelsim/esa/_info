@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+Emctrl
+Z1 w1289246238
+Z2 DPx3 esa 10 memoryctrl 0 22 _6k63U5W3_PD26HhiXGRG3
+Z3 DPx7 techmap 7 gencomp 0 22 Gh7R5G283PD>>9Ao<WUea3
+Z4 DPx7 gaisler 7 memctrl 0 22 ZK>mN2gZ]mE_;XgaW6^f[0
+Z5 DPx5 grlib 7 devices 0 22 ?KPe6eCazS<Vz;6odFc4Z3
+Z6 DPx5 grlib 7 version 0 22 oWH0]24BSeVP91zL[>DRI3
+Z7 DPx5 grlib 6 stdlib 0 22 d9;dAZX3@oD^:0>AmFEje2
+Z8 DPx5 grlib 6 config 0 22 E<an4ETQj][?kfg<5^V9A0
+Z9 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z10 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z11 DPx5 grlib 4 amba 0 22 SmIzT0180]m<MF]1jBZZK0
+Z12 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z13 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+Z14 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/mctrl.vhd
+Z15 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/mctrl.vhd
+l0
+L46
+V`g<>fWiJ1;4z7nD<6[3RC1
+!s100 b<Z[i37ZI2AjLQk[[m<Xn2
+Z16 OP;C;6.6d;45
+31
+Z17 !s102 -cover s
+Z18 o-work esa -93 -source -nowarn 1 -nowarn 5 -cover s -O0
+Z19 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1
+Artl
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+Z20 DEx4 work 5 mctrl 0 22 `g<>fWiJ1;4z7nD<6[3RC1
+l214
+L90
+Z21 V7j@6lYG7>IlV<kfmY9o?i3
+Z22 !s100 gc5f4fTK;JB]Z]EcMW9TJ1
+R16
+31
+Z23 Mx11 4 ieee 14 std_logic_1164
+Z24 Mx10 5 grlib 4 amba
+Z25 Mx9 4 ieee 11 numeric_std
+Z26 Mx8 3 std 6 textio
+Z27 Mx7 5 grlib 6 config
+Z28 Mx6 5 grlib 6 stdlib
+Z29 Mx5 5 grlib 7 version
+Z30 Mx4 5 grlib 7 devices
+Z31 Mx3 7 gaisler 7 memctrl
+Z32 Mx2 7 techmap 7 gencomp
+Z33 Mx1 3 esa 10 memoryctrl
+R17
+R18
+R19
+Pmemoryctrl
+R3
+R4
+R6
+R7
+R8
+R9
+R10
+R11
+R12
+R1
+R13
+8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/memoryctrl.vhd
+FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/memoryctrl.vhd
+l0
+L26
+V_6k63U5W3_PD26HhiXGRG3
+R16
+31
+Z34 Mx9 4 ieee 14 std_logic_1164
+Z35 Mx8 5 grlib 4 amba
+Z36 Mx7 4 ieee 11 numeric_std
+Z37 Mx6 3 std 6 textio
+Z38 Mx5 5 grlib 6 config
+Z39 Mx4 5 grlib 6 stdlib
+Z40 Mx3 5 grlib 7 version
+Z41 Mx2 7 gaisler 7 memctrl
+Z42 Mx1 7 techmap 7 gencomp
+R17
+R18
+R19
+!s100 5fY=:IXRd0Q3NcHYMgcd13

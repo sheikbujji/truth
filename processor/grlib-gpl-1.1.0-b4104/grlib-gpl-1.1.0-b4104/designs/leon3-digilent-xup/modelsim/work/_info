@@ -1,0 +1,460 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+Eahbrom
+Z1 w1291970704
+Z2 DPx5 grlib 7 devices 0 22 ?KPe6eCazS<Vz;6odFc4Z3
+Z3 DPx5 grlib 7 version 0 22 oWH0]24BSeVP91zL[>DRI3
+Z4 DPx5 grlib 6 stdlib 0 22 d9;dAZX3@oD^:0>AmFEje2
+Z5 DPx5 grlib 6 config 0 22 E<an4ETQj][?kfg<5^V9A0
+Z6 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z7 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+Z8 DPx5 grlib 4 amba 0 22 SmIzT0180]m<MF]1jBZZK0
+Z9 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z10 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+Z11 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/ahbrom.vhd
+Z12 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/ahbrom.vhd
+l0
+L18
+V0>254_=M3l7GkC<T3=7mz1
+Z13 OP;C;6.6d;45
+31
+Z14 !s102 -cover s
+Z15 o-work work -93 -source -nowarn 1 -nowarn 5 -cover s -O0
+Z16 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1
+!s100 M;o:gHC_id9i?NZlNeoWK3
+Artl
+R2
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+Z17 DEx4 work 6 ahbrom 0 22 0>254_=M3l7GkC<T3=7mz1
+l46
+L34
+VAzCCEWYGR9^T3VEf@iI8F0
+R13
+31
+Z18 Mx8 4 ieee 14 std_logic_1164
+Z19 Mx7 5 grlib 4 amba
+Z20 Mx6 4 ieee 11 numeric_std
+Z21 Mx5 3 std 6 textio
+Z22 Mx4 5 grlib 6 config
+Z23 Mx3 5 grlib 6 stdlib
+Z24 Mx2 5 grlib 7 version
+Z25 Mx1 5 grlib 7 devices
+R14
+R15
+R16
+!s100 ;]kjTfTAk6Ch`jgj>]4D^3
+Pconfig
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+Z26 DPx7 techmap 7 gencomp 0 22 Gh7R5G283PD>>9Ao<WUea3
+w1291932548
+R10
+8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/config.vhd
+FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/config.vhd
+l0
+L14
+VF<W;aGg19VPP:E5?CXE130
+R13
+31
+Z27 Mx8 7 techmap 7 gencomp
+Z28 Mx7 4 ieee 14 std_logic_1164
+Z29 Mx6 5 grlib 4 amba
+Z30 Mx5 4 ieee 11 numeric_std
+Z31 Mx4 3 std 6 textio
+Z32 Mx3 5 grlib 6 config
+Z33 Mx2 5 grlib 6 stdlib
+Z34 Mx1 5 grlib 7 version
+R14
+R15
+R16
+!s100 d0;8m8fJ=O;[YPBMm4QCX3
+Ecpu_disas
+Z35 w1289246238
+Z36 DPx5 grlib 11 sparc_disas 0 22 ?kOYSeVhI`hTd[9m<@<_o0
+Z37 DPx5 grlib 5 sparc 0 22 P_9OLe?XdfNk^7Dfnkm?l3
+R3
+R6
+R4
+R7
+R9
+R10
+Z38 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/cpu_disas.vhd
+Z39 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/cpu_disas.vhd
+l0
+L36
+VA0^R_4IcondijE@Q5;9GH1
+R13
+31
+R14
+R15
+R16
+!s100 4]O[S?WA7eJWZi]FEklKc0
+Abehav
+R36
+R37
+R3
+R6
+R4
+R7
+R9
+DEx4 work 9 cpu_disas 0 22 A0^R_4IcondijE@Q5;9GH1
+l53
+L52
+VXJ^FN;lgQQ]VTjz9zanO93
+R13
+31
+R28
+R20
+Z40 Mx5 5 grlib 6 stdlib
+R31
+Z41 Mx3 5 grlib 7 version
+Z42 Mx2 5 grlib 5 sparc
+Z43 Mx1 5 grlib 11 sparc_disas
+R14
+R15
+R16
+!s100 eGGBa__Ue?To`j0W;dIZK0
+Pdebug
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R35
+R10
+8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/debug.vhd
+FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/debug.vhd
+l0
+L31
+V<=haLmQES^o66ZCY<U=mf0
+R13
+31
+R28
+R29
+R30
+R31
+R32
+R33
+R34
+R14
+R15
+R16
+!s100 35GWW6za]@7hCZbGUzlER2
+Pftasip
+Z44 DPx7 gaisler 5 leon3 0 22 K>QH^m:gT^WdnR[dYZG5o1
+R26
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+w1291950829
+R10
+Z45 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip.vhd
+Z46 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip.vhd
+l0
+L37
+VjCHZWh5P[Lo3gM6ehG;1Z0
+R13
+31
+Z47 Mx9 4 ieee 14 std_logic_1164
+Z48 Mx8 5 grlib 4 amba
+Z49 Mx7 4 ieee 11 numeric_std
+Z50 Mx6 3 std 6 textio
+Z51 Mx5 5 grlib 6 config
+Z52 Mx4 5 grlib 6 stdlib
+R41
+Z53 Mx2 7 techmap 7 gencomp
+Z54 Mx1 7 gaisler 5 leon3
+o-work work -93 -explicit -quiet -source -nowarn 1 -nowarn 5 -O0
+R16
+!s100 <>Bc[dg0NYU77c<MK`?ZT3
+Egaisler_cpu_disas
+R35
+R36
+R37
+R3
+R6
+R4
+R7
+R9
+R10
+R38
+R39
+l0
+L89
+Vez@6MdPj8Ik5:NZm^_6nS0
+R13
+31
+R14
+R15
+R16
+!s100 Rb`nFHH]bTGR0[RaAQ`Si0
+Abehav
+R36
+R37
+R3
+R6
+R4
+R7
+R9
+DEx4 work 17 gaisler_cpu_disas 0 22 ez@6MdPj8Ik5:NZm^_6nS0
+l106
+L105
+VY9_>2n7Jj:Jn3eOLWZeNl1
+R13
+31
+R28
+R20
+R40
+R31
+R41
+R42
+R43
+R14
+R15
+R16
+!s100 1LSA>8`QN6W_?K`hhefYd2
+Egrtestmod
+R35
+R2
+R5
+R8
+Z55 DPx5 grlib 5 stdio 0 22 Pm=kb]]83HWi]OK`48f0o1
+R3
+R7
+R4
+R6
+Z56 DPx7 gaisler 3 sim 0 22 =CNPK54:?XNzbzMjm1WQj0
+R9
+R10
+Z57 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/grtestmod.vhd
+Z58 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/grtestmod.vhd
+l0
+L34
+V5jlO[e:P]i?KmOB:FI8oY0
+R13
+31
+R14
+R15
+R16
+!s100 PH@Y2?hLz:eGhKoEe_3h<1
+Asim
+R2
+R5
+R8
+R55
+R3
+R7
+R4
+R6
+R56
+R9
+DEx4 work 9 grtestmod 0 22 5jlO[e:P]i?KmOB:FI8oY0
+l63
+L51
+V^cn<a`eQiiV=dCja?hPe_3
+R13
+31
+Z59 Mx10 4 ieee 14 std_logic_1164
+Z60 Mx9 7 gaisler 3 sim
+Z61 Mx8 3 std 6 textio
+Z62 Mx7 5 grlib 6 stdlib
+R20
+Z63 Mx5 5 grlib 7 version
+Z64 Mx4 5 grlib 5 stdio
+Z65 Mx3 5 grlib 4 amba
+Z66 Mx2 5 grlib 6 config
+R25
+R14
+R15
+R16
+!s100 ?kP2LlcQ:^X7i9=khH??j0
+Eleon3mp
+Z67 w1291972817
+Z68 DPx4 work 6 config 0 22 F<W;aGg19VPP:E5?CXE130
+Z69 DPx3 esa 10 memoryctrl 0 22 _6k63U5W3_PD26HhiXGRG3
+R55
+R56
+Z70 DPx7 gaisler 4 jtag 0 22 g@5D4Jg]>?E^1BIz><:>C2
+Z71 DPx7 gaisler 3 net 0 22 N6z1n3QF<>of_STbIkjQJ2
+R2
+Z72 DPx7 gaisler 4 misc 0 22 cMEBI2CRMofLd[3Hf9TQM3
+Z73 DPx7 gaisler 4 uart 0 22 GH^1=2`CPoKVPfEc@FW=>2
+R44
+Z74 DPx7 gaisler 7 memctrl 0 22 ZK>mN2gZ]mE_;XgaW6^f[0
+R26
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+R10
+Z75 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/leon3mp.vhd
+Z76 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/leon3mp.vhd
+l0
+L47
+V1lYYXUQN7096D8@YYeH>]2
+R13
+31
+R14
+R15
+R16
+!s100 RWn^CkW`H1B_DUkI^[g`l1
+Artl
+R17
+R68
+R69
+R55
+R56
+R70
+R71
+R2
+R72
+R73
+R44
+R74
+R26
+R3
+R4
+R5
+R6
+R7
+R8
+R9
+Z77 DEx4 work 7 leon3mp 0 22 1lYYXUQN7096D8@YYeH>]2
+l212
+L126
+V4I8XhTAVMOkjai@dTRZgo2
+!s100 9F7fJb`kWIEWfJ9Tnb4bO0
+R13
+31
+Mx19 4 ieee 14 std_logic_1164
+Mx18 5 grlib 4 amba
+Mx17 4 ieee 11 numeric_std
+Mx16 3 std 6 textio
+Mx15 5 grlib 6 config
+Mx14 5 grlib 6 stdlib
+Mx13 5 grlib 7 version
+Z78 Mx12 7 techmap 7 gencomp
+Mx11 7 gaisler 7 memctrl
+Mx10 7 gaisler 5 leon3
+Mx9 7 gaisler 4 uart
+Mx8 7 gaisler 4 misc
+Mx7 5 grlib 7 devices
+Mx6 7 gaisler 3 net
+Mx5 7 gaisler 4 jtag
+Z79 Mx4 7 gaisler 3 sim
+Z80 Mx3 5 grlib 5 stdio
+Mx2 3 esa 10 memoryctrl
+Mx1 4 work 6 config
+R14
+R15
+R16
+Etestbench
+Z81 w1291932000
+R68
+Z82 DPx4 work 5 debug 0 22 <=haLmQES^o66ZCY<U=mf0
+Z83 DPx6 micron 10 components 0 22 CMD8<d]Jm9_CKI5[]C:[e0
+R55
+R56
+R26
+R2
+R72
+R73
+R3
+R4
+R5
+R6
+R7
+R8
+Z84 DPx7 gaisler 7 libdcom 0 22 `Q7<lDYUQz=?B;@AieJeY2
+R9
+R10
+Z85 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/testbench.vhd
+Z86 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/testbench.vhd
+l0
+L37
+V^S0g03dX1L7T0nekOJWgG0
+!s100 4SZ9Qhg^8Mm=UnX1P@9gW3
+R13
+31
+R14
+R15
+R16
+Abehav
+R69
+R70
+R71
+R44
+R74
+R77
+R68
+R82
+R83
+R55
+R56
+R26
+R2
+R72
+R73
+R3
+R4
+R5
+R6
+R7
+R8
+R84
+R9
+Z87 DEx4 work 9 testbench 0 22 ^S0g03dX1L7T0nekOJWgG0
+l128
+L57
+Z88 V8nM:g<2Vmi[H]kdeSeYl:0
+Z89 !s100 K]PHMAGb[nfo4<C8jb`bC3
+R13
+31
+Z90 Mx22 4 ieee 14 std_logic_1164
+Z91 Mx21 7 gaisler 7 libdcom
+Z92 Mx20 5 grlib 4 amba
+Z93 Mx19 4 ieee 11 numeric_std
+Z94 Mx18 3 std 6 textio
+Z95 Mx17 5 grlib 6 config
+Z96 Mx16 5 grlib 6 stdlib
+Z97 Mx15 5 grlib 7 version
+Z98 Mx14 7 gaisler 4 uart
+Z99 Mx13 7 gaisler 4 misc
+Z100 Mx12 5 grlib 7 devices
+Z101 Mx11 7 techmap 7 gencomp
+Z102 Mx10 7 gaisler 3 sim
+Z103 Mx9 5 grlib 5 stdio
+Z104 Mx8 6 micron 10 components
+Z105 Mx7 4 work 5 debug
+Z106 Mx6 4 work 6 config
+Z107 Mx5 7 gaisler 7 memctrl
+Z108 Mx4 7 gaisler 5 leon3
+Z109 Mx3 7 gaisler 3 net
+Z110 Mx2 7 gaisler 4 jtag
+Z111 Mx1 3 esa 10 memoryctrl
+R14
+R15
+R16

@@ -1,0 +1,14 @@
+vlib modelsim
+vlib modelsim/grlib 
+vlib modelsim/altera 
+vlib modelsim/altera_mf 
+vlib modelsim/stratixii 
+vlib modelsim/dw02 
+vlib modelsim/synplify 
+vlib modelsim/techmap 
+vlib modelsim/opencores 
+vlib modelsim/gaisler 
+vlib modelsim/esa 
+vlib modelsim/cypress 
+vlib modelsim/micron 
+vlib modelsim/work 

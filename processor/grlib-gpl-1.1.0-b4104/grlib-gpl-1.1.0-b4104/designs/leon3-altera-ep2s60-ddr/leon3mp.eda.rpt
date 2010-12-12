@@ -1,0 +1,94 @@
+EDA Netlist Writer report for leon3mp
+Tue Dec 07 00:20:44 2010
+Quartus II Version 7.1 Build 156 04/30/2007 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. EDA Netlist Writer Summary
+  3. Simulation Settings
+  4. Simulation Generated Files
+  5. EDA Netlist Writer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2007 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------+
+; EDA Netlist Writer Summary                                        ;
++---------------------------+---------------------------------------+
+; EDA Netlist Writer Status ; Successful - Tue Dec 07 00:20:44 2010 ;
+; Revision Name             ; leon3mp                               ;
+; Top-level Entity Name     ; leon3mp                               ;
+; Family                    ; Stratix II                            ;
+; Simulation Files Creation ; Successful                            ;
++---------------------------+---------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Settings                                                                                                                 ;
++--------------------------------------------------------------------------------------------+----------------------------------------+
+; Option                                                                                     ; Setting                                ;
++--------------------------------------------------------------------------------------------+----------------------------------------+
+; Tool Name                                                                                  ; ModelSim (VHDL output from Quartus II) ;
+; Generate netlist for functional simulation only                                            ; Off                                    ;
+; Time scale                                                                                 ; 1 ps                                   ;
+; Truncate long hierarchy paths                                                              ; Off                                    ;
+; Map illegal HDL characters                                                                 ; Off                                    ;
+; Flatten buses into individual nodes                                                        ; Off                                    ;
+; Maintain hierarchy                                                                         ; Off                                    ;
+; Bring out device-wide set/reset signals as ports                                           ; Off                                    ;
+; Enable glitch filtering                                                                    ; Off                                    ;
+; Do not write top level VHDL entity                                                         ; Off                                    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                    ;
+; Architecture name in VHDL output netlist                                                   ; structure                              ;
++--------------------------------------------------------------------------------------------+----------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                                      ;
++---------------------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                                 ;
++---------------------------------------------------------------------------------------------------------------------------------+
+; F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-altera-ep2s60-ddr/simulation/modelsim/leon3mp.vho     ;
+; F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-altera-ep2s60-ddr/simulation/modelsim/leon3mp_vhd.sdo ;
++---------------------------------------------------------------------------------------------------------------------------------+
+
+
++-----------------------------+
+; EDA Netlist Writer Messages ;
++-----------------------------+
+Info: *******************************************************************
+Info: Running Quartus II EDA Netlist Writer
+    Info: Version 7.1 Build 156 04/30/2007 SJ Full Version
+    Info: Processing started: Tue Dec 07 00:19:43 2010
+Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off leon3mp -c leon3mp
+Info: Parallel compilation will use up to 2 processor(s)
+Info: Generated files "leon3mp.vho" and "leon3mp_vhd.sdo" in directory "F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-altera-ep2s60-ddr/simulation/modelsim/" for EDA simulation tool
+Info: Parallel compilation was enabled and used up to 1 processor(s) on your system out of a possible 2 processor(s) allowed
+    Info: 100% of process time was spent using 1 processor
+Info: Quartus II EDA Netlist Writer was successful. 0 errors, 0 warnings
+    Info: Allocated 341 megabytes of memory during processing
+    Info: Processing ended: Tue Dec 07 00:20:46 2010
+    Info: Elapsed time: 00:01:03
+
+
