@@ -1,0 +1,8 @@
+[Device]
+Family = ;
+PartNumber = xc2vp30-7ff896;
+Package = ;
+PartType = xc2vp30;
+Speed = -7;
+Operating_condition = COM;
+Status = Production;

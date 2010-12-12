@@ -1,0 +1,1 @@
+grlib altera altera_mf stratixii dw02 synplify techmap opencores gaisler esa cypress micron work 

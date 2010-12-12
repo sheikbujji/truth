@@ -1,0 +1,219 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+Pcomponents
+Z1 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
+Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
+Z3 w1289246238
+Z4 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
+FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
+l0
+L25
+VCMD8<d]Jm9_CKI5[]C:[e0
+Z5 OP;C;6.6d;45
+31
+Z6 Mx2 4 ieee 14 std_logic_1164
+Z7 Mx1 3 std 6 textio
+Z8 !s102 -cover s
+Z9 o-work micron -93 -source -nowarn 1 -nowarn 5 -cover s -O0
+Z10 tShow_source 1 Show_Warning1 0 Show_Warning5 0 Explicit 1 Quiet 1
+!s100 oKEFOo^f[SG`b@;CgIR^[1
+vddr2
+I@55Ub8Q:jlC_8M@=V9TVW2
+VZ8P_UhA?MCoF67^OBWZef0
+R4
+Z11 w1289245984
+8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/ddr2.v
+FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/ddr2.v
+L0 114
+Z12 OP;L;6.6d;45
+r1
+31
+Z13 !s102 -nocovercells
+Z14 o-work micron -nocovercells -O0
+Z15 tQuiet 1
+!s100 Id=g8P?3DWUF@H1`VJ8D]0
+!s85 0
+!s101 -O0
+vmobile_ddr
+IT274PZ1JJkAlBRTO6bDEE2
+VS8ITDZ2fc=i[:H]4SPVZT2
+R4
+R11
+8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mobile_ddr.v
+FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mobile_ddr.v
+L0 73
+R12
+r1
+31
+R13
+R14
+R15
+!s100 ^0Q;ASC;FVGZgUIXCi4c=1
+!s85 0
+!s101 -O0
+vmobile_sdr
+IPl=ao]IjhRUFo@>3QWEWz3
+VAG67JFI<Z853_@aU_42zg1
+R4
+R11
+8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mobile_sdr.v
+FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mobile_sdr.v
+L0 70
+R12
+r1
+31
+R13
+R14
+R15
+!s100 M4PI1WjkzQOSnimdU;;162
+!s85 0
+!s101 -O0
+Emt46v16m16
+R3
+Z16 DPx5 grlib 6 config 0 22 E<an4ETQj][?kfg<5^V9A0
+Z17 DPx5 grlib 4 amba 0 22 SmIzT0180]m<MF]1jBZZK0
+Z18 DPx5 grlib 5 stdio 0 22 Pm=kb]]83HWi]OK`48f0o1
+Z19 DPx7 gaisler 3 sim 0 22 =CNPK54:?XNzbzMjm1WQj0
+Z20 DPx5 grlib 7 version 0 22 oWH0]24BSeVP91zL[>DRI3
+Z21 DPx5 grlib 6 stdlib 0 22 d9;dAZX3@oD^:0>AmFEje2
+R1
+Z22 DPx4 work 7 mti_pkg 0 22 N2C6W8a=4ZFdoEZl]7I]n2
+Z23 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
+R2
+R4
+Z24 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
+Z25 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
+l0
+L53
+VzgT_a`VD>nj[ezWWTj99P2
+!s100 mcC<`GNRjXQI;:iTTOJfD0
+R5
+31
+R8
+R9
+R10
+Abehave
+R16
+R17
+R18
+R19
+R20
+R21
+R1
+R22
+R23
+R2
+Z26 DEx4 work 10 mt46v16m16 0 22 zgT_a`VD>nj[ezWWTj99P2
+l149
+L94
+Z27 V?hH8]4Yn@2mX?WXJo2Q`E1
+Z28 !s100 ^D=dl`6YdaABTY<4Sz[6P0
+R5
+31
+Z29 Mx10 4 ieee 14 std_logic_1164
+Z30 Mx9 4 ieee 11 numeric_std
+Z31 Mx8 4 work 7 mti_pkg
+Z32 Mx7 3 std 6 textio
+Z33 Mx6 5 grlib 6 stdlib
+Z34 Mx5 5 grlib 7 version
+Z35 Mx4 7 gaisler 3 sim
+Z36 Mx3 5 grlib 5 stdio
+Z37 Mx2 5 grlib 4 amba
+Z38 Mx1 5 grlib 6 config
+R8
+R9
+R10
+Emt48lc16m16a2
+R3
+R16
+R17
+R18
+R19
+R20
+R23
+R21
+R22
+R2
+R1
+R4
+Z39 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mt48lc16m16a2.vhd
+Z40 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mt48lc16m16a2.vhd
+l0
+L206
+VM66RAUlIK7ZjoAf_n2lXK0
+R5
+31
+R8
+R9
+R10
+!s100 PkfC>1YBhCm00Ie>5mE@L0
+Abehave
+R16
+R17
+R18
+R19
+R20
+R23
+R21
+R22
+R2
+R1
+DEx4 work 13 mt48lc16m16a2 0 22 M66RAUlIK7ZjoAf_n2lXK0
+l279
+L253
+V3i3J?4T05eGQn<iT?PH@Y3
+R5
+31
+Z41 Mx10 3 std 6 textio
+Z42 Mx9 4 ieee 14 std_logic_1164
+R31
+Z43 Mx7 5 grlib 6 stdlib
+Z44 Mx6 4 ieee 11 numeric_std
+R34
+R35
+R36
+R37
+R38
+R8
+R9
+R10
+!s100 [BG?j9ID7l:OVmFl@=z1l3
+Pmti_pkg
+R1
+R2
+R3
+R4
+R39
+R40
+l0
+L17
+VN2C6W8a=4ZFdoEZl]7I]n2
+R5
+31
+b1
+R6
+R7
+R8
+R9
+R10
+!s100 <[ZI:EznDCUGjf;<RfcU]2
+Bbody
+DBx4 work 7 mti_pkg 0 22 N2C6W8a=4ZFdoEZl]7I]n2
+R1
+R2
+l0
+L28
+V7<_mH;<5LhL@B7cMcGO_o2
+R5
+31
+R6
+R7
+R8
+R9
+R10
+nbody
+!s100 23?P[_?T]kl47?@a2_NN70

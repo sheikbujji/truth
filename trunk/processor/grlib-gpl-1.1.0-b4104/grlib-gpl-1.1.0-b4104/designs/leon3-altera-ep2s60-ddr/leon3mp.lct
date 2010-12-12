@@ -1,0 +1,8 @@
+[Device]
+Family = ;
+PartNumber = EP2S60-3FC672;
+Package = ;
+PartType = EP2S60;
+Speed = -3;
+Operating_condition = COM;
+Status = Production;
