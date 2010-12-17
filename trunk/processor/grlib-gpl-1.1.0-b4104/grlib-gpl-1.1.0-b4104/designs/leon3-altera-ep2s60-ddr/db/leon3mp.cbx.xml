@@ -23,11 +23,11 @@
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|cachemem:cmem0|syncram:\ime:im0:1:idata0|altera_syncram:\alt:x0|altera_syncram_dp:u0|altsyncram:u0" CBX_FILE_NAME="altsyncram_c7r.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|cachemem:cmem0|syncram_dp:\dme:dtags1:dt1:dt0:0:dtags0|altera_syncram_dp:\alt:x0|altsyncram:u0" CBX_FILE_NAME="altsyncram_o4r.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|altsyncram:Mux1657_rtl_0" CBX_FILE_NAME="altsyncram_4dv.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|altsyncram:Mux1908_rtl_1" CBX_FILE_NAME="altsyncram_jev.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|proc3:p0|mul32:\mgen:mul0|lpm_mult:Mult0" CBX_FILE_NAME="mult_cp01.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|cachemem:cmem0|syncram:\dme:dd0:2:ddata0|altera_syncram:\alt:x0|altera_syncram_dp:u0|altsyncram:u0" CBX_FILE_NAME="altsyncram_a7r.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|cachemem:cmem0|syncram:\ime:im0:2:idata0|altera_syncram:\alt:x0|altera_syncram_dp:u0|altsyncram:u0" CBX_FILE_NAME="altsyncram_c7r.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|cachemem:cmem0|syncram_dp:\dme:dtags1:dt1:dt0:1:dtags0|altera_syncram_dp:\alt:x0|altsyncram:u0" CBX_FILE_NAME="altsyncram_o4r.tdf"/>
-		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|altsyncram:Mux1909_rtl_1" CBX_FILE_NAME="altsyncram_jev.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|proc3:p0|mmu_cache:c0mmu|mmu:\mmugen:m0|mmutlb:\tlbsplit0:dtlb0|syncram:dataram|altera_syncram:\alt:x0|altera_syncram_dp:u0|altsyncram:u0" CBX_FILE_NAME="altsyncram_a4r.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|leon3s:\l3:cpu:0:u0|tbufmem:\tbmem_gen:tbmem0|syncram64:\mem0:0:ram0|syncram:\nos64:x0|altera_syncram:\alt:x0|altera_syncram_dp:u0|altsyncram:u0" CBX_FILE_NAME="altsyncram_m4r.tdf"/>
 		<CBX_INST_ENTRY INSTANCE_NAME="|leon3mp|apbctrl:apb0|altsyncram:Mux75_rtl_2" CBX_FILE_NAME="altsyncram_5dv.tdf"/>

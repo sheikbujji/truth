@@ -1,14 +1,14 @@
-Fitter Status : Successful - Tue Dec 07 00:17:33 2010
+Fitter Status : Successful - Tue Dec 14 15:45:53 2010
 Quartus II Version : 7.1 Build 156 04/30/2007 SJ Full Version
 Revision Name : leon3mp
 Top-level Entity Name : leon3mp
 Family : Stratix II
 Device : EP2S60F672C3
 Timing Models : Final
-Logic utilization : 32 %
-    Combinational ALUTs : 12,806 / 48,352 ( 26 % )
-    Dedicated logic registers : 8,013 / 48,352 ( 17 % )
-Total registers : 8207
+Logic utilization : 35 %
+    Combinational ALUTs : 14,010 / 48,352 ( 29 % )
+    Dedicated logic registers : 8,406 / 48,352 ( 17 % )
+Total registers : 8600
 Total pins : 264 / 493 ( 54 % )
 Total virtual pins : 0
 Total block memory bits : 516,800 / 2,544,192 ( 20 % )

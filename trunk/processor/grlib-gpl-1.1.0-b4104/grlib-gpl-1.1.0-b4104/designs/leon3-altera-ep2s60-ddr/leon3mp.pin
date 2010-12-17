@@ -144,7 +144,7 @@ eth_aen                      : AB25      : output : 3.3-V LVTTL       :         
 RESERVED_INPUT               : AB26      :        :                   :         : 1         :                
 VCCIO6                       : AC1       : power  :                   : 3.3V    : 6         :                
 RESERVED_INPUT               : AC2       :        :                   :         : 6         :                
-RESERVED_INPUT               : AC3       :        :                   :         : 6         :                
+ata_dmarq                    : AC3       : input  : 3.3-V LVTTL       :         : 6         : N              
 VREFB6                       : AC4       : power  :                   :         : 6         :                
 VREFB7                       : AC5       : power  :                   :         : 7         :                
 RESERVED_INPUT               : AC6       :        :                   :         : 7         :                
@@ -641,7 +641,7 @@ gpio[13]                     : U4        : bidir  : 3.3-V LVTTL       :         
 RESERVED_INPUT               : U5        :        :                   :         : 6         :                
 RESERVED_INPUT               : U6        :        :                   :         : 6         :                
 RESERVED_INPUT               : U7        :        :                   :         : 6         :                
-ata_dmarq                    : U8        : input  : 3.3-V LVTTL       :         : 6         : N              
+RESERVED_INPUT               : U8        :        :                   :         : 6         :                
 GND                          : U9        : gnd    :                   :         :           :                
 VCCINT                       : U10       : power  :                   : 1.2V    :           :                
 GND                          : U11       : gnd    :                   :         :           :                

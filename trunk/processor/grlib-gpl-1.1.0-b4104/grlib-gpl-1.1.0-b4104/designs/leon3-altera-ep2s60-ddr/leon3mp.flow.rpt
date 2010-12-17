@@ -1,5 +1,5 @@
 Flow report for leon3mp
-Tue Dec 07 00:20:44 2010
+Tue Dec 14 15:50:47 2010
 Quartus II Version 7.1 Build 156 04/30/2007 SJ Full Version
 
 
@@ -37,7 +37,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------+
 ; Flow Summary                                                             ;
 +-------------------------------+------------------------------------------+
-; Flow Status                   ; Successful - Tue Dec 07 00:20:44 2010    ;
+; Flow Status                   ; Successful - Tue Dec 14 15:50:47 2010    ;
 ; Quartus II Version            ; 7.1 Build 156 04/30/2007 SJ Full Version ;
 ; Revision Name                 ; leon3mp                                  ;
 ; Top-level Entity Name         ; leon3mp                                  ;
@@ -45,10 +45,10 @@ applicable agreement for further details.
 ; Device                        ; EP2S60F672C3                             ;
 ; Timing Models                 ; Final                                    ;
 ; Met timing requirements       ; Yes                                      ;
-; Logic utilization             ; 32 %                                     ;
-;     Combinational ALUTs       ; 12,806 / 48,352 ( 26 % )                 ;
-;     Dedicated logic registers ; 8,013 / 48,352 ( 17 % )                  ;
-; Total registers               ; 8207                                     ;
+; Logic utilization             ; 35 %                                     ;
+;     Combinational ALUTs       ; 14,010 / 48,352 ( 29 % )                 ;
+;     Dedicated logic registers ; 8,406 / 48,352 ( 17 % )                  ;
+; Total registers               ; 8600                                     ;
 ; Total pins                    ; 264 / 493 ( 54 % )                       ;
 ; Total virtual pins            ; 0                                        ;
 ; Total block memory bits       ; 516,800 / 2,544,192 ( 20 % )             ;
@@ -63,7 +63,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 12/06/2010 23:58:18 ;
+; Start date & time ; 12/14/2010 15:31:12 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; leon3mp             ;
 +-------------------+---------------------+
@@ -92,12 +92,12 @@ applicable agreement for further details.
 +-------------------------+--------------+
 ; Module Name             ; Elapsed Time ;
 +-------------------------+--------------+
-; Analysis & Synthesis    ; 00:12:17     ;
-; Fitter                  ; 00:06:45     ;
+; Analysis & Synthesis    ; 00:07:16     ;
+; Fitter                  ; 00:07:14     ;
 ; Assembler               ; 00:00:31     ;
-; Classic Timing Analyzer ; 00:01:10     ;
-; EDA Netlist Writer      ; 00:01:01     ;
-; Total                   ; 00:21:44     ;
+; Classic Timing Analyzer ; 00:01:08     ;
+; EDA Netlist Writer      ; 00:02:45     ;
+; Total                   ; 00:18:54     ;
 +-------------------------+--------------+
 
 
