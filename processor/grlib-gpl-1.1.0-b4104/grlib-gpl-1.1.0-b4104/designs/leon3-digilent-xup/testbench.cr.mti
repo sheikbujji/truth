@@ -22,29 +22,29 @@
 
 } {} {}} ../../lib/grlib/amba/at/at_ahb_slv_pkg.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/at/at_ahb_slv_pkg.vhd
 
-} {} {}} ../../lib/grlib/sparc/sparc.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/sparc/sparc.vhd
+} {} {}} ../../lib/gaisler/misc/charrom_package.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/charrom_package.vhd
 
 } {} {}} ../../lib/gaisler/arith/mul32.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/arith/mul32.vhd
 
-} {} {}} ../../lib/gaisler/misc/charrom_package.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/charrom_package.vhd
-
-} {} {}} ../../lib/techmap/maps/regfile_3p.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/regfile_3p.vhd
+} {} {}} ../../lib/grlib/sparc/sparc.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/sparc/sparc.vhd
 
 } {} {}} ../../lib/gaisler/misc/apbps2.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/apbps2.vhd
 
+} {} {}} ../../lib/techmap/maps/regfile_3p.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/regfile_3p.vhd
+
 } {} {}} ../../lib/techmap/unisim/sysmon_unisim.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/sysmon_unisim.vhd
-
-} {} {}} ../../lib/micron/sdram/components.vhd {2 {vcom -work micron -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
-###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd(259): end;
-** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd(259): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
-
-} {} {}} ../../lib/grlib/stdlib/stdio.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/stdlib/stdio.vhd
-
-} {} {}} ../../lib/techmap/unisim/ddr_phy_unisim.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_phy_unisim.vhd
 
 } {} {}} ../../lib/gaisler/uart/libdcom.vhd {2 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/uart/libdcom.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/uart/libdcom.vhd(169): end;
 ** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/uart/libdcom.vhd(169): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
+
+} {} {}} ../../lib/techmap/unisim/ddr_phy_unisim.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_phy_unisim.vhd
+
+} {} {}} ../../lib/grlib/stdlib/stdio.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/stdlib/stdio.vhd
+
+} {} {}} ../../lib/micron/sdram/components.vhd {2 {vcom -work micron -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
+###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd(259): end;
+** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd(259): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
 
 } {} {}} ../../lib/gaisler/jtag/jtagtst.vhd {2 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/jtag/jtagtst.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/jtag/jtagtst.vhd(91): end;  
@@ -52,9 +52,9 @@
 
 } {} {}} ../../lib/eth/comp/ethcomp.vhd {1 {vcom -work eth -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/comp/ethcomp.vhd
 
-} {} {}} ../../lib/techmap/maps/syncram64.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram64.vhd
-
 } {} {}} ../../lib/gaisler/uart/ahbuart.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/uart/ahbuart.vhd
+
+} {} {}} ../../lib/techmap/maps/syncram64.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram64.vhd
 
 } {} {}} ../../lib/gaisler/sim/sram.vhd {2 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sram.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sram.vhd(50): end;     
@@ -70,39 +70,39 @@
 
 } {} {}} ../../lib/grlib/amba/defmst.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/defmst.vhd
 
-} {} {}} ../../lib/gaisler/jtag/ahbjtag_bsd.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/jtag/ahbjtag_bsd.vhd
-
 } {} {}} ../../lib/gaisler/misc/ahbram.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/ahbram.vhd
 
-} {} {}} ../../lib/techmap/maps/system_monitor.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/system_monitor.vhd
+} {} {}} ../../lib/gaisler/jtag/ahbjtag_bsd.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/jtag/ahbjtag_bsd.vhd
 
 } {} {}} ../../lib/eth/core/grethc.vhd {1 {vcom -work eth -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/grethc.vhd
 
-} {} {}} ../../lib/grlib/amba/at/at_ahb_mst_pkg.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/at/at_ahb_mst_pkg.vhd
+} {} {}} ../../lib/techmap/maps/system_monitor.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/system_monitor.vhd
 
 } {} {}} ../../lib/techmap/maps/ringosc.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ringosc.vhd
 
+} {} {}} ../../lib/grlib/amba/at/at_ahb_mst_pkg.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/at/at_ahb_mst_pkg.vhd
+
 } {} {}} ../../lib/eth/wrapper/greth_gbit_gen.vhd {1 {vcom -work eth -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gbit_gen.vhd
 
-} {} {}} ../../lib/techmap/inferred/mul_inferred.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/mul_inferred.vhd
+} {} {}} ../../lib/techmap/maps/inpad_ds.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ds.vhd
 
 } {} {}} ../../lib/tech/unisim/ise/unisim_VPKG.vhd {2 {vcom -work unisim -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/tech/unisim/ise/unisim_VPKG.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/tech/unisim/ise/unisim_VPKG.vhd(104): end;
 ** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/tech/unisim/ise/unisim_VPKG.vhd(104): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
 
-} {} {}} ../../lib/techmap/maps/inpad_ds.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ds.vhd
+} {} {}} ../../lib/techmap/inferred/mul_inferred.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/mul_inferred.vhd
 
 } {} {}} ../../lib/gaisler/jtag/ahbjtag.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/jtag/ahbjtag.vhd
 
 } {} {}} ../../lib/techmap/maps/inpad_ddr.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ddr.vhd
 
-} {} {}} ../../lib/work/debug/debug.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/debug.vhd
-
 } {} {}} ../../lib/grlib/stdlib/testlib.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/stdlib/testlib.vhd
 
-} {} {}} ../../lib/gaisler/ddr/ddr_phy.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddr_phy.vhd
+} {} {}} ../../lib/work/debug/debug.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/work/debug/debug.vhd
 
 } {} {}} ../../lib/techmap/unisim/pads_unisim.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/pads_unisim.vhd
+
+} {} {}} ../../lib/gaisler/ddr/ddr_phy.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddr_phy.vhd
 
 } {} {}} ../../lib/techmap/maps/outpad_ds.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ds.vhd
 
@@ -138,8 +138,6 @@
 
 } {} {}} ../../lib/techmap/maps/iopad.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad.vhd
 
-} {} {}} ../../lib/gaisler/leon3/iu3.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/iu3.vhd
-
 } {} {}} ../../lib/techmap/maps/ddr_oreg.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_oreg.vhd
 
 } {} {}} ../../lib/techmap/maps/iopad_ddr.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ddr.vhd
@@ -147,10 +145,6 @@
 } {} {}} ../../lib/gaisler/sim/ahbrep.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/ahbrep.vhd
 
 } {} {}} ../../lib/tech/unisim/ise/unisim_VCOMP.vhd {1 {vcom -work unisim -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/tech/unisim/ise/unisim_VCOMP.vhd
-
-} {} {}} F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip_dc.vhd {2 {vcom -work gaisler -93 -explicit -quiet -source -nowarn 1 -nowarn 5 F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip_dc.vhd
-###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip_dc.vhd(116):           if r.reg_value /= i.fpc then
-** Warning: F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip_dc.vhd(116): (vcom-1083) Implicit array operator "/=" always returns TRUE (left length 32 is not equal to right length 30).
 
 } {} {}} ../../lib/gaisler/memctrl/srctrl.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/memctrl/srctrl.vhd
 
@@ -233,8 +227,6 @@
 } {} {}} ../../lib/techmap/maps/syncfifo.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncfifo.vhd
 
 } {} {}} ../../lib/gaisler/sim/delay_wire.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/delay_wire.vhd
-
-} {} {}} F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip.vhd {1 {vcom -work gaisler -93 -explicit -quiet -source -nowarn 1 -nowarn 5 F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/ftasip.vhd
 
 } {} {}} ../../lib/gaisler/leon3/proc3.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/proc3.vhd
 
@@ -416,93 +408,97 @@
 
 } {} {}} ../../lib/techmap/unisim/ddr_unisim.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_unisim.vhd
 
-} {} {}} ../../lib/gaisler/misc/i2cmst_gen.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/i2cmst_gen.vhd
-
 } {} {}} ../../lib/gaisler/leon3/grfpushwx.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/grfpushwx.vhd
+
+} {} {}} ../../lib/gaisler/misc/i2cmst_gen.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/i2cmst_gen.vhd
 
 } {} {}} ../../lib/grlib/amba/at/at_util.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/at/at_util.vhd
 
-} {} {}} ../../lib/techmap/inferred/ddr_inferred.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_inferred.vhd
-
 } {} {}} ../../lib/gaisler/leon3/grfpwxsh.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/grfpwxsh.vhd
+
+} {} {}} ../../lib/techmap/inferred/ddr_inferred.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_inferred.vhd
 
 } {} {}} ../../lib/grlib/amba/at/at_pkg.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/at/at_pkg.vhd
 
 } {} {}} ../../lib/gaisler/sim/ata_device.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/ata_device.vhd
 
-} {} {}} ../../lib/gaisler/ddr/ddrspa.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddrspa.vhd
+} {} {}} ../../lib/gaisler/misc/charrom.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/charrom.vhd
 
 } {} {}} ../../lib/grlib/amba/at/at_ahbs.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/at/at_ahbs.vhd
 
-} {} {}} ../../lib/gaisler/misc/charrom.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/charrom.vhd
+} {} {}} ../../lib/gaisler/ddr/ddrspa.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddrspa.vhd
 
 } {} {}} ../../lib/techmap/maps/tap.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/tap.vhd
-
-} {} {}} ../../lib/gaisler/memctrl/sdctrl64.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/memctrl/sdctrl64.vhd
-
-} {} {}} ../../lib/gaisler/memctrl/spimctrl.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/memctrl/spimctrl.vhd
 
 } {} {}} ../../lib/gaisler/sim/sim.vhd {2 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sim.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sim.vhd(350): end;
 ** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sim.vhd(350): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
 
-} {} {}} ../../lib/techmap/maps/allmem.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allmem.vhd
+} {} {}} ../../lib/gaisler/memctrl/spimctrl.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/memctrl/spimctrl.vhd
+
+} {} {}} ../../lib/gaisler/memctrl/sdctrl64.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/memctrl/sdctrl64.vhd
 
 } {} {}} ../../lib/techmap/maps/syncram128.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128.vhd
 
-} {} {}} config.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/config.vhd
-
-} {} {}} ../../lib/gaisler/ddr/ddrsp32a.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddrsp32a.vhd
+} {} {}} ../../lib/techmap/maps/allmem.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allmem.vhd
 
 } {} {}} ../../lib/grlib/sparc/cpu_disas.vhd {2 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/sparc/cpu_disas.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/sparc/cpu_disas.vhd(50): end;
 ** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/sparc/cpu_disas.vhd(50): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
 
-} {} {}} ../../lib/techmap/maps/allddr.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allddr.vhd
+} {} {}} ../../lib/gaisler/ddr/ddrsp32a.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddrsp32a.vhd
+
+} {} {}} config.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/config.vhd
 
 } {} {}} ../../lib/techmap/maps/ddrphy.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddrphy.vhd
 
-} {} {}} ahbrom.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/ahbrom.vhd
+} {} {}} ../../lib/techmap/maps/allddr.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allddr.vhd
 
-} {} {}} ../../lib/techmap/maps/allclkgen.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allclkgen.vhd
+} {} {}} ahbrom.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/ahbrom.vhd
 
 } {} {}} ../../lib/gaisler/misc/wild2ahb.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/wild2ahb.vhd
 
-} {} {}} ../../lib/gaisler/ddr/ddr2spa.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddr2spa.vhd
+} {} {}} ../../lib/techmap/maps/allclkgen.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allclkgen.vhd
 
-} {} {}} leon3mp.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/leon3mp.vhd
+} {} {}} ../../lib/gaisler/ddr/ddr2spa.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/ddr/ddr2spa.vhd
 
 } {} {}} ../../lib/techmap/maps/cpu_disas_net.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/cpu_disas_net.vhd
 
+} {} {}} leon3mp.vhd {1 {vcom -work work -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/designs/leon3-digilent-xup/leon3mp.vhd
+
 } {} {}} ../../lib/eth/core/greth_pkg.vhd {1 {vcom -work eth -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_pkg.vhd
 
+} {} {}} F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/truth/bard/bard_dc.vhd {2 {vcom -work truth -93 -explicit -quiet -source -nowarn 1 -nowarn 5 {F:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\lib\truth\bard\bard_dc.vhd}
+###### F:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\lib\truth\bard\bard_dc.vhd(122):           if r.reg_value /= i.fpc then
+** Warning: F:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\lib\truth\bard\bard_dc.vhd(122): (vcom-1083) Implicit array operator "/=" always returns TRUE (left length 32 is not equal to right length 30).
+
 } {} {}} ../../lib/grlib/amba/dma2ahb.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/dma2ahb.vhd
+
+} {} {}} ../../lib/grlib/amba/dma2ahb_pkg.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/dma2ahb_pkg.vhd
 
 } {} {}} ../../lib/gaisler/sim/phy.vhd {2 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/phy.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/phy.vhd(68): end;
 ** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/phy.vhd(68): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
 
-} {} {}} ../../lib/grlib/amba/dma2ahb_pkg.vhd {1 {vcom -work grlib -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/grlib/amba/dma2ahb_pkg.vhd
+} {} {}} ../../lib/gaisler/misc/ahbdpram.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/ahbdpram.vhd
 
 } {} {}} ../../lib/gaisler/sim/sram16.vhd {2 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sram16.vhd
 ###### F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sram16.vhd(52): end;     
 ** Warning: [13] F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/sim/sram16.vhd(52): (vcom-2051) synthesis_off/translate_off is still in effect at the end of design-unit.
 
-} {} {}} ../../lib/gaisler/misc/ahbdpram.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/ahbdpram.vhd
+} {} {}} ../../lib/techmap/gencomp/gencomp.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/gencomp.vhd
 
 } {} {}} ../../lib/techmap/unisim/memory_unisim.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/memory_unisim.vhd
 
-} {} {}} ../../lib/techmap/gencomp/gencomp.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/gencomp.vhd
-
 } {} {}} ../../lib/gaisler/misc/grsysmon.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/misc/grsysmon.vhd
-
-} {} {}} ../../lib/micron/ddr/mt46v16m16.vhd {1 {vcom -work micron -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
 
 } {} {}} ../../lib/gaisler/leon3/libmmu.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/libmmu.vhd
 
-} {} {}} ../../lib/techmap/maps/clkgen.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkgen.vhd
+} {} {}} ../../lib/micron/ddr/mt46v16m16.vhd {1 {vcom -work micron -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
 
 } {} {}} ../../lib/gaisler/leon3/mmuiface.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/mmuiface.vhd
+
+} {} {}} ../../lib/techmap/maps/clkgen.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkgen.vhd
 
 } {} {}} ../../lib/techmap/maps/clkand.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkand.vhd
 
@@ -510,8 +506,8 @@
 
 } {} {}} ../../lib/gaisler/leon3/cachemem.vhd {1 {vcom -work gaisler -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/gaisler/leon3/cachemem.vhd
 
-} {} {}} ../../lib/synplify/sim/synattr.vhd {1 {vcom -work synplify -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/synplify/sim/synattr.vhd
-
 } {} {}} ../../lib/techmap/maps/syncram128bw.vhd {1 {vcom -work techmap -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128bw.vhd
+
+} {} {}} ../../lib/synplify/sim/synattr.vhd {1 {vcom -work synplify -93 -source -nowarn 1 -nowarn 5 -cover s F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/synplify/sim/synattr.vhd
 
 } {} {}}
