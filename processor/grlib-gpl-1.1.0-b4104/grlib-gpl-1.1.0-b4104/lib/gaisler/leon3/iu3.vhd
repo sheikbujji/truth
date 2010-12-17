@@ -35,7 +35,8 @@ library gaisler;
 use gaisler.leon3.all;
 use gaisler.libiu.all;
 use gaisler.arith.all;
-use gaisler.ftasip.all;
+library truth;
+use truth.bard.all;
 
 -- pragma translate_off
 use grlib.sparc_disas.all;
@@ -152,8 +153,8 @@ architecture rtl of iu3 is
     ld    : std_ulogic;
     pv    : std_ulogic;
     rett  : std_ulogic;
-    -- EDIT(ft-asip)
-    ftasip_ctrl_mux_alu_op1: std_ulogic;
+    -- EDIT(bard)
+    bard_ctrl_mux_alu_op1: std_ulogic;
     -- done
   end record;
   
@@ -342,9 +343,16 @@ architecture rtl of iu3 is
 
   type watchpoint_registers is array (0 to 3) of watchpoint_register;
 
-  -- EDIT(ftasip)
-  signal ftasip_dci: ftasip_dc_in_type;
-  signal ftasip_dco: ftasip_dc_out_type;
+  -- EDIT(bard)
+  signal bard_dci: bard_dc_in_type;
+  signal bard_dco1: bard_dc_out_type;
+  signal bard_dco2: bard_dc_out_type;
+  signal bard_dco3: bard_dc_out_type;
+  signal bard_dco4: bard_dc_out_type;
+  signal bard_dco: bard_dc_out_type;
+
+  signal bard_aci: bard_ac_in_type;
+  signal bard_aco: bard_ac_out_type;
   -- DOne
 
   constant wpr_none : watchpoint_register := (
@@ -360,7 +368,7 @@ architecture rtl of iu3 is
           (dbgi.btrapa = '1') or
           ((dbgi.btrape = '1') and not ((tt(5 downto 0) = TT_PRIV) or 
       (tt(5 downto 0) = TT_FPDIS) or (tt(5 downto 0) = TT_WINOF) or
-        -- EDIT(fpasip)        
+        -- EDIT(bard)
         (tt(5 downto 0) = TT_FTASIP) or
         -- DONE
             (tt(5 downto 0) = TT_WINUF) or (tt(5 downto 4) = "01") or (tt(7) = '1'))) or 
@@ -371,7 +379,7 @@ architecture rtl of iu3 is
     end if;
     return(dmode);
   end;
-                    
+
   function dbgerr(r : registers; dbgi : l3_debug_in_type;
                   tt : std_logic_vector(7 downto 0))
   return std_ulogic is
@@ -982,13 +990,17 @@ begin
       when FPOP1 | FPOP2 => 
   if FPEN then fp_disabled := not r.w.s.ef; fpop := '1';
   else fp_disabled := '1'; fpop := '0'; end if;
--- EDIT(yim): CE Instruction
+-- EDIT(bard): CE Instruction
+  when CPOP1 | CPOP2 => null;
+  
+----	if (not CPEN) or (r.w.s.ec = '0') then cp_disabled := '1'; end if;      when CPOP1 => cp_disabled := '0';
+--      when CPOP1 => null;
+----  if (not CPEN) or (r.w.s.ec = '0') then cp_disabled := '0'; end if;
+--      when CPOP2 =>
+--  if (not CPEN) or (r.w.s.ec = '0') then cp_disabled := '1'; end if;
+
 --      when CPOP1 | CPOP2 =>
---	if (not CPEN) or (r.w.s.ec = '0') then cp_disabled := '1'; end if;      when CPOP1 => cp_disabled := '0';
-      when CPOP1 => null;
---  if (not CPEN) or (r.w.s.ec = '0') then cp_disabled := '0'; end if;
-      when CPOP2 =>
-  if (not CPEN) or (r.w.s.ec = '0') then cp_disabled := '1'; end if;
+--  if (not CPEN) or (r.w.s.ec = '0') then cp_disabled := '1'; end if;
 
       when others => illegal_inst := '1';
       end case;
@@ -1030,13 +1042,16 @@ begin
     elsif privileged_inst = '1' then tt := TT_PRIV; 
     elsif illegal_inst = '1' then tt := TT_IINST;
     elsif fp_disabled = '1' then tt := TT_FPDIS;
+-- EDIT(bard) when disabled CP was working (like below)
 --    elsif cp_disabled = '1' then trap := '0'; --tt := TT_CPDIS;
+    elsif cp_disabled = '1' then trap := '0'; tt := TT_CPDIS;
+--
     elsif wph = '1' then tt := TT_WATCH;
     elsif r.a.wovf= '1' then tt := TT_WINOF;
     elsif r.a.wunf= '1' then tt := TT_WINUF;
     elsif r.a.ticc= '1' then tt := TT_TICC;
-    -- EDIT(ftasip)
-    elsif ftasip_dco.error = '1' then tt := TT_FTASIP;
+    -- EDIT(bard)
+    elsif bard_dco.error = '1' then tt := TT_FTASIP;
     -- DONE
     else trap := '0'; tt:= (others => '0'); end if;
   end if;
@@ -1655,8 +1670,12 @@ end;
       when ISRL => aluop := EXE_SRL; alusel := EXE_RES_SHIFT; 
       when ISRA => aluop := EXE_SRA; alusel := EXE_RES_SHIFT; sari := iop1(31);
       when FPOP1 | FPOP2 =>
-      -- EDIT(ft-asip)
+      -- EDIT(bard)
 --      when CPOP1 =>
+--        if r.a.ctrl.inst(11 downto 8) = "0000" then
+--          alusel := EXE_RES_ADD;
+--        end if;
+--      when CPOP1 => -- enabled if the AC instruction uses ALU?
 --        if r.a.ctrl.inst(11 downto 8) = "0000" then
 --          alusel := EXE_RES_ADD;
 --        end if;
@@ -2771,7 +2790,7 @@ begin
     exception_detect(r, wpr, dbgi, v.e.ctrl.trap, v.e.ctrl.tt);
     
     -- EDIT(yim): a mux between RF and ALU to forward PC when DC instruction is executing.
-    if ftasip_dco.error = '1' then
+    if bard_dco.error = '1' then
         v.e.ctrl.trap := '1';
         v.e.ctrl.tt := TT_FTASIP;
     end if;
@@ -2977,34 +2996,43 @@ begin
 
 -----------------------------------------------------------------------
 
+      bard_dci.inst <= r.a.ctrl.inst;
+      bard_dci.pc <= r.a.ctrl.pc;
+      bard_dci.value <= ra_op1;
 
-      ftasip_dci.inst <= r.a.ctrl.inst;
-      ftasip_dci.pc <= r.a.ctrl.pc;
-      ftasip_dci.value <= ra_op1;
+      bard_dci.fpc <= r.f.pc;
+      bard_dci.dpc <= r.d.pc;
+      bard_dci.dinst <= r.d.inst(0);
+      bard_dci.apc <= r.a.ctrl.pc;
+      bard_dci.asr1 <= ra_op1;
+      bard_dci.asr2 <= ra_op2;
 
-      ftasip_dci.fpc <= r.f.pc;
-      ftasip_dci.dpc <= r.d.pc;
-      ftasip_dci.dinst <= r.d.inst(0);
-      ftasip_dci.apc <= r.a.ctrl.pc;
-      ftasip_dci.asr1 <= ra_op1;
-      ftasip_dci.asr2 <= ra_op2;
+      bard_dci.epc <= r.e.ctrl.pc;
+      bard_dci.ealuo <= ex_result;      
 
-      ftasip_dci.epc <= r.e.ctrl.pc;
-      ftasip_dci.ealuo <= ex_result;      
-
-      ftasip_dci.mpc <= r.m.ctrl.pc;
-      ftasip_dci.maddr <= r.m.result; --ex_add_res(32 downto 1);
-      ftasip_dci.mdataw <= r.m.result;
-      ftasip_dci.mdatar <= dco.data(0);
+      bard_dci.mpc <= r.m.ctrl.pc;
+      bard_dci.maddr <= r.m.result; --ex_add_res(32 downto 1);
+      bard_dci.mdataw <= r.m.result;
+      bard_dci.mdatar <= dco.data(0);
 --subtype cword is std_logic_vector(IDBITS-1 downto 0);
 --type cdatatype is array (0 to 3) of cword;
 
 --      wpc : pctype;
 --      wdr : std_logic_vector(31 downto 0);
       
-      ftasip_dci.xc_exception <= xc_exception;
-      ftasip_dci.xc_trap_address <= xc_trap_address;
+      bard_dci.xc_exception <= xc_exception;
+      bard_dci.xc_trap_address <= xc_trap_address;
     --
+
+
+      -- AC instruction
+      
+      bard_aci.inst <= r.a.ctrl.inst;
+      bard_aci.pc <= r.a.ctrl.pc;
+      bard_aci.sr1 <= ra_op1;
+
+      -- writes the output back to rfo
+      -- ### <= bard_dco.dr when bard_dco.enable = '1';
 
 -----------------------------------------------------------------------
 
@@ -3207,14 +3235,16 @@ begin
   r.x.ctrl.pv, r.x.ctrl.trap, disasen);
   end generate;
 
-  -- EDIT(ftasip)
-  ftasip_dc0: ftasip_dc 
-    generic map (PCLOW, 0)
-    port map(
-        rstn,
-        clk,
-        ftasip_dci,
-        ftasip_dco);
+  -- EDIT(bard)
+  bard_dc0: bard_dc generic map (PCLOW, 0) port map(rstn, clk, bard_dci, bard_dco1);
+  bard_dc1: bard_dc generic map (PCLOW, 1) port map(rstn, clk, bard_dci, bard_dco2);
+  bard_dc2: bard_dc generic map (PCLOW, 2) port map(rstn, clk, bard_dci, bard_dco3);
+  bard_dc3: bard_dc generic map (PCLOW, 3) port map(rstn, clk, bard_dci, bard_dco4);
+
+  bard_dco.error <= bard_dco1.error or bard_dco2.error or bard_dco3.error or bard_dco4.error;
+
+
+  bard_ac0: bard_ac generic map (PCLOW) port map(rstn, clk, bard_aci, bard_aco);
   -- done
 
 end;
