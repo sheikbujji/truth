@@ -1,34 +1,35 @@
 #summary Setup for development environment
 
-0. Environment
+ This document describes the procedure of setting up a development environment for the Truth Framework. Here, we use two PC machines: one is an x86 machine running Linux OS, and the other is an x86 machine running Windows and Cygwin. In addition, an FPGA board (Altera ep2s60-ddr) is used as a target development board (Note that this Altera board is selected thanks to its fast synthesis time, ~20min).
 
-Windows + Cygwin
+1. Processor 
 
-Hardware altera-ep2s60-ddr (fast synthesis)
+- Downloads Leon3 from the Gaisler website (used version: grlib-gpl-1.1.0-b4102)
+- Configures Leon3:
 
-1. Download Leon3
+  $ cd designs/leon3-altera-ep2s60-ddr
+  $ make config
 
-Used version: grlib-gpl-1.1.0-b4102
+- Opens created Quartus project (filename: leon3mp.qpf)
+  then synthesizes, implements, and generates program file
+  to generate an FPGA program image file 
 
-2. Configure Leon3
+- Behavioral simulation setup using the file under designs/leon3-digilient-xup instead of one for altera for simulation
 
-cd designs/leon3-altera-ep2s60-ddr
-make config
+  $ make vsim (to generate testbench.mpf)
+  $ make soft (to build ROM and RAM images)
+  $ make ahbrom (to generate the AHBROM.vhd file)
 
-3. Open created quartus project
+2. Cross-Compiler
 
-filename: leon3mp.qpf
-
-synthesize, implement, generate program file
+2.1. LLVM
 
 
-* Simulation Setup
 
-make vsim (to generate testbench.mpf)
+2.2. BCC
 
-make soft (to build ROM and RAM images)
+- There is a prebuilt compiler for SPARC/Leon3 that can be downloaded from the Gaisler website.
 
-we use the file under leon3-digilient-xup instead of one for altera for simulation
 
 
 = Compiler =
