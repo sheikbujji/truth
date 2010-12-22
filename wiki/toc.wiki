@@ -1,6 +1,7 @@
 #sidebar TableOfContents?
 
 * [Learners for learners]
+  * [Setup Getting started]
   * [Processor processor design]
   * [Compiler compiler design]
   * [OS operating system design]
