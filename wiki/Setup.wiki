@@ -37,7 +37,9 @@
 - Download GCC front-end for llvm and unTAR it
 - Configures the GCC front-end
  
- $
+ $ ../llvm-gcc-4.2/configure --prefix=/usr/local --enable-languages=ada,c \
+                          --enable-checking --enable-llvm=$PWD/../llvm-objects \
+			  --disable-bootstrap --disable-multilib
 
 2.2. BCC
 
