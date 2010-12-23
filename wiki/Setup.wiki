@@ -8,6 +8,7 @@
 - Configures Leon3:
 
   $ cd designs/leon3-altera-ep2s60-ddr
+
   $ make config
 
 - Opens created Quartus project (filename: leon3mp.qpf)
@@ -17,14 +18,26 @@
 - Behavioral simulation setup using the file under designs/leon3-digilient-xup instead of one for altera for simulation
 
   $ make vsim (to generate testbench.mpf)
+
   $ make soft (to build ROM and RAM images)
+
   $ make ahbrom (to generate the AHBROM.vhd file)
 
 2. Cross-Compiler
 
 2.1. LLVM
 
+- Download llvm package and unTAR it
+- Configures the llvm package
 
+ $ ../llvm/configure --prefix=<install path> --enable-optimized --enable-assertions
+ $ make
+ $ make install
+
+- Download GCC front-end for llvm and unTAR it
+- Configures the GCC front-end
+ 
+ $
 
 2.2. BCC
 
