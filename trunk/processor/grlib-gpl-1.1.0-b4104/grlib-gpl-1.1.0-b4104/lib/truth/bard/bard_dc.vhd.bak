@@ -13,10 +13,10 @@
 --  along with this program; if not, write to the Free Software
 --  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
 -----------------------------------------------------------------------------
--- Entity: 	compe
--- File:	delayedcheck.vhd
+-- Entity: bard_dc
+-- File:	bard_dc.vhd
 -- Author: Keun Soo Yim	 
--- Description:	Compare and Exception Instr.
+-- Description:	Delayed Checking Instruction in Bard
 ------------------------------------------------------------------------------
 
 library ieee;
@@ -43,8 +43,8 @@ entity bard_dc is
     port (
         rstn : in  std_ulogic;
         clk  : in  std_ulogic;
-        i : in  ftasip_dc_in_type;
-        o : out ftasip_dc_out_type
+        i : in  bard_dc_in_type;
+        o : out bard_dc_out_type
     );
 end;
 
@@ -53,7 +53,7 @@ architecture rtl of bard_dc is
   type dc_type is record
     enable : std_logic;
     reg_ta: pctype;
---    reg_ta_int: integer;
+    reg_ta_cnt: integer;
     reg_st: std_logic_vector(2 downto 0);
     reg_value: std_logic_vector(31 downto 0);
   end record;
@@ -65,31 +65,54 @@ begin
 
   dc_proc: process(r,check,i,i.inst, i.pc, i.value,rstn)
     variable v: dc_type;
-    variable a,b,c: integer;
+    variable a: integer;
   begin
     v := r;
 
     if check = '1' then
       v.enable := '0';
     end if;
-  
+
+    if v.reg_ta_cnt > 0 then
+      v.reg_ta_cnt := v.reg_ta_cnt - 1;
+    end if;
+
     if i.inst(31 downto 30) = "10" and i.inst(24 downto 19) = "110110" and
        i.inst(11 downto 8) = "0000" and
        i.inst(29 downto 28) = std_logic_vector(to_unsigned(id,2)) then
       -- DC instruction
-      
       v.enable := '1';
       a := to_integer(unsigned(i.pc));
-      b := to_integer(unsigned(i.inst(7 downto 0)));
-      v.reg_ta := conv_std_logic_vector(a + b,32-pclow);
+      v.reg_ta_cnt := to_integer(unsigned(i.inst(7 downto 0)));
+      v.reg_ta := conv_std_logic_vector(a + v.reg_ta_cnt, 32-pclow);
       v.reg_st := i.inst(27 downto 25);
       v.reg_value := i.asr1; --i.value; -- = 
       -- 
+    elsif i.inst(31 downto 30) = "10" and i.inst(24 downto 19) = "110111" and
+        i.inst(6 downto 5) /= "00" else
+      -- CEC Instruction
+      v.enable := '1';
+      a := to_integer(unsigned(i.pc));
+      v.reg_ta_cnt := to_integer(unsigned(i.inst(10 downto 7)));
+      v.reg_ta := conv_std_logic_vector(a + v.reg_ta_cnt, 32-pclow);
+      if i.inst(27 downto 25) = "01" then
+        v.reg_st := "101";
+      elsif i.inst(27 downto 25) = "10" then
+        v.reg_st := "110";
+      elsif i.inst(27 downto 25) = "11" then
+        v.reg_st := "000";
+      else
+        v.reg_st := "000";
+        v.enable := '0';
+      end if;
+      v.reg_value := i.asr1; --i.value; -- = 
+      --
     end if;
 
     if rstn = '0' then
       v.enable := '0';
       v.reg_ta := (others => '0');
+      v.reg_ta_cnt := 0;
       v.reg_st := (others => '0');
       v.reg_value := (others => '0');
     end if;
@@ -113,7 +136,7 @@ begin
     if r.enable = '1' then
       if r.reg_st = "000" then
 --        pc shall be a counter
-        if r.reg_ta = i.fpc then
+        if r.reg_ta_cnt = 0 then
           if r.reg_value /= i.fpc then
             temp := '1';
           end if;

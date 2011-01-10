@@ -7,9 +7,9 @@ Pcomponents
 Z1 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
 Z2 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
 Z3 w1289246238
-Z4 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
+Z4 dF:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/components.vhd
 l0
 L25
 VCMD8<d]Jm9_CKI5[]C:[e0
@@ -26,8 +26,8 @@ I@55Ub8Q:jlC_8M@=V9TVW2
 VZ8P_UhA?MCoF67^OBWZef0
 R4
 Z11 w1289245984
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/ddr2.v
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/ddr2.v
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/ddr2.v
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/ddr2.v
 L0 114
 Z12 OP;L;6.6d;45
 r1
@@ -43,8 +43,8 @@ IT274PZ1JJkAlBRTO6bDEE2
 VS8ITDZ2fc=i[:H]4SPVZT2
 R4
 R11
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mobile_ddr.v
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mobile_ddr.v
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mobile_ddr.v
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mobile_ddr.v
 L0 73
 R12
 r1
@@ -60,8 +60,8 @@ IPl=ao]IjhRUFo@>3QWEWz3
 VAG67JFI<Z853_@aU_42zg1
 R4
 R11
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mobile_sdr.v
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mobile_sdr.v
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mobile_sdr.v
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mobile_sdr.v
 L0 70
 R12
 r1
@@ -85,8 +85,8 @@ Z22 DPx4 work 7 mti_pkg 0 22 N2C6W8a=4ZFdoEZl]7I]n2
 Z23 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
 R2
 R4
-Z24 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
-Z25 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
+Z24 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
+Z25 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/ddr/mt46v16m16.vhd
 l0
 L53
 VzgT_a`VD>nj[ezWWTj99P2
@@ -140,8 +140,8 @@ R22
 R2
 R1
 R4
-Z39 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mt48lc16m16a2.vhd
-Z40 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mt48lc16m16a2.vhd
+Z39 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mt48lc16m16a2.vhd
+Z40 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/micron/sdram/mt48lc16m16a2.vhd
 l0
 L206
 VM66RAUlIK7ZjoAf_n2lXK0

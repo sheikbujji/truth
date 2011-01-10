@@ -52,7 +52,7 @@ begin
 
   dc_proc: process(i,rstn)
     variable addto: std_logic_vector(31 downto 0);
-    variable sihftright: integer;
+    variable shiftright: integer;
     variable temp: std_logic_vector(31 downto 0);
   begin
     if i.inst(31 downto 30) = "10" and i.inst(24 downto 19) = "110110" and

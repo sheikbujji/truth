@@ -50,7 +50,7 @@ end;
 architecture rtl of bard_ac is
 begin
 
-  dc_proc: process(i,rstn)
+  ac_proc: process(i,rstn)
     variable addto: std_logic_vector(31 downto 0);
     variable shiftright: integer;
     variable temp: std_logic_vector(31 downto 0);
