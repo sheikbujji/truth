@@ -254,8 +254,6 @@ gaisler
 gaisler
 ..|..|lib|gaisler|leon3|cpu_disasx.vhd
 gaisler
-..|..|lib|gaisler|leon3|iu3.vhd
-gaisler
 ..|..|lib|gaisler|leon3|grfpwx.vhd
 gaisler
 ..|..|lib|gaisler|leon3|mfpwx.vhd
@@ -2999,6 +2997,152 @@ c:|altera|71|quartus|lmf|maxplus2.lmf
 
 # end
 # entity
+iu3
+# storage
+db|leon3mp.(10).cnf
+db|leon3mp.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|lib|gaisler|leon3|iu3_original.vhd
+9bf2fc1469825a3e485a4282e212cdd
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+nwin
+8
+PARAMETER_SIGNED_DEC
+USR
+isets
+4
+PARAMETER_SIGNED_DEC
+USR
+dsets
+4
+PARAMETER_SIGNED_DEC
+USR
+fpu
+0
+PARAMETER_SIGNED_DEC
+USR
+v8
+50
+PARAMETER_SIGNED_DEC
+USR
+cp
+0
+PARAMETER_SIGNED_DEC
+USR
+mac
+0
+PARAMETER_SIGNED_DEC
+USR
+dsu
+1
+PARAMETER_SIGNED_DEC
+USR
+nwp
+2
+PARAMETER_SIGNED_DEC
+USR
+pclow
+2
+PARAMETER_SIGNED_DEC
+USR
+notag
+0
+PARAMETER_SIGNED_DEC
+USR
+index
+0
+PARAMETER_SIGNED_DEC
+USR
+lddel
+1
+PARAMETER_SIGNED_DEC
+USR
+irfwt
+1
+PARAMETER_SIGNED_DEC
+USR
+disas
+0
+PARAMETER_SIGNED_DEC
+USR
+tbuf
+2
+PARAMETER_SIGNED_DEC
+USR
+pwd
+2
+PARAMETER_SIGNED_DEC
+USR
+svt
+1
+PARAMETER_SIGNED_DEC
+USR
+rstaddr
+0
+PARAMETER_SIGNED_DEC
+USR
+smp
+0
+PARAMETER_SIGNED_DEC
+USR
+fabtech
+24
+PARAMETER_SIGNED_DEC
+USR
+clk2x
+0
+PARAMETER_SIGNED_DEC
+USR
+bp
+1
+PARAMETER_SIGNED_DEC
+USR
+}
+# include_file {
+..|..|lib|techmap|gencomp|gencomp.vhd
+81d4e13dca35cfb5bcc7543bb973ce
+..|..|lib|grlib|amba|amba.vhd
+ccffabeb71c29df0e53f5a4c29696133
+..|..|lib|grlib|stdlib|stdlib.vhd
+42c458df53827519c06c35be4378835
+..|..|lib|gaisler|leon3|leon3.vhd
+b49e2665458fbfc61832c3da5d5e46a0
+..|..|lib|gaisler|leon3|mmuconfig.vhd
+ffea0fdb86f2e7bb26e6eaf93f1db
+..|..|lib|gaisler|arith|arith.vhd
+86bbe9ebde13f274874acfaa9c415f
+..|..|lib|gaisler|leon3|libiu.vhd
+f4dbcdc8bfe86cdbd45c342836919a46
+..|..|lib|grlib|stdlib|config.vhd
+f4e69d5d3706b29df8fd076cb161cc0
+..|..|lib|grlib|sparc|sparc.vhd
+fe677231112ed3de6738357e3f3b2c76
+..|..|lib|grlib|stdlib|version.vhd
+2222871de6b2977555762f32b242ce8
+}
+# lmf
+c:|altera|71|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
 mul32
 # storage
 db|leon3mp.(11).cnf
@@ -3391,6 +3535,153 @@ f4e69d5d3706b29df8fd076cb161cc0
 }
 # hierarchies {
 leon3s:\l3:cpu:0:u0|proc3:p0|mmu_cache:c0mmu|mmu_icache:icache0
+}
+# lmf
+c:|altera|71|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+mmu_dcache
+# storage
+db|leon3mp.(15).cnf
+db|leon3mp.(15).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|lib|gaisler|leon3|mmu_dcache.vhd
+c7b192596bddff10c2de62fcee6f14d
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+dsu
+1
+PARAMETER_SIGNED_DEC
+USR
+dcen
+1
+PARAMETER_SIGNED_DEC
+USR
+drepl
+0
+PARAMETER_SIGNED_DEC
+USR
+dsets
+4
+PARAMETER_SIGNED_DEC
+USR
+dlinesize
+4
+PARAMETER_SIGNED_DEC
+USR
+dsetsize
+4
+PARAMETER_SIGNED_DEC
+USR
+dsetlock
+0
+PARAMETER_SIGNED_DEC
+USR
+dsnoop
+1
+PARAMETER_SIGNED_DEC
+USR
+dlram
+0
+PARAMETER_SIGNED_DEC
+USR
+dlramsize
+1
+PARAMETER_SIGNED_DEC
+USR
+dlramstart
+143
+PARAMETER_SIGNED_DEC
+USR
+ilram
+0
+PARAMETER_SIGNED_DEC
+USR
+ilramstart
+142
+PARAMETER_SIGNED_DEC
+USR
+itlbnum
+8
+PARAMETER_SIGNED_DEC
+USR
+dtlbnum
+8
+PARAMETER_SIGNED_DEC
+USR
+tlb_type
+2
+PARAMETER_SIGNED_DEC
+USR
+memtech
+24
+PARAMETER_SIGNED_DEC
+USR
+cached
+0
+PARAMETER_SIGNED_DEC
+USR
+mmupgsz
+0
+PARAMETER_SIGNED_DEC
+USR
+smp
+0
+PARAMETER_SIGNED_DEC
+USR
+mmuen
+1
+PARAMETER_SIGNED_DEC
+USR
+}
+# include_file {
+..|..|lib|techmap|gencomp|gencomp.vhd
+81d4e13dca35cfb5bcc7543bb973ce
+..|..|lib|grlib|amba|amba.vhd
+ccffabeb71c29df0e53f5a4c29696133
+..|..|lib|grlib|stdlib|stdlib.vhd
+42c458df53827519c06c35be4378835
+..|..|lib|gaisler|leon3|leon3.vhd
+b49e2665458fbfc61832c3da5d5e46a0
+..|..|lib|gaisler|leon3|mmuconfig.vhd
+ffea0fdb86f2e7bb26e6eaf93f1db
+..|..|lib|gaisler|leon3|mmuiface.vhd
+fdb7a0ea6482c270cb4e299bb77e4fe9
+..|..|lib|gaisler|leon3|libcache.vhd
+80df16849369dbf9ffeda8b2ea2e76e
+..|..|lib|gaisler|arith|arith.vhd
+86bbe9ebde13f274874acfaa9c415f
+..|..|lib|gaisler|leon3|libiu.vhd
+f4dbcdc8bfe86cdbd45c342836919a46
+..|..|lib|gaisler|leon3|libmmu.vhd
+2daca187be8a7f0e0e3462586b7820
+..|..|lib|grlib|stdlib|config.vhd
+f4e69d5d3706b29df8fd076cb161cc0
+..|..|lib|grlib|sparc|sparc.vhd
+fe677231112ed3de6738357e3f3b2c76
+..|..|lib|grlib|stdlib|version.vhd
+2222871de6b2977555762f32b242ce8
+}
+# hierarchies {
+leon3s:\l3:cpu:0:u0|proc3:p0|mmu_cache:c0mmu|mmu_dcache:dcache0
 }
 # lmf
 c:|altera|71|quartus|lmf|maxplus2.lmf
@@ -4545,10 +4836,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -6780,10 +7071,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -8373,10 +8664,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -9841,10 +10132,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -11381,10 +11672,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -12961,10 +13252,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -19511,10 +19802,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -22823,10 +23114,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -23204,10 +23495,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -23220,6 +23511,111 @@ c:|altera|71|quartus|libraries|megafunctions|altdpram.inc
 99d442b5b66c88db4daf94d99c6e4e77
 c:|altera|71|quartus|libraries|megafunctions|altqpram.inc
 74e08939f96a7ea8e7a4d59a5b01fe7
+}
+# lmf
+c:|altera|71|quartus|lmf|
+d41d8cd98f0b24e980998ecf8427e
+# macro_sequence
+
+# end
+# entity
+altsyncram_jev
+# storage
+db|leon3mp.(141).cnf
+db|leon3mp.(141).cnf
+# case_insensitive
+# source_file
+db|altsyncram_jev.tdf
+7f5e9e613d9250b54522c56169c17a63
+6
+# user_parameter {
+PORT_A_ADDRESS_WIDTH
+1
+PARAMETER_UNKNOWN
+DEF
+PORT_A_BYTE_ENABLE_MASK_WIDTH
+1
+PARAMETER_UNKNOWN
+DEF
+PORT_A_DATA_WIDTH
+1
+PARAMETER_UNKNOWN
+DEF
+PORT_B_ADDRESS_WIDTH
+1
+PARAMETER_UNKNOWN
+DEF
+PORT_B_BYTE_ENABLE_MASK_WIDTH
+1
+PARAMETER_UNKNOWN
+DEF
+PORT_B_DATA_WIDTH
+1
+PARAMETER_UNKNOWN
+DEF
+}
+# used_port {
+q_a9
+-1
+3
+q_a8
+-1
+3
+q_a7
+-1
+3
+q_a6
+-1
+3
+q_a5
+-1
+3
+q_a4
+-1
+3
+q_a3
+-1
+3
+q_a2
+-1
+3
+q_a10
+-1
+3
+q_a1
+-1
+3
+q_a0
+-1
+3
+clocken0
+-1
+3
+clock0
+-1
+3
+address_a5
+-1
+3
+address_a4
+-1
+3
+address_a3
+-1
+3
+address_a2
+-1
+3
+address_a1
+-1
+3
+address_a0
+-1
+3
+}
+# memory_file {
+leon3mp1.rtl.mif
+f2aa4ad6cd66c96f8d733c2dc6c73a5
 }
 # lmf
 c:|altera|71|quartus|lmf|
@@ -23492,10 +23888,10 @@ address_a0
 # include_file {
 c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
 2263a3bdfffeb150af977ee13902f70
+c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
+c22bfd353214c01495b560fc34e47d79
 c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
 bd0e2f5e01c1bd360461dceb53d48
 c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
@@ -24124,10 +24520,10 @@ c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
 80b63f71158cd1a01acf29ef94ccd6
 c:|altera|71|quartus|libraries|megafunctions|altshift.inc
 70fa13aee7d6d160ef20b2de32813a
-c:|altera|71|quartus|libraries|megafunctions|multcore.inc
-13b7e8bee916e23c5f79837e9c670
 c:|altera|71|quartus|libraries|megafunctions|lpm_add_sub.inc
 7d9a33dd39f13aa690c3d0edd88351
+c:|altera|71|quartus|libraries|megafunctions|multcore.inc
+13b7e8bee916e23c5f79837e9c670
 c:|altera|71|quartus|libraries|megafunctions|bypassff.inc
 8e8df160d449a63ec15dc86ecf2b373f
 }
@@ -24574,792 +24970,10 @@ d41d8cd98f0b24e980998ecf8427e
 
 # end
 # entity
-mmu_dcache
-# storage
-db|leon3mp.(146).cnf
-db|leon3mp.(146).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-..|..|lib|gaisler|leon3|mmu_dcache.vhd
-c7b192596bddff10c2de62fcee6f14d
-4
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# user_parameter {
-dsu
-1
-PARAMETER_SIGNED_DEC
-USR
-dcen
-1
-PARAMETER_SIGNED_DEC
-USR
-drepl
-0
-PARAMETER_SIGNED_DEC
-USR
-dsets
-4
-PARAMETER_SIGNED_DEC
-USR
-dlinesize
-4
-PARAMETER_SIGNED_DEC
-USR
-dsetsize
-4
-PARAMETER_SIGNED_DEC
-USR
-dsetlock
-0
-PARAMETER_SIGNED_DEC
-USR
-dsnoop
-1
-PARAMETER_SIGNED_DEC
-USR
-dlram
-0
-PARAMETER_SIGNED_DEC
-USR
-dlramsize
-1
-PARAMETER_SIGNED_DEC
-USR
-dlramstart
-143
-PARAMETER_SIGNED_DEC
-USR
-ilram
-0
-PARAMETER_SIGNED_DEC
-USR
-ilramstart
-142
-PARAMETER_SIGNED_DEC
-USR
-itlbnum
-8
-PARAMETER_SIGNED_DEC
-USR
-dtlbnum
-8
-PARAMETER_SIGNED_DEC
-USR
-tlb_type
-2
-PARAMETER_SIGNED_DEC
-USR
-memtech
-24
-PARAMETER_SIGNED_DEC
-USR
-cached
-0
-PARAMETER_SIGNED_DEC
-USR
-mmupgsz
-0
-PARAMETER_SIGNED_DEC
-USR
-smp
-0
-PARAMETER_SIGNED_DEC
-USR
-mmuen
-1
-PARAMETER_SIGNED_DEC
-USR
-}
-# include_file {
-..|..|lib|techmap|gencomp|gencomp.vhd
-81d4e13dca35cfb5bcc7543bb973ce
-..|..|lib|grlib|amba|amba.vhd
-ccffabeb71c29df0e53f5a4c29696133
-..|..|lib|grlib|stdlib|stdlib.vhd
-42c458df53827519c06c35be4378835
-..|..|lib|gaisler|leon3|leon3.vhd
-b49e2665458fbfc61832c3da5d5e46a0
-..|..|lib|gaisler|leon3|mmuconfig.vhd
-ffea0fdb86f2e7bb26e6eaf93f1db
-..|..|lib|gaisler|leon3|mmuiface.vhd
-fdb7a0ea6482c270cb4e299bb77e4fe9
-..|..|lib|gaisler|leon3|libcache.vhd
-80df16849369dbf9ffeda8b2ea2e76e
-..|..|lib|gaisler|arith|arith.vhd
-86bbe9ebde13f274874acfaa9c415f
-..|..|lib|gaisler|leon3|libiu.vhd
-f4dbcdc8bfe86cdbd45c342836919a46
-..|..|lib|gaisler|leon3|libmmu.vhd
-2daca187be8a7f0e0e3462586b7820
-..|..|lib|grlib|stdlib|config.vhd
-f4e69d5d3706b29df8fd076cb161cc0
-..|..|lib|grlib|sparc|sparc.vhd
-fe677231112ed3de6738357e3f3b2c76
-..|..|lib|grlib|stdlib|version.vhd
-2222871de6b2977555762f32b242ce8
-}
-# hierarchies {
-leon3s:\l3:cpu:0:u0|proc3:p0|mmu_cache:c0mmu|mmu_dcache:dcache0
-}
-# lmf
-c:|altera|71|quartus|lmf|maxplus2.lmf
-9a59d39b0706640b4b2718e8a1ff1f
-# macro_sequence
-
-# end
-# entity
-altsyncram
-# storage
-db|leon3mp.(147).cnf
-db|leon3mp.(147).cnf
-# case_insensitive
-# source_file
-c:|altera|71|quartus|libraries|megafunctions|altsyncram.tdf
-b69478c2691550fb7f5ef3923da937a
-6
-# user_parameter {
-BYTE_SIZE_BLOCK
-8
-PARAMETER_UNKNOWN
-DEF
-AUTO_CARRY_CHAINS
-ON
-AUTO_CARRY
-USR
-IGNORE_CARRY_BUFFERS
-OFF
-IGNORE_CARRY
-USR
-AUTO_CASCADE_CHAINS
-ON
-AUTO_CASCADE
-USR
-IGNORE_CASCADE_BUFFERS
-OFF
-IGNORE_CASCADE
-USR
-WIDTH_BYTEENA
-1
-PARAMETER_UNKNOWN
-DEF
-OPERATION_MODE
-ROM
-PARAMETER_UNKNOWN
-USR
-WIDTH_A
-10
-PARAMETER_UNKNOWN
-USR
-WIDTHAD_A
-6
-PARAMETER_UNKNOWN
-USR
-NUMWORDS_A
-64
-PARAMETER_UNKNOWN
-USR
-OUTDATA_REG_A
-UNREGISTERED
-PARAMETER_UNKNOWN
-USR
-ADDRESS_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-WRCONTROL_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-INDATA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_ACLR_A
-NONE
-PARAMETER_UNKNOWN
-DEF
-WIDTH_B
-1
-PARAMETER_UNKNOWN
-DEF
-WIDTHAD_B
-1
-PARAMETER_UNKNOWN
-DEF
-NUMWORDS_B
-1
-PARAMETER_UNKNOWN
-DEF
-INDATA_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-WRCONTROL_WRADDRESS_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-RDCONTROL_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-ADDRESS_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_REG_B
-UNREGISTERED
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_REG_B
-CLOCK1
-PARAMETER_UNKNOWN
-DEF
-INDATA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-WRCONTROL_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-ADDRESS_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-OUTDATA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-RDCONTROL_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-BYTEENA_ACLR_B
-NONE
-PARAMETER_UNKNOWN
-DEF
-WIDTH_BYTEENA_A
-1
-PARAMETER_UNKNOWN
-DEF
-WIDTH_BYTEENA_B
-1
-PARAMETER_UNKNOWN
-DEF
-RAM_BLOCK_TYPE
-AUTO
-PARAMETER_UNKNOWN
-USR
-BYTE_SIZE
-8
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_MIXED_PORTS
-DONT_CARE
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_PORT_A
-NEW_DATA_NO_NBE_READ
-PARAMETER_UNKNOWN
-DEF
-READ_DURING_WRITE_MODE_PORT_B
-NEW_DATA_NO_NBE_READ
-PARAMETER_UNKNOWN
-DEF
-INIT_FILE
-leon3mp1.rtl.mif
-PARAMETER_UNKNOWN
-USR
-INIT_FILE_LAYOUT
-PORT_A
-PARAMETER_UNKNOWN
-DEF
-MAXIMUM_DEPTH
-0
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_INPUT_A
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_INPUT_B
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_OUTPUT_A
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_OUTPUT_B
-NORMAL
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_CORE_A
-USE_INPUT_CLKEN
-PARAMETER_UNKNOWN
-DEF
-CLOCK_ENABLE_CORE_B
-USE_INPUT_CLKEN
-PARAMETER_UNKNOWN
-DEF
-ENABLE_ECC
-FALSE
-PARAMETER_UNKNOWN
-DEF
-DEVICE_FAMILY
-Stratix II
-PARAMETER_UNKNOWN
-USR
-CBXI_PARAMETER
-altsyncram_iev
-PARAMETER_UNKNOWN
-USR
-}
-# used_port {
-q_a9
--1
-3
-q_a8
--1
-3
-q_a7
--1
-3
-q_a6
--1
-3
-q_a5
--1
-3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-clocken0
--1
-3
-clock0
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
-}
-# include_file {
-c:|altera|71|quartus|libraries|megafunctions|aglobal71.inc
-80b63f71158cd1a01acf29ef94ccd6
-c:|altera|71|quartus|libraries|megafunctions|lpm_mux.inc
-c22bfd353214c01495b560fc34e47d79
-c:|altera|71|quartus|libraries|megafunctions|stratix_ram_block.inc
-2263a3bdfffeb150af977ee13902f70
-c:|altera|71|quartus|libraries|megafunctions|lpm_decode.inc
-bd0e2f5e01c1bd360461dceb53d48
-c:|altera|71|quartus|libraries|megafunctions|a_rdenreg.inc
-60d229340bc3c24acb0a137b4849830
-c:|altera|71|quartus|libraries|megafunctions|altrom.inc
-d4e3a69a331d3a99d3281790d99a1ebd
-c:|altera|71|quartus|libraries|megafunctions|altram.inc
-e66a83eccf6717bed97c99d891ad085
-c:|altera|71|quartus|libraries|megafunctions|altdpram.inc
-99d442b5b66c88db4daf94d99c6e4e77
-c:|altera|71|quartus|libraries|megafunctions|altqpram.inc
-74e08939f96a7ea8e7a4d59a5b01fe7
-}
-# lmf
-c:|altera|71|quartus|lmf|
-d41d8cd98f0b24e980998ecf8427e
-# macro_sequence
-
-# end
-# entity
-altsyncram_jev
-# storage
-db|leon3mp.(151).cnf
-db|leon3mp.(151).cnf
-# case_insensitive
-# source_file
-db|altsyncram_jev.tdf
-7f5e9e613d9250b54522c56169c17a63
-6
-# user_parameter {
-PORT_A_ADDRESS_WIDTH
-1
-PARAMETER_UNKNOWN
-DEF
-PORT_A_BYTE_ENABLE_MASK_WIDTH
-1
-PARAMETER_UNKNOWN
-DEF
-PORT_A_DATA_WIDTH
-1
-PARAMETER_UNKNOWN
-DEF
-PORT_B_ADDRESS_WIDTH
-1
-PARAMETER_UNKNOWN
-DEF
-PORT_B_BYTE_ENABLE_MASK_WIDTH
-1
-PARAMETER_UNKNOWN
-DEF
-PORT_B_DATA_WIDTH
-1
-PARAMETER_UNKNOWN
-DEF
-}
-# used_port {
-q_a9
--1
-3
-q_a8
--1
-3
-q_a7
--1
-3
-q_a6
--1
-3
-q_a5
--1
-3
-q_a4
--1
-3
-q_a3
--1
-3
-q_a2
--1
-3
-q_a10
--1
-3
-q_a1
--1
-3
-q_a0
--1
-3
-clocken0
--1
-3
-clock0
--1
-3
-address_a5
--1
-3
-address_a4
--1
-3
-address_a3
--1
-3
-address_a2
--1
-3
-address_a1
--1
-3
-address_a0
--1
-3
-}
-# memory_file {
-leon3mp1.rtl.mif
-f2aa4ad6cd66c96f8d733c2dc6c73a5
-}
-# lmf
-c:|altera|71|quartus|lmf|
-d41d8cd98f0b24e980998ecf8427e
-# macro_sequence
-
-# end
-# entity
-bard_dc
-# storage
-db|leon3mp.(15).cnf
-db|leon3mp.(15).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-..|..|lib|truth|bard|bard_dc.vhd
-167af270a473b3c4d95b682e3e72a6a5
-4
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# user_parameter {
-pclow
-2
-PARAMETER_SIGNED_DEC
-USR
-id
-0
-PARAMETER_SIGNED_DEC
-USR
-}
-# include_file {
-..|..|lib|techmap|gencomp|gencomp.vhd
-81d4e13dca35cfb5bcc7543bb973ce
-..|..|lib|grlib|amba|amba.vhd
-ccffabeb71c29df0e53f5a4c29696133
-..|..|lib|grlib|stdlib|stdlib.vhd
-42c458df53827519c06c35be4378835
-..|..|lib|gaisler|leon3|leon3.vhd
-b49e2665458fbfc61832c3da5d5e46a0
-..|..|lib|grlib|stdlib|config.vhd
-f4e69d5d3706b29df8fd076cb161cc0
-..|..|lib|truth|bard|bard.vhd
-925f52e1ac1dd1a1c6b4aa6286fc2d
-..|..|lib|grlib|stdlib|version.vhd
-2222871de6b2977555762f32b242ce8
-}
-# hierarchies {
-leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc0
-}
-# lmf
-c:|altera|71|quartus|lmf|maxplus2.lmf
-9a59d39b0706640b4b2718e8a1ff1f
-# macro_sequence
-
-# end
-# entity
-bard_dc
-# storage
-db|leon3mp.(141).cnf
-db|leon3mp.(141).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-..|..|lib|truth|bard|bard_dc.vhd
-167af270a473b3c4d95b682e3e72a6a5
-4
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# user_parameter {
-pclow
-2
-PARAMETER_SIGNED_DEC
-USR
-id
-1
-PARAMETER_SIGNED_DEC
-USR
-}
-# include_file {
-..|..|lib|techmap|gencomp|gencomp.vhd
-81d4e13dca35cfb5bcc7543bb973ce
-..|..|lib|grlib|amba|amba.vhd
-ccffabeb71c29df0e53f5a4c29696133
-..|..|lib|grlib|stdlib|stdlib.vhd
-42c458df53827519c06c35be4378835
-..|..|lib|gaisler|leon3|leon3.vhd
-b49e2665458fbfc61832c3da5d5e46a0
-..|..|lib|grlib|stdlib|config.vhd
-f4e69d5d3706b29df8fd076cb161cc0
-..|..|lib|truth|bard|bard.vhd
-925f52e1ac1dd1a1c6b4aa6286fc2d
-..|..|lib|grlib|stdlib|version.vhd
-2222871de6b2977555762f32b242ce8
-}
-# hierarchies {
-leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc1
-}
-# lmf
-c:|altera|71|quartus|lmf|maxplus2.lmf
-9a59d39b0706640b4b2718e8a1ff1f
-# macro_sequence
-
-# end
-# entity
-bard_dc
-# storage
-db|leon3mp.(148).cnf
-db|leon3mp.(148).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-..|..|lib|truth|bard|bard_dc.vhd
-167af270a473b3c4d95b682e3e72a6a5
-4
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# user_parameter {
-pclow
-2
-PARAMETER_SIGNED_DEC
-USR
-id
-2
-PARAMETER_SIGNED_DEC
-USR
-}
-# include_file {
-..|..|lib|techmap|gencomp|gencomp.vhd
-81d4e13dca35cfb5bcc7543bb973ce
-..|..|lib|grlib|amba|amba.vhd
-ccffabeb71c29df0e53f5a4c29696133
-..|..|lib|grlib|stdlib|stdlib.vhd
-42c458df53827519c06c35be4378835
-..|..|lib|gaisler|leon3|leon3.vhd
-b49e2665458fbfc61832c3da5d5e46a0
-..|..|lib|grlib|stdlib|config.vhd
-f4e69d5d3706b29df8fd076cb161cc0
-..|..|lib|truth|bard|bard.vhd
-925f52e1ac1dd1a1c6b4aa6286fc2d
-..|..|lib|grlib|stdlib|version.vhd
-2222871de6b2977555762f32b242ce8
-}
-# hierarchies {
-leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc2
-}
-# lmf
-c:|altera|71|quartus|lmf|maxplus2.lmf
-9a59d39b0706640b4b2718e8a1ff1f
-# macro_sequence
-
-# end
-# entity
-bard_dc
-# storage
-db|leon3mp.(149).cnf
-db|leon3mp.(149).cnf
-# logic_option {
-AUTO_RAM_RECOGNITION
-ON
-}
-# case_insensitive
-# source_file
-..|..|lib|truth|bard|bard_dc.vhd
-167af270a473b3c4d95b682e3e72a6a5
-4
-# internal_option {
-HDL_INITIAL_FANOUT_LIMIT
-OFF
-AUTO_RESOURCE_SHARING
-OFF
-AUTO_RAM_RECOGNITION
-ON
-AUTO_ROM_RECOGNITION
-ON
-}
-# user_parameter {
-pclow
-2
-PARAMETER_SIGNED_DEC
-USR
-id
-3
-PARAMETER_SIGNED_DEC
-USR
-}
-# include_file {
-..|..|lib|techmap|gencomp|gencomp.vhd
-81d4e13dca35cfb5bcc7543bb973ce
-..|..|lib|grlib|amba|amba.vhd
-ccffabeb71c29df0e53f5a4c29696133
-..|..|lib|grlib|stdlib|stdlib.vhd
-42c458df53827519c06c35be4378835
-..|..|lib|gaisler|leon3|leon3.vhd
-b49e2665458fbfc61832c3da5d5e46a0
-..|..|lib|grlib|stdlib|config.vhd
-f4e69d5d3706b29df8fd076cb161cc0
-..|..|lib|truth|bard|bard.vhd
-925f52e1ac1dd1a1c6b4aa6286fc2d
-..|..|lib|grlib|stdlib|version.vhd
-2222871de6b2977555762f32b242ce8
-}
-# hierarchies {
-leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc3
-}
-# lmf
-c:|altera|71|quartus|lmf|maxplus2.lmf
-9a59d39b0706640b4b2718e8a1ff1f
-# macro_sequence
-
-# end
-# entity
 iu3
 # storage
-db|leon3mp.(10).cnf
-db|leon3mp.(10).cnf
+db|leon3mp.(146).cnf
+db|leon3mp.(146).cnf
 # logic_option {
 AUTO_RAM_RECOGNITION
 ON
@@ -25367,7 +24981,7 @@ ON
 # case_insensitive
 # source_file
 ..|..|lib|gaisler|leon3|iu3.vhd
-9960b5429c50a7f7f2e81c3dd64f2c8
+ed348a30c337ceb304add32716983df
 4
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -25488,10 +25102,10 @@ ffea0fdb86f2e7bb26e6eaf93f1db
 86bbe9ebde13f274874acfaa9c415f
 ..|..|lib|gaisler|leon3|libiu.vhd
 f4dbcdc8bfe86cdbd45c342836919a46
+..|..|lib|truth|bard|bard.vhd
+e11da793bb51bdf6c4297743e704e80
 ..|..|lib|grlib|stdlib|config.vhd
 f4e69d5d3706b29df8fd076cb161cc0
-..|..|lib|truth|bard|bard.vhd
-925f52e1ac1dd1a1c6b4aa6286fc2d
 ..|..|lib|grlib|sparc|sparc.vhd
 fe677231112ed3de6738357e3f3b2c76
 ..|..|lib|grlib|stdlib|version.vhd
@@ -25507,7 +25121,184 @@ c:|altera|71|quartus|lmf|maxplus2.lmf
 
 # end
 # entity
-bard_ac
+bard_dc
+# storage
+db|leon3mp.(147).cnf
+db|leon3mp.(147).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|lib|truth|bard|bard_dc.vhd
+959c492ea329cb299e1684e6530636
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+pclow
+2
+PARAMETER_SIGNED_DEC
+USR
+id
+0
+PARAMETER_SIGNED_DEC
+USR
+}
+# include_file {
+..|..|lib|techmap|gencomp|gencomp.vhd
+81d4e13dca35cfb5bcc7543bb973ce
+..|..|lib|grlib|amba|amba.vhd
+ccffabeb71c29df0e53f5a4c29696133
+..|..|lib|grlib|stdlib|stdlib.vhd
+42c458df53827519c06c35be4378835
+..|..|lib|gaisler|leon3|leon3.vhd
+b49e2665458fbfc61832c3da5d5e46a0
+..|..|lib|truth|bard|bard.vhd
+e11da793bb51bdf6c4297743e704e80
+..|..|lib|grlib|stdlib|config.vhd
+f4e69d5d3706b29df8fd076cb161cc0
+..|..|lib|grlib|stdlib|version.vhd
+2222871de6b2977555762f32b242ce8
+}
+# hierarchies {
+leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc0
+}
+# lmf
+c:|altera|71|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+bard_dc
+# storage
+db|leon3mp.(148).cnf
+db|leon3mp.(148).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|lib|truth|bard|bard_dc.vhd
+959c492ea329cb299e1684e6530636
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+pclow
+2
+PARAMETER_SIGNED_DEC
+USR
+id
+1
+PARAMETER_SIGNED_DEC
+USR
+}
+# include_file {
+..|..|lib|techmap|gencomp|gencomp.vhd
+81d4e13dca35cfb5bcc7543bb973ce
+..|..|lib|grlib|amba|amba.vhd
+ccffabeb71c29df0e53f5a4c29696133
+..|..|lib|grlib|stdlib|stdlib.vhd
+42c458df53827519c06c35be4378835
+..|..|lib|gaisler|leon3|leon3.vhd
+b49e2665458fbfc61832c3da5d5e46a0
+..|..|lib|truth|bard|bard.vhd
+e11da793bb51bdf6c4297743e704e80
+..|..|lib|grlib|stdlib|config.vhd
+f4e69d5d3706b29df8fd076cb161cc0
+..|..|lib|grlib|stdlib|version.vhd
+2222871de6b2977555762f32b242ce8
+}
+# hierarchies {
+leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc1
+}
+# lmf
+c:|altera|71|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+bard_dc
+# storage
+db|leon3mp.(149).cnf
+db|leon3mp.(149).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|lib|truth|bard|bard_dc.vhd
+959c492ea329cb299e1684e6530636
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+pclow
+2
+PARAMETER_SIGNED_DEC
+USR
+id
+2
+PARAMETER_SIGNED_DEC
+USR
+}
+# include_file {
+..|..|lib|techmap|gencomp|gencomp.vhd
+81d4e13dca35cfb5bcc7543bb973ce
+..|..|lib|grlib|amba|amba.vhd
+ccffabeb71c29df0e53f5a4c29696133
+..|..|lib|grlib|stdlib|stdlib.vhd
+42c458df53827519c06c35be4378835
+..|..|lib|gaisler|leon3|leon3.vhd
+b49e2665458fbfc61832c3da5d5e46a0
+..|..|lib|truth|bard|bard.vhd
+e11da793bb51bdf6c4297743e704e80
+..|..|lib|grlib|stdlib|config.vhd
+f4e69d5d3706b29df8fd076cb161cc0
+..|..|lib|grlib|stdlib|version.vhd
+2222871de6b2977555762f32b242ce8
+}
+# hierarchies {
+leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc2
+}
+# lmf
+c:|altera|71|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+bard_dc
 # storage
 db|leon3mp.(150).cnf
 db|leon3mp.(150).cnf
@@ -25517,8 +25308,67 @@ ON
 }
 # case_insensitive
 # source_file
-..|..|lib|truth|bard|bard_ac.vhd
-b786b240642730f5937f4d571aca5d
+..|..|lib|truth|bard|bard_dc.vhd
+959c492ea329cb299e1684e6530636
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+pclow
+2
+PARAMETER_SIGNED_DEC
+USR
+id
+3
+PARAMETER_SIGNED_DEC
+USR
+}
+# include_file {
+..|..|lib|techmap|gencomp|gencomp.vhd
+81d4e13dca35cfb5bcc7543bb973ce
+..|..|lib|grlib|amba|amba.vhd
+ccffabeb71c29df0e53f5a4c29696133
+..|..|lib|grlib|stdlib|stdlib.vhd
+42c458df53827519c06c35be4378835
+..|..|lib|gaisler|leon3|leon3.vhd
+b49e2665458fbfc61832c3da5d5e46a0
+..|..|lib|truth|bard|bard.vhd
+e11da793bb51bdf6c4297743e704e80
+..|..|lib|grlib|stdlib|config.vhd
+f4e69d5d3706b29df8fd076cb161cc0
+..|..|lib|grlib|stdlib|version.vhd
+2222871de6b2977555762f32b242ce8
+}
+# hierarchies {
+leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_dc:bard_dc3
+}
+# lmf
+c:|altera|71|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+bard_ce
+# storage
+db|leon3mp.(151).cnf
+db|leon3mp.(151).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|lib|truth|bard|bard_ce.vhd
+3dd09460adab139e4b9652d1273532a
 4
 # internal_option {
 HDL_INITIAL_FANOUT_LIMIT
@@ -25545,10 +25395,65 @@ ccffabeb71c29df0e53f5a4c29696133
 42c458df53827519c06c35be4378835
 ..|..|lib|gaisler|leon3|leon3.vhd
 b49e2665458fbfc61832c3da5d5e46a0
+..|..|lib|truth|bard|bard.vhd
+e11da793bb51bdf6c4297743e704e80
 ..|..|lib|grlib|stdlib|config.vhd
 f4e69d5d3706b29df8fd076cb161cc0
+..|..|lib|grlib|stdlib|version.vhd
+2222871de6b2977555762f32b242ce8
+}
+# hierarchies {
+leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|bard_ce:bard_ce0
+}
+# lmf
+c:|altera|71|quartus|lmf|maxplus2.lmf
+9a59d39b0706640b4b2718e8a1ff1f
+# macro_sequence
+
+# end
+# entity
+bard_ac
+# storage
+db|leon3mp.(152).cnf
+db|leon3mp.(152).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+..|..|lib|truth|bard|bard_ac.vhd
+ab2c25828f5bb456cbb8e37d69599ed
+4
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+pclow
+2
+PARAMETER_SIGNED_DEC
+USR
+}
+# include_file {
+..|..|lib|techmap|gencomp|gencomp.vhd
+81d4e13dca35cfb5bcc7543bb973ce
+..|..|lib|grlib|amba|amba.vhd
+ccffabeb71c29df0e53f5a4c29696133
+..|..|lib|grlib|stdlib|stdlib.vhd
+42c458df53827519c06c35be4378835
+..|..|lib|gaisler|leon3|leon3.vhd
+b49e2665458fbfc61832c3da5d5e46a0
 ..|..|lib|truth|bard|bard.vhd
-925f52e1ac1dd1a1c6b4aa6286fc2d
+e11da793bb51bdf6c4297743e704e80
+..|..|lib|grlib|stdlib|config.vhd
+f4e69d5d3706b29df8fd076cb161cc0
 ..|..|lib|grlib|stdlib|version.vhd
 2222871de6b2977555762f32b242ce8
 }

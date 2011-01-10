@@ -475,6 +475,12 @@ set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_ba[1]
 set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_csb
 set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_clk #clk_to_sdram[0]
 set_instance_assignment -name OUTPUT_PIN_LOAD 2 -to ddr_clkn #clk_to_sdram_n[0]
+set_global_assignment -name SIMULATOR_GENERATE_SIGNAL_ACTIVITY_FILE ON
+set_global_assignment -name SIMULATOR_SIGNAL_ACTIVITY_FILE_OUTPUT_DESTINATION leon3mp.saf
+set_global_assignment -name SIMULATOR_GENERATE_POWERPLAY_VCD_FILE ON
+set_global_assignment -name SIMULATOR_POWERPLAY_VCD_FILE_OUTPUT_DESTINATION leon3mp.vcd
+set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/iu3.vhd
+set_global_assignment -name VHDL_FILE ../../lib/truth/bard/bard_ce.vhd
 set_global_assignment -name VHDL_FILE ../../lib/truth/bard/bard_ac.vhd
 set_global_assignment -name VHDL_FILE ../../lib/truth/bard/bard_dc.vhd
 set_global_assignment -name VHDL_FILE ../../lib/truth/bard/bard.vhd
@@ -595,7 +601,6 @@ set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/mmutw.vhd -library
 set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/mmu.vhd -library gaisler
 set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/mmu_cache.vhd -library gaisler
 set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/cpu_disasx.vhd -library gaisler
-set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/iu3.vhd -library gaisler
 set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/grfpwx.vhd -library gaisler
 set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/mfpwx.vhd -library gaisler
 set_global_assignment -name VHDL_FILE ../../lib/gaisler/leon3/grlfpwx.vhd -library gaisler

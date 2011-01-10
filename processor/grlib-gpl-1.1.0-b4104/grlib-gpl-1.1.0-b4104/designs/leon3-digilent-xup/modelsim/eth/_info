@@ -11,9 +11,9 @@ Z4 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
 Z5 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
 Z6 DPx5 grlib 6 stdlib 0 22 d9;dAZX3@oD^:0>AmFEje2
 Z7 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-Z8 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
-Z9 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_ahb_mst.vhd
-Z10 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_ahb_mst.vhd
+Z8 dF:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+Z9 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_ahb_mst.vhd
+Z10 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_ahb_mst.vhd
 l0
 L32
 VkO4^gPWi6UUc@;b:<c1Ig3
@@ -50,8 +50,8 @@ Eeth_rstgen
 R1
 R7
 R8
-Z21 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_rstgen.vhd
-Z22 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_rstgen.vhd
+Z21 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_rstgen.vhd
+Z22 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/eth_rstgen.vhd
 l0
 L29
 VcX47f958c4;hImOg4[4Zz1
@@ -78,8 +78,8 @@ Pethcomp
 R7
 R1
 R8
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/comp/ethcomp.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/comp/ethcomp.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/comp/ethcomp.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/comp/ethcomp.vhd
 l0
 L23
 V?Y90h^QgaIN8[PBd67ig=1
@@ -102,8 +102,8 @@ R5
 R6
 R7
 R8
-Z28 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gbit_gen.vhd
-Z29 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gbit_gen.vhd
+Z28 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gbit_gen.vhd
+Z29 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gbit_gen.vhd
 l0
 L34
 V?QLoRi2VdF]5UZ9^Lgb?E1
@@ -154,8 +154,8 @@ R5
 R6
 R7
 R8
-Z42 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gen.vhd
-Z43 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gen.vhd
+Z42 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gen.vhd
+Z43 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/wrapper/greth_gen.vhd
 l0
 L34
 V=ezfF1G6aFOoQ8K<W9<Z`3
@@ -203,8 +203,8 @@ R5
 R6
 R7
 R8
-Z44 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_rx.vhd
-Z45 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_rx.vhd
+Z44 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_rx.vhd
+Z45 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_rx.vhd
 l0
 L32
 VZOQTD9IKj_1`SPfmn6:::3
@@ -246,8 +246,8 @@ R5
 R6
 R7
 R8
-Z46 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_tx.vhd
-Z47 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_tx.vhd
+Z46 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_tx.vhd
+Z47 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_tx.vhd
 l0
 L32
 V`m`bN@aF:?UD>@Gim8CHA2
@@ -289,8 +289,8 @@ R5
 R6
 R7
 R8
-Z48 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/grethc.vhd
-Z49 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/grethc.vhd
+Z48 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/grethc.vhd
+Z49 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/grethc.vhd
 l0
 L33
 VFWOOdI;izf1LeRliPBge53
@@ -331,8 +331,8 @@ R6
 R7
 R1
 R8
-Z50 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_pkg.vhd
-Z51 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_pkg.vhd
+Z50 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_pkg.vhd
+Z51 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/eth/core/greth_pkg.vhd
 l0
 L25
 VVd=cmiW914PPHc?3aH=ha3

@@ -353,6 +353,9 @@ architecture rtl of iu3 is
 
   signal bard_aci: bard_ac_in_type;
   signal bard_aco: bard_ac_out_type;
+
+  signal bard_cei: bard_ce_in_type;
+  signal bard_ceo: bard_ce_out_type;
   -- DOne
 
   constant wpr_none : watchpoint_register := (
@@ -1052,6 +1055,7 @@ begin
     elsif r.a.ticc= '1' then tt := TT_TICC;
     -- EDIT(bard)
     elsif bard_dco.error = '1' then tt := TT_FTASIP;
+    elsif bard_ceo.error = '1' then tt := TT_FTASIP;
     -- DONE
     else trap := '0'; tt:= (others => '0'); end if;
   end if;
@@ -2624,6 +2628,13 @@ begin
     if (r.x.rstate = dsu2) then v.w.except := '0'; end if;
     v.w.wa := xc_waddr(RFBITS-1 downto 0); v.w.wreg := xc_wreg and holdn;
 
+    -- bard --
+    if bard_aco.enable = '1' then
+      xc_result := bard_aco.dr;
+      xc_wreg := '1';
+    end if;
+    --
+
     rfi.wdata <= xc_result; rfi.waddr <= xc_waddr;
     rfi.wren <= (xc_wreg and holdn) and not dco.scanen;
     irqo.intack <= r.x.intack and holdn;
@@ -2790,7 +2801,8 @@ begin
     exception_detect(r, wpr, dbgi, v.e.ctrl.trap, v.e.ctrl.tt);
     
     -- EDIT(yim): a mux between RF and ALU to forward PC when DC instruction is executing.
-    if bard_dco.error = '1' then
+    if bard_dco.error = '1' or 
+       bard_ceo.error = '1' then
         v.e.ctrl.trap := '1';
         v.e.ctrl.tt := TT_FTASIP;
     end if;
@@ -3014,6 +3026,7 @@ begin
       bard_dci.maddr <= r.m.result; --ex_add_res(32 downto 1);
       bard_dci.mdataw <= r.m.result;
       bard_dci.mdatar <= dco.data(0);
+
 --subtype cword is std_logic_vector(IDBITS-1 downto 0);
 --type cdatatype is array (0 to 3) of cword;
 
@@ -3022,18 +3035,25 @@ begin
       
       bard_dci.xc_exception <= xc_exception;
       bard_dci.xc_trap_address <= xc_trap_address;
-    --
-
+      --
 
       -- AC instruction
-      
       bard_aci.inst <= r.a.ctrl.inst;
       bard_aci.pc <= r.a.ctrl.pc;
       bard_aci.sr1 <= ra_op1;
-
+      
+      -- CE Instruction
+      bard_cei.inst <= r.a.ctrl.inst;
+      bard_cei.pc <= r.a.ctrl.pc;
+      bard_cei.value1 <= ra_op1;
+      bard_cei.value1 <= ra_op2;
+      bard_cei.n <= r.m.icc(3);      
+      bard_cei.z <= r.m.icc(2);
+      bard_cei.v <= r.m.icc(1);      
+      bard_cei.c <= r.m.icc(0);      
+      
       -- writes the output back to rfo
       -- ### <= bard_dco.dr when bard_dco.enable = '1';
-
 -----------------------------------------------------------------------
 
     if DBGUNIT then -- DSU diagnostic read    
@@ -3243,8 +3263,10 @@ begin
 
   bard_dco.error <= bard_dco1.error or bard_dco2.error or bard_dco3.error or bard_dco4.error;
 
+  bard_ce0: bard_ce generic map (PCLOW) port map(rstn, clk, bard_cei, bard_ceo);
 
   bard_ac0: bard_ac generic map (PCLOW) port map(rstn, clk, bard_aci, bard_aco);
+
   -- done
 
 end;

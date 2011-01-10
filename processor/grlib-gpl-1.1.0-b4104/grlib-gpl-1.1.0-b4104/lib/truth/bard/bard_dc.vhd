@@ -81,7 +81,6 @@ begin
        i.inst(11 downto 8) = "0000" and
        i.inst(29 downto 28) = std_logic_vector(to_unsigned(id,2)) then
       -- DC instruction
-      
       v.enable := '1';
       a := to_integer(unsigned(i.pc));
       v.reg_ta_cnt := to_integer(unsigned(i.inst(7 downto 0)));
@@ -89,6 +88,25 @@ begin
       v.reg_st := i.inst(27 downto 25);
       v.reg_value := i.asr1; --i.value; -- = 
       -- 
+    elsif i.inst(31 downto 30) = "10" and i.inst(24 downto 19) = "110111" and
+        i.inst(6 downto 5) /= "00" then
+      -- CEC Instruction
+      v.enable := '1';
+      a := to_integer(unsigned(i.pc));
+      v.reg_ta_cnt := to_integer(unsigned(i.inst(10 downto 7)));
+      v.reg_ta := conv_std_logic_vector(a + v.reg_ta_cnt, 32-pclow);
+      if i.inst(27 downto 25) = "01" then
+        v.reg_st := "101";
+      elsif i.inst(27 downto 25) = "10" then
+        v.reg_st := "110";
+      elsif i.inst(27 downto 25) = "11" then
+        v.reg_st := "000";
+      else
+        v.reg_st := "000";
+        v.enable := '0';
+      end if;
+      v.reg_value := i.asr1; --i.value; -- = 
+      --
     end if;
 
     if rstn = '0' then

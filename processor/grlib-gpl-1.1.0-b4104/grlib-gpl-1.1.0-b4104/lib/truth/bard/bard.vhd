@@ -111,4 +111,33 @@ package bard is
     );
   end component;
 
+  type bard_ce_in_type is record
+    pc    : pctype;
+    inst  : word;
+    
+    value1 : std_logic_vector(31 downto 0); -- if exists for mask set or unset
+    value2 : std_logic_vector(31 downto 0); -- if exists for mask set or unset
+    
+    n : std_logic;
+    v : std_logic;
+    z : std_logic;
+    c : std_logic;
+  end record;
+
+  type bard_ce_out_type is record
+    error : std_logic;
+  end record;
+
+  component bard_ce is
+    generic (
+        pclow : integer range 0 to 2 := 2
+    );
+    port (
+        rstn : in  std_ulogic;
+        clk  : in  std_ulogic;
+        i : in  bard_ce_in_type;
+        o : out bard_ce_out_type
+    );
+  end component;
+
 end;

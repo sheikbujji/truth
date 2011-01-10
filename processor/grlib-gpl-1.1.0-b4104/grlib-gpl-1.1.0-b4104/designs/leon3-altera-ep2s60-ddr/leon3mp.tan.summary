@@ -5,9 +5,9 @@ Timing Analyzer Summary
 Type           : Worst-case tsu
 Slack          : N/A
 Required Time  : None
-Actual Time    : 7.303 ns
-From           : data[29]
-To             : smc_mctrl:\mg2:sr1|r.data[29]
+Actual Time    : 6.749 ns
+From           : gpio[1]
+To             : grgpio:\gpio0:grgpio0|r.din1[1]
 From Clock     : --
 To Clock       : clk
 Failed Paths   : 0
@@ -15,9 +15,9 @@ Failed Paths   : 0
 Type           : Worst-case tco
 Slack          : N/A
 Required Time  : None
-Actual Time    : 7.510 ns
-From           : smc_mctrl:\mg2:sr1|r.eth_aen
-To             : eth_aen
+Actual Time    : 8.159 ns
+From           : atactrl:\atac:atac0|atactrl_nodma:\nodma:x0|ocidec2_amba_slave:u0|r.ctrlreg[31]
+To             : cf_power
 From Clock     : clk
 To Clock       : --
 Failed Paths   : 0
@@ -35,35 +35,35 @@ Failed Paths   : 0
 Type           : Worst-case th
 Slack          : N/A
 Required Time  : None
-Actual Time    : 2.052 ns
+Actual Time    : 0.736 ns
 From           : altera_internal_jtag
-To             : sld_hub:sld_hub_inst|lpm_shiftreg:jtag_ir_register|dffs[9]
+To             : sld_hub:sld_hub_inst|HUB_BYPASS_REG
 From Clock     : --
 To Clock       : altera_internal_jtag~TCKUTAP
 Failed Paths   : 0
 
 Type           : Clock Setup: 'ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk0'
-Slack          : 0.981 ns
+Slack          : 0.986 ns
 Required Time  : 100.00 MHz ( period = 10.000 ns )
 Actual Time    : N/A
-From           : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|ddr_dqsoen[1]
+From           : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|ddr_dqsoen[1]~DUPLICATE
 To             : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altdqs_stxii:altdqs|\loop0:1:stxii_io2a~oe_reg
 From Clock     : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk3
 To Clock       : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk0
 Failed Paths   : 0
 
 Type           : Clock Setup: 'clkgen:clkgen0|clkgen_stratixii:\strat2:v|stratix2_pll:sdclk_pll|altpll:\nosd:altpll0|_clk0'
-Slack          : 1.683 ns
+Slack          : 1.644 ns
 Required Time  : 80.00 MHz ( period = 12.500 ns )
-Actual Time    : 92.45 MHz ( period = 10.817 ns )
-From           : leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|r.e.ldbp1
-To             : leon3s:\l3:cpu:0:u0|cachemem:cmem0|syncram:\dme:dd0:1:ddata0|altera_syncram:\alt:x0|altera_syncram_dp:u0|altsyncram:u0|altsyncram_a7r:auto_generated|ram_block1a4~porta_we_reg
+Actual Time    : 92.11 MHz ( period = 10.856 ns )
+From           : leon3s:\l3:cpu:0:u0|proc3:p0|mul32:\mgen:mul0|prod[9]
+To             : leon3s:\l3:cpu:0:u0|cachemem:cmem0|syncram:\ime:im0:3:idata0|altera_syncram:\alt:x0|altera_syncram_dp:u0|altsyncram:u0|altsyncram_c7r:auto_generated|ram_block1a29~porta_address_reg8
 From Clock     : clkgen:clkgen0|clkgen_stratixii:\strat2:v|stratix2_pll:sdclk_pll|altpll:\nosd:altpll0|_clk0
 To Clock       : clkgen:clkgen0|clkgen_stratixii:\strat2:v|stratix2_pll:sdclk_pll|altpll:\nosd:altpll0|_clk0
 Failed Paths   : 0
 
 Type           : Clock Setup: 'ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk1'
-Slack          : 1.880 ns
+Slack          : 1.780 ns
 Required Time  : 100.00 MHz ( period = 10.000 ns )
 Actual Time    : N/A
 From           : ddrspa:\ddrsp0:ddrc0|ddrsp16a:\ddr16:ddrc|r.nbdrive
@@ -73,20 +73,20 @@ To Clock       : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii
 Failed Paths   : 0
 
 Type           : Clock Setup: 'ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk3'
-Slack          : 2.415 ns
+Slack          : 2.492 ns
 Required Time  : 100.00 MHz ( period = 10.000 ns )
 Actual Time    : N/A
-From           : ddrspa:\ddrsp0:ddrc0|ddrsp16a:\ddr16:ddrc|syncram_2p:write_buff|altera_syncram_dp:\alt:x0|altsyncram:u0|altsyncram_k4r:auto_generated|ram_block1a6~porta_address_reg5
-To             : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altddio_bidir:\dqgen:1:qi|ddio_bidir_tkj:auto_generated|bidir_ioa[1]~ddio_data_in_reg
+From           : ddrspa:\ddrsp0:ddrc0|ddrsp16a:\ddr16:ddrc|r.startsd
+To             : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altddio_out:csnpads|ddio_out_tue:auto_generated|ddio_outa[0]~ddio_data_in_reg
 From Clock     : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk0
 To Clock       : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk3
 Failed Paths   : 0
 
 Type           : Clock Setup: 'altera_internal_jtag~TCKUTAP'
-Slack          : 7.937 ns
+Slack          : 8.248 ns
 Required Time  : 50.00 MHz ( period = 20.000 ns )
-Actual Time    : 242.37 MHz ( period = 4.126 ns )
-From           : sld_hub:sld_hub_inst|sld_rom_sr:HUB_INFO_REG|WORD_SR[0]
+Actual Time    : 285.39 MHz ( period = 3.504 ns )
+From           : sld_hub:sld_hub_inst|lpm_decode:instruction_decoder|decode_cpi:auto_generated|dffe1a[0]
 To             : sld_hub:sld_hub_inst|hub_tdo_reg
 From Clock     : altera_internal_jtag~TCKUTAP
 To Clock       : altera_internal_jtag~TCKUTAP
@@ -96,8 +96,8 @@ Type           : Clock Hold: 'clkgen:clkgen0|clkgen_stratixii:\strat2:v|stratix2
 Slack          : 0.018 ns
 Required Time  : 80.00 MHz ( period = 12.500 ns )
 Actual Time    : N/A
-From           : leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|r.m.ctrl.inst[11]
-To             : leon3s:\l3:cpu:0:u0|proc3:p0|iu3:iu0|r.x.ctrl.inst[11]
+From           : ahbctrl:ahb0|r.hmasterlock
+To             : dsu3:\l3:dsugen:dsu0|dsu3x:x0|tr.hmastlock
 From Clock     : clkgen:clkgen0|clkgen_stratixii:\strat2:v|stratix2_pll:sdclk_pll|altpll:\nosd:altpll0|_clk0
 To Clock       : clkgen:clkgen0|clkgen_stratixii:\strat2:v|stratix2_pll:sdclk_pll|altpll:\nosd:altpll0|_clk0
 Failed Paths   : 0
@@ -116,24 +116,24 @@ Type           : Clock Hold: 'altera_internal_jtag~TCKUTAP'
 Slack          : 0.341 ns
 Required Time  : 50.00 MHz ( period = 20.000 ns )
 Actual Time    : N/A
-From           : sld_hub:sld_hub_inst|sld_jtag_state_machine:jtag_state_machine|tms_cnt[1]
-To             : sld_hub:sld_hub_inst|sld_jtag_state_machine:jtag_state_machine|tms_cnt[1]
+From           : sld_hub:sld_hub_inst|sld_jtag_state_machine:jtag_state_machine|tms_cnt[0]
+To             : sld_hub:sld_hub_inst|sld_jtag_state_machine:jtag_state_machine|tms_cnt[0]
 From Clock     : altera_internal_jtag~TCKUTAP
 To Clock       : altera_internal_jtag~TCKUTAP
 Failed Paths   : 0
 
 Type           : Clock Hold: 'ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk3'
-Slack          : 3.175 ns
+Slack          : 3.453 ns
 Required Time  : 100.00 MHz ( period = 10.000 ns )
 Actual Time    : N/A
-From           : ddrspa:\ddrsp0:ddrc0|ddrsp16a:\ddr16:ddrc|r.sdstate.wr2
-To             : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|ddr_dqsoen[1]
+From           : ddrspa:\ddrsp0:ddrc0|ddrsp16a:\ddr16:ddrc|r.extdqs
+To             : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|ddr_dqsoen[1]~DUPLICATE
 From Clock     : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk0
 To Clock       : ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk3
 Failed Paths   : 0
 
 Type           : Clock Hold: 'ddrspa:\ddrsp0:ddrc0|ddr_phy:ddr_phy0|ddrphy:ddr_phy0|stratixii_ddr_phy:\strat2:ddr_phy0|altpll:dll|_clk1'
-Slack          : 7.881 ns
+Slack          : 7.981 ns
 Required Time  : 100.00 MHz ( period = 10.000 ns )
 Actual Time    : N/A
 From           : ddrspa:\ddrsp0:ddrc0|ddrsp16a:\ddr16:ddrc|r.nbdrive

@@ -13,9 +13,9 @@ Z6 DPx5 grlib 4 amba 0 22 SmIzT0180]m<MF]1jBZZK0
 Z7 DPx7 techmap 7 gencomp 0 22 Gh7R5G283PD>>9Ao<WUea3
 Z8 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
 Z9 w1289246238
-Z10 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allclkgen.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allclkgen.vhd
+Z10 dF:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allclkgen.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allclkgen.vhd
 l0
 L31
 VTP>6mAGK4_JK9UXd9h8FV1
@@ -44,8 +44,8 @@ R7
 R8
 R9
 R10
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allddr.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allddr.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allddr.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allddr.vhd
 l0
 L31
 VodVd=EGK@@iCGCJlI4N`23
@@ -67,8 +67,8 @@ Pallmem
 R8
 R9
 R10
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allmem.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allmem.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allmem.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allmem.vhd
 l0
 L29
 Vh4JW]KP97`U`^iciaQeXJ0
@@ -90,8 +90,8 @@ R7
 R8
 R9
 R10
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allpads.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allpads.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allpads.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/allpads.vhd
 l0
 L31
 VGJh:_6?BU0CmhJQCh6cGA3
@@ -113,8 +113,8 @@ Palltap
 R8
 R9
 R10
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/alltap.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/alltap.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/alltap.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/alltap.vhd
 l0
 L30
 V4E=h2F3CFND>lPZND<>Kl2
@@ -137,8 +137,8 @@ R6
 Z25 DPx4 work 7 gencomp 0 22 Gh7R5G283PD>>9Ao<WUea3
 R8
 R10
-Z26 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkand.vhd
-Z27 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkand.vhd
+Z26 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkand.vhd
+Z27 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkand.vhd
 l0
 L31
 VXCIUZc61JI0MAG71O3FQS2
@@ -182,8 +182,8 @@ R9
 Z37 DEx6 unisim 7 bufgmux 0 22 OSg3K9cQ[nVEjMl>@C@_Y3
 R8
 R10
-Z38 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/clkgen_unisim.vhd
-Z39 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/clkgen_unisim.vhd
+Z38 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/clkgen_unisim.vhd
+Z39 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/clkgen_unisim.vhd
 l0
 L925
 VS[ZoJCgVUDe69fXf=m;j20
@@ -213,8 +213,8 @@ Z41 DEx6 unisim 4 bufg 0 22 gnId@8AMY_h0PLMTo@kfi0
 R37
 R8
 R10
-Z42 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/buffer_unisim.vhd
-Z43 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/buffer_unisim.vhd
+Z42 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/buffer_unisim.vhd
+Z43 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/buffer_unisim.vhd
 l0
 L34
 VlWlB`;<Uei?iXg?HHc1hK0
@@ -249,8 +249,8 @@ R6
 R7
 R8
 R10
-Z45 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkgen.vhd
-Z46 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkgen.vhd
+Z45 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkgen.vhd
+Z46 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkgen.vhd
 l0
 L32
 V=cFANhigF37HzbhD[oVoM3
@@ -573,8 +573,8 @@ R6
 R25
 R8
 R10
-Z64 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkmux.vhd
-Z65 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkmux.vhd
+Z64 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkmux.vhd
+Z65 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkmux.vhd
 l0
 L31
 VUDJWCUnzhc3_8BHbz8CR33
@@ -683,8 +683,8 @@ R6
 R7
 R8
 R10
-Z67 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad.vhd
-Z68 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad.vhd
+Z67 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad.vhd
+Z68 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad.vhd
 l0
 L32
 Vm^QGgWSDD7[V]DCPDa`jb0
@@ -735,8 +735,8 @@ R6
 R7
 R8
 R10
-Z70 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad_ds.vhd
-Z71 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad_ds.vhd
+Z70 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad_ds.vhd
+Z71 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/clkpad_ds.vhd
 l0
 L32
 V:kcR;;iILESCl>71E:@H02
@@ -785,8 +785,8 @@ R5
 R2
 R8
 R10
-Z74 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/cpu_disas_net.vhd
-Z75 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/cpu_disas_net.vhd
+Z74 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/cpu_disas_net.vhd
+Z75 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/cpu_disas_net.vhd
 l0
 L35
 VTnUl[Gz<m[Ji@KMHG007M2
@@ -833,8 +833,8 @@ R5
 R2
 R8
 R10
-Z82 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddrphy.vhd
-Z83 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddrphy.vhd
+Z82 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddrphy.vhd
+Z83 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddrphy.vhd
 l0
 L223
 VZ4jgnaEUEXOzlbNVVZKJV3
@@ -885,8 +885,8 @@ R6
 R7
 R8
 R10
-Z92 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_ireg.vhd
-Z93 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_ireg.vhd
+Z92 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_ireg.vhd
+Z93 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_ireg.vhd
 l0
 L31
 VizNA=I5D@kb]W^JVUFg5F3
@@ -937,8 +937,8 @@ R6
 R7
 R8
 R10
-Z94 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_oreg.vhd
-Z95 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_oreg.vhd
+Z94 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_oreg.vhd
+Z95 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ddr_oreg.vhd
 l0
 L31
 VY_B?eH061@X9QYHDnKKzd2
@@ -1035,8 +1035,8 @@ Z96 DPx4 ieee 15 std_logic_arith 0 22 GJbAT?7@hRQU9IQ702DT]2
 Z97 DPx4 dw02 15 dw02_components 0 22 l7@5mQNcnC<mO5E73Q<GD1
 R8
 R10
-Z98 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/dw02/mul_dw_gen.vhd
-Z99 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/dw02/mul_dw_gen.vhd
+Z98 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/dw02/mul_dw_gen.vhd
+Z99 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/dw02/mul_dw_gen.vhd
 l0
 L32
 Vdo0WzmJ4PzC`@15IKfJiE1
@@ -1113,8 +1113,8 @@ Egen_ddr_phy_ireg
 R9
 R8
 R10
-Z102 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_phy_inferred.vhd
-Z103 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_phy_inferred.vhd
+Z102 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_phy_inferred.vhd
+Z103 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_phy_inferred.vhd
 l0
 L86
 Vo0=6=1bFVmQdbN:Na^hDX3
@@ -1197,8 +1197,8 @@ Egen_iddr_reg
 R9
 R8
 R10
-Z104 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_inferred.vhd
-Z105 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_inferred.vhd
+Z104 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_inferred.vhd
+Z105 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/ddr_inferred.vhd
 l0
 L29
 VmQ;FZE:BO2l@<7nlm6Z;90
@@ -1229,8 +1229,8 @@ R2
 R5
 R8
 R10
-Z106 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/mul_inferred.vhd
-Z107 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/mul_inferred.vhd
+Z106 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/mul_inferred.vhd
+Z107 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/mul_inferred.vhd
 l0
 L32
 V1KF;jg3KObR_dL@04AkBV2
@@ -1271,8 +1271,8 @@ R6
 R8
 R9
 R10
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/gencomp.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/gencomp.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/gencomp.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/gencomp.vhd
 l0
 L31
 VGh7R5G283PD>>9Ao<WUea3
@@ -1346,8 +1346,8 @@ R5
 R2
 R8
 R10
-Z110 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/memory_inferred.vhd
-Z111 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/memory_inferred.vhd
+Z110 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/memory_inferred.vhd
+Z111 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/inferred/memory_inferred.vhd
 l0
 L220
 Vk^g2k[zjNVM3foXCIgd3Q2
@@ -1589,8 +1589,8 @@ R6
 R25
 R8
 R10
-Z114 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grfpw_net.vhd
-Z115 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grfpw_net.vhd
+Z114 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grfpw_net.vhd
+Z115 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grfpw_net.vhd
 l0
 L31
 VLmg7>U^JDEL9n7=P6bKc=2
@@ -1638,8 +1638,8 @@ R6
 R25
 R8
 R10
-Z117 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grlfpw_net.vhd
-Z118 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grlfpw_net.vhd
+Z117 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grlfpw_net.vhd
+Z118 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grlfpw_net.vhd
 l0
 L31
 VbRlW7k9nE7BjDFL4aMzfJ1
@@ -1688,8 +1688,8 @@ R6
 R7
 R8
 R10
-Z119 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grgates.vhd
-Z120 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grgates.vhd
+Z119 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grgates.vhd
+Z120 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grgates.vhd
 l0
 L31
 VBdC46nYm?d`I5T32U_z@i3
@@ -1739,8 +1739,8 @@ R6
 R7
 R8
 R10
-Z121 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc2_net.vhd
-Z122 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc2_net.vhd
+Z121 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc2_net.vhd
+Z122 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc2_net.vhd
 l0
 L31
 VECEUEACXYB@k^cIM@LF=z0
@@ -1781,8 +1781,8 @@ Egrspwc2_unisim
 R9
 R8
 R10
-Z123 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc2_unisim.vhd
-Z124 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc2_unisim.vhd
+Z123 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc2_unisim.vhd
+Z124 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc2_unisim.vhd
 l0
 L30
 ViP_;I6D7OBlKKDbYZE<d01
@@ -1816,8 +1816,8 @@ R6
 R7
 R8
 R10
-Z125 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc_net.vhd
-Z126 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc_net.vhd
+Z125 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc_net.vhd
+Z126 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/grspwc_net.vhd
 l0
 L31
 Vj;NFEe4Tg:ZOc4Yam=a022
@@ -1858,8 +1858,8 @@ Egrspwc_unisim
 R9
 R8
 R10
-Z127 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc_unisim.vhd
-Z128 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc_unisim.vhd
+Z127 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc_unisim.vhd
+Z128 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grspwc_unisim.vhd
 l0
 L30
 VYUfmQ[FNik_QS3<^446F93
@@ -1893,8 +1893,8 @@ R6
 R7
 R8
 R10
-Z129 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grusbhc_unisim.vhd
-Z130 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grusbhc_unisim.vhd
+Z129 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grusbhc_unisim.vhd
+Z130 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/grusbhc_unisim.vhd
 l0
 L40
 VSNJnIUJlSFeCWka:A]EbV2
@@ -1943,8 +1943,8 @@ R6
 R7
 R8
 R10
-Z131 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad.vhd
-Z132 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad.vhd
+Z131 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad.vhd
+Z132 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad.vhd
 l0
 L32
 VPok8L^j?;gmFbn0g[^TQf0
@@ -1996,8 +1996,8 @@ R6
 R7
 R8
 R10
-Z133 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ddr.vhd
-Z134 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ddr.vhd
+Z133 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ddr.vhd
+Z134 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ddr.vhd
 l0
 L35
 Vb8:g3`5A3_h^B>aE`L`1N2
@@ -2099,8 +2099,8 @@ R6
 R7
 R8
 R10
-Z140 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ds.vhd
-Z141 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ds.vhd
+Z140 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ds.vhd
+Z141 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/inpad_ds.vhd
 l0
 L32
 V`z3hd1?n1g[VM@8MoiW1T2
@@ -2249,8 +2249,8 @@ R6
 R7
 R8
 R10
-Z142 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iodpad.vhd
-Z143 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iodpad.vhd
+Z142 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iodpad.vhd
+Z143 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iodpad.vhd
 l0
 L32
 V[M5en2d:cmcB?QmEUZMP?1
@@ -2350,8 +2350,8 @@ R6
 R7
 R8
 R10
-Z144 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad.vhd
-Z145 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad.vhd
+Z144 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad.vhd
+Z145 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad.vhd
 l0
 L32
 V=^`mLdIG8H6daoAf7ZXoD2
@@ -2403,8 +2403,8 @@ R6
 R7
 R8
 R10
-Z146 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ddr.vhd
-Z147 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ddr.vhd
+Z146 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ddr.vhd
+Z147 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ddr.vhd
 l0
 L35
 V9RjI7Q=bZ>[n2f]@RcAPe2
@@ -2555,8 +2555,8 @@ R6
 R7
 R8
 R10
-Z148 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ds.vhd
-Z149 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ds.vhd
+Z148 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ds.vhd
+Z149 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/iopad_ds.vhd
 l0
 L32
 Va<[9Ie<Helf4M?3H2VU7N2
@@ -2803,8 +2803,8 @@ R6
 R7
 R8
 R10
-Z150 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/lvds_combo.vhd
-Z151 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/lvds_combo.vhd
+Z150 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/lvds_combo.vhd
+Z151 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/lvds_combo.vhd
 l0
 L32
 V_bX;9LLIWOlibDkz:ZMmh0
@@ -2854,8 +2854,8 @@ R6
 R7
 R8
 R10
-Z152 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/mul_61x61.vhd
-Z153 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/mul_61x61.vhd
+Z152 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/mul_61x61.vhd
+Z153 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/mul_61x61.vhd
 l0
 L31
 V>M72_1g<3aSB`44@ElH6h1
@@ -2903,8 +2903,8 @@ R6
 R7
 R8
 R10
-Z154 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/nandtree.vhd
-Z155 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/nandtree.vhd
+Z154 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/nandtree.vhd
+Z155 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/nandtree.vhd
 l0
 L30
 VdJhl`@[zo1MVa3@@?KGiR3
@@ -2952,8 +2952,8 @@ R6
 R8
 R9
 R10
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/netcomp.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/netcomp.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/netcomp.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/gencomp/netcomp.vhd
 l0
 L32
 VNY3VV?5?ALkeH`None0n[1
@@ -2985,8 +2985,8 @@ R6
 R7
 R8
 R10
-Z158 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_unisim.vhd
-Z159 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_unisim.vhd
+Z158 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_unisim.vhd
+Z159 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_unisim.vhd
 l0
 L306
 VgZbR1VgC]9nLKb^RTW]ec1
@@ -3088,8 +3088,8 @@ R6
 R7
 R8
 R10
-Z162 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/odpad.vhd
-Z163 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/odpad.vhd
+Z162 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/odpad.vhd
+Z163 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/odpad.vhd
 l0
 L32
 VzI^3Th^0ZWJBJ21?4@Q540
@@ -3189,8 +3189,8 @@ R6
 R7
 R8
 R10
-Z164 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad.vhd
-Z165 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad.vhd
+Z164 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad.vhd
+Z165 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad.vhd
 l0
 L32
 VeR3zI^15HCF<AXMlS_=WH1
@@ -3242,8 +3242,8 @@ R6
 R7
 R8
 R10
-Z166 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ddr.vhd
-Z167 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ddr.vhd
+Z166 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ddr.vhd
+Z167 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ddr.vhd
 l0
 L36
 V<>RKV@0jl5MlOdPfCgKZU2
@@ -3345,8 +3345,8 @@ R6
 R7
 R8
 R10
-Z168 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ds.vhd
-Z169 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ds.vhd
+Z168 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ds.vhd
+Z169 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/outpad_ds.vhd
 l0
 L32
 VShG_emH@:AWj=E<f^GDjg3
@@ -3494,18 +3494,18 @@ R5
 R6
 R7
 R8
-Z172 dF:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
-Z173 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/regfile_3p.vhd
-Z174 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/regfile_3p.vhd
+R10
+Z172 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/regfile_3p.vhd
+Z173 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/regfile_3p.vhd
 l0
 L32
 VQ2174GVHeb@5LRhT4=EPA2
-!s100 XZ[PRJ6>ij7^hkKz40Z0>2
 R11
 31
 R20
 R21
 R22
+!s100 XZ[PRJ6>ij7^hkKz40Z0>2
 Artl
 R171
 R1
@@ -3516,11 +3516,10 @@ R5
 R6
 R7
 R8
-Z175 DEx4 work 10 regfile_3p 0 22 Q2174GVHeb@5LRhT4=EPA2
+DEx4 work 10 regfile_3p 0 22 Q2174GVHeb@5LRhT4=EPA2
 l53
 L50
-Z176 V[NlIURaCd9A0<m4[?M1Mz3
-Z177 !s100 0C:=Cde`dlbzldSi<Q_Bc3
+V[NlIURaCd9A0<m4[?M1Mz3
 R11
 31
 R28
@@ -3531,10 +3530,11 @@ R32
 R33
 R34
 R35
-Z178 Mx1 7 techmap 6 allmem
+Mx1 7 techmap 6 allmem
 R20
 R21
 R22
+!s100 0C:=Cde`dlbzldSi<Q_Bc3
 Eringosc
 R9
 R1
@@ -3546,8 +3546,8 @@ R6
 R7
 R8
 R10
-Z179 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ringosc.vhd
-Z180 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ringosc.vhd
+Z174 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ringosc.vhd
+Z175 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/ringosc.vhd
 l0
 L30
 V7lBzWTb2^[G;LMTlNh1lA2
@@ -3596,8 +3596,8 @@ R6
 R7
 R8
 R10
-Z181 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/skew_outpad.vhd
-Z182 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/skew_outpad.vhd
+Z176 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/skew_outpad.vhd
+Z177 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/skew_outpad.vhd
 l0
 L32
 Vz?EZ2RC`ON57Fc47c7R1@2
@@ -3641,8 +3641,8 @@ R9
 DEx6 unisim 14 bscan_spartan3 0 22 Zn6ng:ZjD7RB<[lgB1YAj2
 R8
 R10
-Z183 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/tap_unisim.vhd
-Z184 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/tap_unisim.vhd
+Z178 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/tap_unisim.vhd
+Z179 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/tap_unisim.vhd
 l0
 L151
 V7`?AfQ=bGhb=RYHid4_Dc1
@@ -3670,11 +3670,11 @@ R9
 R3
 R6
 R7
-Z185 DEx6 unisim 5 bufio 0 22 M9lgmPWJ@YjdnYSMYazW>0
+Z180 DEx6 unisim 5 bufio 0 22 M9lgmPWJ@YjdnYSMYazW>0
 R157
 R156
 R54
-Z186 DEx6 unisim 5 iddr2 0 22 d;[[K7]]3iMno6Nnz^Efk1
+Z181 DEx6 unisim 5 iddr2 0 22 d;[[K7]]3iMno6Nnz^Efk1
 R48
 R41
 R1
@@ -3683,8 +3683,8 @@ R5
 R2
 R8
 R10
-Z187 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_phy_unisim.vhd
-Z188 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_phy_unisim.vhd
+Z182 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_phy_unisim.vhd
+Z183 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ddr_phy_unisim.vhd
 l0
 L1894
 V5X>`jHPn7>[Soo;IOeH^R3
@@ -3733,7 +3733,7 @@ R1
 R5
 R2
 R157
-R186
+R181
 R4
 R54
 R156
@@ -3741,8 +3741,8 @@ R48
 R41
 R8
 R10
-R187
-R188
+R182
+R183
 l0
 L876
 V74?>c=TL;>79z42549=IV3
@@ -3770,7 +3770,7 @@ R11
 31
 R28
 Mx8 6 unisim 4 vpkg
-Z189 Mx7 3 std 6 textio
+Z184 Mx7 3 std 6 textio
 R77
 R15
 R50
@@ -3786,11 +3786,11 @@ R9
 R3
 R6
 R7
-R185
+R180
 R157
 R156
 R54
-R186
+R181
 R48
 R41
 R1
@@ -3799,8 +3799,8 @@ R5
 R2
 R8
 R10
-R187
-R188
+R182
+R183
 l0
 L2344
 V<gWSFg^JiAV49V4d=AW<E1
@@ -3843,8 +3843,8 @@ Espartan6_tap
 R9
 R8
 R10
-R183
-R184
+R178
+R179
 l0
 L469
 VmH6ailUUNGz0lI7NfYO471
@@ -3869,11 +3869,11 @@ R22
 !s100 S8X93;S;o@b@bj]=4J;8M2
 Essrctrl_unisim
 R9
-Z190 DPx6 unisim 11 vcomponents 0 22 kMGh31W2AdR@z5ck2G;FO3
+Z185 DPx6 unisim 11 vcomponents 0 22 kMGh31W2AdR@z5ck2G;FO3
 R8
 R10
-Z191 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ssrctrl_unisim.vhd
-Z192 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ssrctrl_unisim.vhd
+Z186 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ssrctrl_unisim.vhd
+Z187 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/ssrctrl_unisim.vhd
 l0
 L31
 VI5JO?:LiQbobf9n1_ohmk1
@@ -3885,26 +3885,26 @@ R22
 !s100 0gPZ@a@8FNI3P0]LNbG4L1
 Abeh
 DEx4 work 14 ssrctrl_unisim 0 22 I5JO?:LiQbobf9n1_ohmk1
-R190
+R185
 R8
 l4981
 L4656
 VMhbNaJdQaz1<D;CK9gUI>3
 R11
 31
-Z193 Mx2 4 ieee 14 std_logic_1164
-Z194 Mx1 6 unisim 11 vcomponents
+Z188 Mx2 4 ieee 14 std_logic_1164
+Z189 Mx1 6 unisim 11 vcomponents
 R20
 R21
 R22
 !s100 IfPF]Z^3ac>0`jO>:K4MZ1
 Essrctrl_unisim_netlist
 R9
-R190
+R185
 R8
 R10
-R191
-R192
+R186
+R187
 l0
 L104
 VIXULYb=eA0ccKZ?28@Y4m0
@@ -3915,7 +3915,7 @@ R21
 R22
 !s100 _IEeRohzSlgINT:zDSYYz0
 Abeh
-R190
+R185
 R8
 DEx4 work 22 ssrctrl_unisim_netlist 0 22 IXULYb=eA0ccKZ?28@Y4m0
 l518
@@ -3923,8 +3923,8 @@ L260
 V@jo;g71NEU3n[TEJ^V@mO1
 R11
 31
-R193
-R194
+R188
+R189
 R20
 R21
 R22
@@ -3940,8 +3940,8 @@ R6
 R7
 R8
 R10
-Z195 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncfifo.vhd
-Z196 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncfifo.vhd
+Z190 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncfifo.vhd
+Z191 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncfifo.vhd
 l0
 L33
 V[^db>1Y2bjQzJC3eEO^df3
@@ -3980,7 +3980,7 @@ R22
 !s100 0o>i3n5@05QXnP;eD^_121
 Esyncram
 R9
-Z197 DPx4 work 6 allmem 0 22 h4JW]KP97`U`^iciaQeXJ0
+Z192 DPx4 work 6 allmem 0 22 h4JW]KP97`U`^iciaQeXJ0
 R1
 R2
 R3
@@ -3990,8 +3990,8 @@ R6
 R25
 R8
 R10
-Z198 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram.vhd
-Z199 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram.vhd
+Z193 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram.vhd
+Z194 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram.vhd
 l0
 L31
 VRl0N]:YHge8FSRl=Y[4160
@@ -4002,7 +4002,7 @@ R21
 R22
 !s100 2n5z3XKAKD^mfc@oo@fkE1
 Artl
-R197
+R192
 R1
 R2
 R3
@@ -4025,7 +4025,7 @@ R32
 R33
 R34
 R35
-Z200 Mx1 4 work 6 allmem
+Z195 Mx1 4 work 6 allmem
 R20
 R21
 R22
@@ -4041,8 +4041,8 @@ R6
 R7
 R8
 R10
-Z201 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128.vhd
-Z202 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128.vhd
+Z196 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128.vhd
+Z197 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128.vhd
 l0
 L32
 V;8@eYVoTG_FVz1A@M^:3l0
@@ -4065,6 +4065,7 @@ DEx4 work 10 syncram128 0 22 ;8@eYVoTG_FVz1A@M^:3l0
 l61
 L44
 VIohP=[kC[<Q]MjbF`dah63
+!s100 o1h>cT5cFeKQ39V7>@a[c3
 R11
 31
 R12
@@ -4078,7 +4079,6 @@ R19
 R20
 R21
 R22
-!s100 o1h>cT5cFeKQ39V7>@a[c3
 Esyncram128bw
 R9
 R1
@@ -4090,8 +4090,8 @@ R6
 R7
 R8
 R10
-Z203 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128bw.vhd
-Z204 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128bw.vhd
+Z198 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128bw.vhd
+Z199 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram128bw.vhd
 l0
 L32
 VV2IAM?z2N42;aaKZiQLJ_3
@@ -4139,17 +4139,17 @@ R6
 R7
 R8
 R10
-Z205 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram156bw.vhd
-Z206 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram156bw.vhd
+Z200 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram156bw.vhd
+Z201 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram156bw.vhd
 l0
 L33
 V<b6PeJBD`XjzOl`c^WZ@53
+!s100 dBIYY4Y97c6nP?el7GW`@3
 R11
 31
 R20
 R21
 R22
-!s100 dBIYY4Y97c6nP?el7GW`@3
 Artl
 R1
 R2
@@ -4159,10 +4159,11 @@ R5
 R6
 R7
 R8
-DEx4 work 12 syncram156bw 0 22 <b6PeJBD`XjzOl`c^WZ@53
+Z202 DEx4 work 12 syncram156bw 0 22 <b6PeJBD`XjzOl`c^WZ@53
 l90
 L45
-VKYWj;iGWQTeM6NG>kEDTX1
+Z203 VKYWj;iGWQTeM6NG>kEDTX1
+Z204 !s100 PVQLeM7KWA1gR85:Db7m@3
 R11
 31
 R12
@@ -4176,7 +4177,6 @@ R19
 R20
 R21
 R22
-!s100 PVQLeM7KWA1gR85:Db7m@3
 Esyncram64
 R9
 R1
@@ -4188,8 +4188,8 @@ R6
 R7
 R8
 R10
-Z207 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram64.vhd
-Z208 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram64.vhd
+Z205 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram64.vhd
+Z206 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram64.vhd
 l0
 L32
 VJbPE^9ANz4aj7VHJhIIj13
@@ -4228,7 +4228,7 @@ R22
 !s100 ?k1M4O8^dSkDC9Ai[]@S21
 Esyncram_2p
 R9
-R197
+R192
 R1
 R2
 R3
@@ -4238,8 +4238,8 @@ R6
 R7
 R8
 R10
-Z209 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_2p.vhd
-Z210 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_2p.vhd
+Z207 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_2p.vhd
+Z208 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_2p.vhd
 l0
 L32
 Vej_<[<d[QKoMcU1PH`5>V3
@@ -4250,7 +4250,7 @@ R21
 R22
 !s100 aLbo4S1;md[n>WAW>W:8a1
 Artl
-R197
+R192
 R1
 R2
 R3
@@ -4273,14 +4273,14 @@ R32
 R33
 R34
 R35
-R200
+R195
 R20
 R21
 R22
 !s100 3Km@Y`Q@ilH>`UR62E_Tf2
 Esyncram_dp
 R9
-R197
+R192
 R1
 R2
 R3
@@ -4290,8 +4290,8 @@ R6
 R7
 R8
 R10
-Z211 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_dp.vhd
-Z212 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_dp.vhd
+Z209 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_dp.vhd
+Z210 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/syncram_dp.vhd
 l0
 L32
 V3]8=1XLG>@^A:c[CoEZRb1
@@ -4302,7 +4302,7 @@ R21
 R22
 !s100 oR76BcEV8MVf7P;[ojJ:h0
 Artl
-R197
+R192
 R1
 R2
 R3
@@ -4325,7 +4325,7 @@ R32
 R33
 R34
 R35
-R200
+R195
 R20
 R21
 R22
@@ -4338,8 +4338,8 @@ R5
 DEx6 unisim 6 sysmon 0 22 CaNJ4PJh@X8dV1>@[Ei3z2
 R8
 R10
-Z213 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/sysmon_unisim.vhd
-Z214 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/sysmon_unisim.vhd
+Z211 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/sysmon_unisim.vhd
+Z212 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/sysmon_unisim.vhd
 l0
 L38
 VnJF7dPWiMGQG2`i@ZVfg51
@@ -4360,7 +4360,7 @@ L92
 V;IFU[kXYTFjEH;oTA;<dX2
 R11
 31
-Z215 Mx4 4 ieee 14 std_logic_1164
+Z213 Mx4 4 ieee 14 std_logic_1164
 R113
 R109
 R160
@@ -4379,8 +4379,8 @@ R6
 R7
 R8
 R10
-Z216 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/system_monitor.vhd
-Z217 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/system_monitor.vhd
+Z214 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/system_monitor.vhd
+Z215 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/system_monitor.vhd
 l0
 L31
 V4i6ah;G5SAC;S0M2K5NIa0
@@ -4419,7 +4419,7 @@ R22
 !s100 4eA?o3SjEQSg<XHHnW>:A2
 Etap
 R9
-Z218 DPx7 techmap 6 alltap 0 22 4E=h2F3CFND>lPZND<>Kl2
+Z216 DPx7 techmap 6 alltap 0 22 4E=h2F3CFND>lPZND<>Kl2
 R1
 R2
 R3
@@ -4429,8 +4429,8 @@ R6
 R7
 R8
 R10
-Z219 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/tap.vhd
-Z220 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/tap.vhd
+Z217 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/tap.vhd
+Z218 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/tap.vhd
 l0
 L35
 Ve@Xz?0Aeh_ZmG[Bd?0S1Q2
@@ -4441,7 +4441,7 @@ R21
 R22
 !s100 kW[=JNHc;[:@4fCehe`LI1
 Artl
-R218
+R216
 R1
 R2
 R3
@@ -4480,8 +4480,8 @@ R6
 R7
 R8
 R10
-Z221 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/techbuf.vhd
-Z222 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/techbuf.vhd
+Z219 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/techbuf.vhd
+Z220 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/techbuf.vhd
 l0
 L30
 V897[lC[VCDdJQ6dEZCY:]2
@@ -4530,8 +4530,8 @@ R6
 R7
 R8
 R10
-Z223 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/toutpad.vhd
-Z224 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/toutpad.vhd
+Z221 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/toutpad.vhd
+Z222 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/maps/toutpad.vhd
 l0
 L32
 V7T:=M]iXMZz0gSF`5FOWB0
@@ -4581,8 +4581,8 @@ R6
 R7
 R8
 R10
-R223
-R224
+R221
+R222
 l0
 L123
 V4SCSURVa;02;H2i4leL1[1
@@ -4630,8 +4630,8 @@ R6
 R7
 R8
 R10
-R223
-R224
+R221
+R222
 l0
 L145
 VXOm7[;c]?T2fHfME<JcJ83
@@ -4672,7 +4672,7 @@ Eunisim_clkpad
 R9
 R41
 R37
-Z225 DEx6 unisim 4 ibuf 0 22 G?f4Lj9Dd?[NUNC4Fmk>N1
+Z223 DEx6 unisim 4 ibuf 0 22 G?f4Lj9Dd?[NUNC4Fmk>N1
 R63
 R1
 R2
@@ -4683,8 +4683,8 @@ R6
 R7
 R8
 R10
-Z226 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/pads_unisim.vhd
-Z227 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/pads_unisim.vhd
+Z224 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/pads_unisim.vhd
+Z225 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/pads_unisim.vhd
 l0
 L473
 VNnMJN_?gXMFQlGR4c0l8W0
@@ -4734,8 +4734,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L664
 VfzzWM=lG:jlT?1`Pgk@IM3
@@ -4775,7 +4775,7 @@ R22
 Eunisim_iddr_reg
 R9
 R54
-Z228 DEx6 unisim 4 iddr 0 22 `CMAeY89R1UlT16QaYN<63
+Z226 DEx6 unisim 4 iddr 0 22 `CMAeY89R1UlT16QaYN<63
 R1
 R2
 R3
@@ -4827,7 +4827,7 @@ R22
 !s100 ^7d:jdSIiOUNO2=;SNzWR1
 Eunisim_inpad
 R9
-R225
+R223
 R1
 R2
 R3
@@ -4837,8 +4837,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L35
 V[<?hk^S@e<h[L>fW5bMU72
@@ -4888,8 +4888,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L628
 Vhm2A_hB_5[V>QMSS42SRd1
@@ -4938,8 +4938,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L88
 VN7hHl4n<Dg4BA<ZSg?A`c3
@@ -4988,8 +4988,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L786
 VlOlY=m`NT`@O`]0NbFeSJ3
@@ -5030,7 +5030,7 @@ Eunisim_oddr_reg
 R9
 R161
 R54
-Z229 DEx6 unisim 4 oddr 0 22 L7Af7k^QamoX=e=CX:A<N0
+Z227 DEx6 unisim 4 oddr 0 22 L7Af7k^QamoX=e=CX:A<N0
 R1
 R2
 R3
@@ -5082,7 +5082,7 @@ R22
 !s100 bLB97^5oU65i88@NUXc2N3
 Eunisim_outpad
 R9
-Z230 DEx6 unisim 4 obuf 0 22 ?ah?5fDeQlA2zEcngG1mb1
+Z228 DEx6 unisim 4 obuf 0 22 ?ah?5fDeQlA2zEcngG1mb1
 R1
 R2
 R3
@@ -5092,8 +5092,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L176
 V`1O3]c=bmMPKkjM85L6>f3
@@ -5142,8 +5142,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L834
 VgJclLT3RBG?]2a7eNF6=I0
@@ -5184,7 +5184,7 @@ Eunisim_skew_outpad
 R9
 R48
 R41
-R230
+R228
 R1
 R2
 R3
@@ -5194,8 +5194,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L338
 V2oHlhmD1iXz_ZW:5MWzSJ2
@@ -5240,12 +5240,12 @@ DEx6 unisim 9 ramb16_s4 0 22 i<^lR:cI8Z[bNGDhCTZXg3
 DEx6 unisim 9 ramb16_s9 0 22 >JZh_3LWNJ_ez^ld0]02i1
 DEx6 unisim 10 ramb16_s18 0 22 ?^jg]S[m_Yz2o>RAVPTRN1
 DEx6 unisim 10 ramb16_s36 0 22 4KXSOD^9;Nbj?LG@BLgIY2
-Z231 DPx6 unisim 14 simple_simprim 0 22 0`E8abXDV03<:^Gf==gd72
-Z232 DEx6 unisim 14 ramb16_s36_s36 0 22 kjDB1gP4OKMiEimW0Y=e12
+Z229 DPx6 unisim 14 simple_simprim 0 22 0`E8abXDV03<:^Gf==gd72
+Z230 DEx6 unisim 14 ramb16_s36_s36 0 22 kjDB1gP4OKMiEimW0Y=e12
 R8
 R10
-Z233 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/memory_unisim.vhd
-Z234 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/memory_unisim.vhd
+Z231 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/memory_unisim.vhd
+Z232 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/memory_unisim.vhd
 l0
 L394
 VXE[nG4DZLcU8UG@LZ[5;Y0
@@ -5256,7 +5256,7 @@ R21
 R22
 !s100 Z9>e^>m9G_fLEE6l]II:V2
 Abehav
-R231
+R229
 R8
 DEx4 work 14 unisim_syncram 0 22 XE[nG4DZLcU8UG@LZ[5;Y0
 l520
@@ -5264,8 +5264,8 @@ L406
 V0JM3a4V=mm=JVjdKM<Z@?0
 R11
 31
-R193
-Z235 Mx1 6 unisim 14 simple_simprim
+R188
+Z233 Mx1 6 unisim 14 simple_simprim
 R20
 R21
 R22
@@ -5274,8 +5274,8 @@ Eunisim_syncram128
 R9
 R8
 R10
-R233
-R234
+R231
+R232
 l0
 L1037
 VYibhZ@God08zMLCzH64hX2
@@ -5300,12 +5300,12 @@ R22
 !s100 hLTPCeNVNF5SGDVH=HM=T1
 Eunisim_syncram128bw
 R9
-R231
-R232
+R229
+R230
 R8
 R10
-R233
-R234
+R231
+R232
 l0
 L1076
 VR8ji^9?VER`0AdgMhMA]N3
@@ -5316,7 +5316,7 @@ R21
 R22
 !s100 cg^6m?ijomoeC5=l[FaD12
 Abehav
-R231
+R229
 R8
 DEx4 work 19 unisim_syncram128bw 0 22 R8ji^9?VER`0AdgMhMA]N3
 l1125
@@ -5324,20 +5324,20 @@ L1088
 VHk3Qz`2oPRDCUVlGYLWA83
 R11
 31
-R193
-R235
+R188
+R233
 R20
 R21
 R22
 !s100 _?B<C]_2ZLSjzbCNAULc71
 Eunisim_syncram64
 R9
-R231
-R232
+R229
+R230
 R8
 R10
-R233
-R234
+R231
+R232
 l0
 L963
 V3?^6elBMfTZAN9Mk3j0k71
@@ -5348,7 +5348,7 @@ R21
 R22
 !s100 BX=7?Ujf3:N>;5IAmgdmC0
 Abehav
-R231
+R229
 R8
 DEx4 work 16 unisim_syncram64 0 22 3?^6elBMfTZAN9Mk3j0k71
 l1011
@@ -5356,8 +5356,8 @@ L975
 V7N`<kNWkiV^g_>2m=0;cG0
 R11
 31
-R193
-R235
+R188
+R233
 R20
 R21
 R22
@@ -5366,8 +5366,8 @@ Eunisim_syncram_2p
 R9
 R8
 R10
-R233
-R234
+R231
+R232
 l0
 L882
 VhC;=591:Z7[jCM0NLL5:63
@@ -5397,12 +5397,12 @@ DEx6 unisim 12 ramb16_s2_s2 0 22 aGg8ag>[ho0bhA[aH]NG12
 DEx6 unisim 12 ramb16_s4_s4 0 22 =>R=;b3K:BEkYgY^9W8:[1
 DEx6 unisim 12 ramb16_s9_s9 0 22 :eYD_^Ynch7W<ca3FoY;:1
 DEx6 unisim 14 ramb16_s18_s18 0 22 Uf`L>SNMh3P`dK@0=12C50
-R231
-R232
+R229
+R230
 R8
 R10
-R233
-R234
+R231
+R232
 l0
 L625
 VWjF_mm>k[`c@g_;64QNf^2
@@ -5413,7 +5413,7 @@ R21
 R22
 !s100 4LFOl[Gd57of;:Q5I^:hl2
 Abehav
-R231
+R229
 R8
 DEx4 work 17 unisim_syncram_dp 0 22 WjF_mm>k[`c@g_;64QNf^2
 l773
@@ -5421,8 +5421,8 @@ L644
 VK^9_YB1[0a<d0bd00[AUK2
 R11
 31
-R193
-R235
+R188
+R233
 R20
 R21
 R22
@@ -5439,8 +5439,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L265
 V=?^zfS5@3@:gNRc:6eic@1
@@ -5488,15 +5488,15 @@ R4
 R5
 R2
 R157
-R190
+R185
 DEx6 unisim 8 ifddrrse 0 22 e_Na0DlmzG:mdoo=lJ7YC0
 R161
 R48
 R41
 R8
 R10
-R187
-R188
+R182
+R183
 l0
 L466
 VnXWX`306RlASjNlQX59_L1
@@ -5514,7 +5514,7 @@ R1
 R4
 R5
 R2
-R190
+R185
 R8
 DEx4 work 15 virtex2_ddr_phy 0 22 nXWX`306RlASjNlQX59_L1
 l634
@@ -5539,8 +5539,8 @@ Evirtex2_tap
 R9
 R8
 R10
-R183
-R184
+R178
+R179
 l0
 L91
 VOKY1_Pfz<6G:RkgL7MKP_0
@@ -5575,8 +5575,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L745
 VJGMk?<_c;ZcZT2:_=@TjN3
@@ -5618,10 +5618,10 @@ R9
 R3
 R6
 R7
-R228
+R226
 R157
 R54
-R229
+R227
 R48
 R41
 R1
@@ -5630,8 +5630,8 @@ R5
 R2
 R8
 R10
-R187
-R188
+R182
+R183
 l0
 L46
 V5K^IFNJ<`T:ZYc1A8XUz32
@@ -5682,8 +5682,8 @@ R6
 R7
 R8
 R10
-R226
-R227
+R224
+R225
 l0
 L704
 VgQBzQTm>k:9`E7_Z_ASgl2
@@ -5722,11 +5722,11 @@ R22
 !s100 jKn_fWl9COYoMFZGH_GK_2
 Evirtex4_mul_61x61
 R9
-R190
+R185
 R8
 R10
-Z236 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/mul_unisim.vhd
-Z237 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/mul_unisim.vhd
+Z234 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/mul_unisim.vhd
+Z235 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/techmap/unisim/mul_unisim.vhd
 l0
 L7
 V]^N7C2HbeVmikigh;eM6e1
@@ -5737,7 +5737,7 @@ R21
 R22
 !s100 Oa@<]YF7^K>N684F3L9CR0
 Abeh
-R190
+R185
 R8
 DEx4 work 17 virtex4_mul_61x61 0 22 ]^N7C2HbeVmikigh;eM6e1
 l2063
@@ -5745,8 +5745,8 @@ L16
 VPdTnhXOEdDe27@IdYQ_Ja2
 R11
 31
-R193
-R194
+R188
+R189
 R20
 R21
 R22
@@ -5756,8 +5756,8 @@ R9
 DEx6 unisim 13 bscan_virtex4 0 22 L33``>iZ]S>1fPZO[`n7^2
 R8
 R10
-R183
-R184
+R178
+R179
 l0
 L211
 VZ>gaKkF>L7=OTg8iacJFi3
@@ -5786,14 +5786,14 @@ R3
 R6
 R7
 DEx6 unisim 10 idelayctrl 0 22 m^V`c8<^O96SWL[BmFCkW3
+R180
 R185
-R190
 R96
 DEx6 unisim 7 iserdes 0 22 =`jf2XQ4i?OjBR1Tz0`g<0
 DEx6 unisim 6 idelay 0 22 MCb8NVkbEe=>hk_gJiBCV2
 R157
 R54
-R229
+R227
 R48
 R41
 R1
@@ -5802,8 +5802,8 @@ R5
 R2
 R8
 R10
-R187
-R188
+R182
+R183
 l0
 L1295
 VgKNP[OMiIFlngmoBciTWa1
@@ -5817,7 +5817,7 @@ Artl
 R3
 R6
 R7
-R190
+R185
 R96
 R54
 R1
@@ -5851,8 +5851,8 @@ R9
 DEx6 unisim 13 bscan_virtex5 0 22 g@DZG?QUIIGiVAjC7Sg;V3
 R8
 R10
-R183
-R184
+R178
+R179
 l0
 L293
 VnAPeLiDeV<60_FF4OB`Yj3
@@ -5879,8 +5879,8 @@ Evirtex6_tap
 R9
 R8
 R10
-R183
-R184
+R178
+R179
 l0
 L377
 VmLCPnOYeZX;Lmd2URC1GU0
@@ -5912,17 +5912,17 @@ R4
 R5
 R6
 R7
-Z238 DEx6 unisim 13 ramb4_s16_s16 0 22 _P?;FcgRZN6`z68[gR[QX3
+Z236 DEx6 unisim 13 ramb4_s16_s16 0 22 _P?;FcgRZN6`z68[gR[QX3
 DEx6 unisim 9 ramb4_s16 0 22 KWR]2`9[nk>>7YDaNF`OC1
 DEx6 unisim 8 ramb4_s8 0 22 3>528W75]6SoJgJ<HS[G23
 DEx6 unisim 8 ramb4_s4 0 22 D<FT:nkJE^a`68UO4[VKL1
 DEx6 unisim 8 ramb4_s2 0 22 IXOR<`c90OZacB0=Xmhg:1
-R231
+R229
 DEx6 unisim 8 ramb4_s1 0 22 @c9?4bHM8?9NVnkfUiL;h3
 R8
 R10
-R233
-R234
+R231
+R232
 l0
 L42
 VO9iM^]Vg:QQKB]W]Q6eU32
@@ -5940,7 +5940,7 @@ R4
 R5
 R6
 R7
-R231
+R229
 R8
 DEx4 work 14 virtex_syncram 0 22 O9iM^]Vg:QQKB]W]Q6eU32
 l120
@@ -5963,17 +5963,17 @@ R22
 !s100 oWOKoW6@S8j:H@a_YLZ1Z3
 Evirtex_syncram_dp
 R9
-R238
+R236
 DEx6 unisim 11 ramb4_s8_s8 0 22 [Hng;RWmk0>gTDR<NAW6<1
 DEx6 unisim 11 ramb4_s4_s4 0 22 Zb7fSi9:mMK@RzXgk<Ec01
 DEx6 unisim 11 ramb4_s2_s2 0 22 z0^Kil^P95FlQOGd4h`1A1
-R231
+R229
 R5
 DEx6 unisim 11 ramb4_s1_s1 0 22 MQckB6I^DHLI?2]GGf5NG1
 R8
 R10
-R233
-R234
+R231
+R232
 l0
 L193
 VP;j;8lmA@`Qa3hRCH2gNB1
@@ -5984,7 +5984,7 @@ R21
 R22
 !s100 PAUYP[S:V]fNl@FMiDgRG3
 Abehav
-R231
+R229
 R5
 R8
 DEx4 work 17 virtex_syncram_dp 0 22 P;j;8lmA@`Qa3hRCH2gNB1
@@ -5995,7 +5995,7 @@ R11
 31
 R100
 Mx2 4 ieee 11 numeric_std
-R235
+R233
 R20
 R21
 R22
@@ -6004,8 +6004,8 @@ Evirtex_tap
 R9
 R8
 R10
-R183
-R184
+R178
+R179
 l0
 L33
 VcH`Z>_@El7PGNI>niWoMM0

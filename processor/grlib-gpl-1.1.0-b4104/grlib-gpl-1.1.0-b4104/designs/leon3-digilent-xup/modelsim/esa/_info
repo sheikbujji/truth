@@ -16,9 +16,9 @@ Z9 DPx3 std 6 textio 0 22 m2KQDRRhmF833<<DjYdL70
 Z10 DPx4 ieee 11 numeric_std 0 22 =NSdli^?T5OD8;4F<blj<3
 Z11 DPx5 grlib 4 amba 0 22 SmIzT0180]m<MF]1jBZZK0
 Z12 DPx4 ieee 14 std_logic_1164 0 22 GH1=`jDDBJ=`LM;:Ak`kf2
-Z13 dF:\hw\hdl\truth\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
-Z14 8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/mctrl.vhd
-Z15 FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/mctrl.vhd
+Z13 dF:\projects\truth\truth\processor\grlib-gpl-1.1.0-b4104\grlib-gpl-1.1.0-b4104\designs\leon3-digilent-xup
+Z14 8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/mctrl.vhd
+Z15 FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/mctrl.vhd
 l0
 L46
 V`g<>fWiJ1;4z7nD<6[3RC1
@@ -73,8 +73,8 @@ R11
 R12
 R1
 R13
-8F:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/memoryctrl.vhd
-FF:/hw/hdl/truth/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/memoryctrl.vhd
+8F:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/memoryctrl.vhd
+FF:/projects/truth/truth/processor/grlib-gpl-1.1.0-b4104/grlib-gpl-1.1.0-b4104/lib/esa/memoryctrl/memoryctrl.vhd
 l0
 L26
 V_6k63U5W3_PD26HhiXGRG3

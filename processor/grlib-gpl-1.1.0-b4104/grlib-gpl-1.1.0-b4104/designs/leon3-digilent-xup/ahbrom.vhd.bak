@@ -85,8 +85,8 @@ begin
     when 16#00002# => romdata <= X"821060E0";
     when 16#00003# => romdata <= X"81884000";
     when 16#00004# => romdata <= X"81900000";
-    when 16#00005# => romdata <= X"91d02000";
---    when 16#00005# => romdata <= X"81980000";
+--    when 16#00005# => romdata <= X"91d02000";
+    when 16#00005# => romdata <= X"81980000";
     when 16#00006# => romdata <= X"81800000";
     when 16#00007# => romdata <= X"01000000";
     when 16#00008# => romdata <= X"07200003";
@@ -95,8 +95,9 @@ begin
     when 16#0000B# => romdata <= X"82106234";
     when 16#0000C# => romdata <= X"05000004";
     when 16#0000D# => romdata <= X"8410A234";
-    when 16#0000E# => romdata <= X"8BB0E002";
-    when 16#0000F# => romdata <= X"83B84002";
+    when 16#0000E# => romdata <= X"8BB0E002"; -- DC
+--    when 16#0000F# => romdata <= X"83B84002";
+    when 16#0000F# => romdata <= X"83b84002"; -- CE 
     when 16#00010# => romdata <= X"C220C000";
     when 16#00011# => romdata <= X"c800c000";
     when 16#00012# => romdata <= X"8610E100";
