@@ -1518,8 +1518,14 @@ end;
     else write_reg := '1'; end if;
         when RETT | WRPSR | WRY | WRWIM | WRTBR | TICC | FLUSH => null;
   when FPOP1 | FPOP2 => null;
-  when CPOP1 | CPOP2 => null;
-        when others => write_reg := '1';
+  when CPOP2 => null;
+  when CPOP1 =>
+        -- BARD
+        if inst(11 downto 8) = "0010" then -- co-opcode for FIC
+           write_reg := inst(7); -- assuming inst(7) is rw mode: 1 for write
+        end if;
+        --
+  when others => write_reg := '1';
         end case;
       when others =>   -- LDST
         ld := not op3(2);
