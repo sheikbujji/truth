@@ -1,0 +1,13 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+ 컴퓨터를 조립할때, 마더보드와 CPU 그리고 메모리 사이에 호환성을 확인하고 적합한 조합을 선택한다. 컴퓨터 부품이 도착하면 누드 상태에서 마더보드와 CPU 그리고 메모리를 연결하고 동작하는지 확인한 후에 다음 부속을 조립한다. 이때 고성능 서버용 제품의 경우 노이즈에 민감해 세심한 주의가 필요하다.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
