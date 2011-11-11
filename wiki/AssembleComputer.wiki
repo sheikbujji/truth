@@ -28,9 +28,14 @@
  ncurses-devel
 
  ifort (Intel Fortran Compiler)
+   Serial #: NR2M-KDS8GZHG 
+   URL - https://registrationcenter.intel.com/RegCenter/DownloadNow.aspx?ID=14593&DLM=0&EmailID=yim2012%40gmail.com&Sequence=1246400
+ mpich2
 
- Serial #: NR2M-KDS8GZHG 
- URL - https://registrationcenter.intel.com/RegCenter/DownloadNow.aspx?ID=14593&DLM=0&EmailID=yim2012%40gmail.com&Sequence=1246400
+ zlib: http://zlib.net/
+ git
+ nftape
+
  
 
 = Details =
