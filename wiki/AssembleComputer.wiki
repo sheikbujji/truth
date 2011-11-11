@@ -4,6 +4,28 @@
 
  컴퓨터를 조립할때, 마더보드와 CPU 그리고 메모리 사이에 호환성을 확인하고 적합한 조합을 선택한다. 컴퓨터 부품이 도착하면 누드 상태에서 마더보드와 CPU 그리고 메모리를 연결하고 동작하는지 확인한 후에 다음 부속을 조립한다. 이때 고성능 서버용 제품의 경우 노이즈에 민감해 세심한 주의가 필요하다. 확인할 부분은 전원 공급기가 잘 동작하는지 (예를들면 Fan이 움직이는지), CPU/Memory/마더보드가 호환이 되는지, 마더보드에 불량은 없는지 (예를들면, 케페스터가 터지진 않았는지) 등의 순서로 확인이 필요하다.
 
+ GPU-CPU 슈퍼컴 사양
+
+ - CPU: Xeon E5645 x 2 $579.99 each
+ - Case: LIAN LI PC-P80 $299
+ - GPU: GTX580 $489
+ - Power: Silent Pro Gold 1200W $269.99
+ - DRAM: 4 x 8GB DDR3 SDRAM 1333 (PC3 10600) ECC Registered Server ~87$ per 8GB
+ - HDD: 2 x 1TB Seagate Barracuda ST31000524AS 7200RPM 149.99 each
+ - DVD: Sony 19.99$
+ - CPU Cooler: 2 x Thermalright U120eXtrem1366RT R-C 120mm Fluid Dynamic $59.99 each
+ - Motherboard: Tyan S7025 
+
+ S/W
+
+ Suse Linux Enterprise ##
+
+ $ yast
+ # installs
+ GCC
+ Kernel source code
+
+ 
 
 = Details =
 
