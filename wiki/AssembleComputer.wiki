@@ -25,6 +25,7 @@
  GCC
  Kernel source code
 
+ ncurses-devel
 
  ifort (Intel Fortran Compiler)
 
