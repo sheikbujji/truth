@@ -61,7 +61,8 @@
  /usr/vice/etc/CellServDB
 
  $ service afs start
- 
+
+ OpenMPI 등의 경우 Firewall이 없는 Cluster 환경을 대상으로 하고 있기 때문에 병렬 작업의 수행을 위해서 SSH로 원격의 노드에 접속한 후에 임의의 TCP 포트를 열어서 병렬 작업을 수행하는데 이때 사용되는 TCP 포트의 범위에 제한이 없다. 따라서 Firewall이 MPI Cluster 내부에 있는 노드들의 IP로부터의 접속을 허용해야 한다.
 
  TORQUE (Parallel Batch Sys, PBS)
 
