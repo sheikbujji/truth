@@ -45,10 +45,22 @@
   init 5 to enable
  
  
- NFS
+ NFS (too slow)
  
  server setup: http://aaronwalrath.wordpress.com/2011/03/18/configure-nfs-server-v3-and-v4-on-scientific-linux-6-and-red-hat-enterprise-linux-rhel-6/
  windows client: http://www.labf.com/download/index.html
+
+
+ OpenAFS
+
+ client packages are installed by the install CD
+
+ for configuration:
+
+ /usr/vice/etc/ThisCell 
+ /usr/vice/etc/CellServDB
+
+ 
 
 = Details =
 
