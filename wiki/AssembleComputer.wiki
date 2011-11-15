@@ -36,7 +36,19 @@
  git
  nftape
 
+ CUDA
+
+ cuda sdk 
+ cuda toolkit
+ cuda driver
+  init 3 to disable the X
+  init 5 to enable
  
+ 
+ NFS
+ 
+ server setup: http://aaronwalrath.wordpress.com/2011/03/18/configure-nfs-server-v3-and-v4-on-scientific-linux-6-and-red-hat-enterprise-linux-rhel-6/
+ windows client: http://www.labf.com/download/index.html
 
 = Details =
 
