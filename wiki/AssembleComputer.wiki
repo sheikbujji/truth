@@ -60,6 +60,7 @@
  /usr/vice/etc/ThisCell 
  /usr/vice/etc/CellServDB
 
+ $ service afs start
  
 
 = Details =
