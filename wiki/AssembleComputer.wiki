@@ -59,6 +59,8 @@
 
  /usr/vice/etc/ThisCell 
  /usr/vice/etc/CellServDB
+ 
+ Kerberos: /etc/krb5.conf
 
  $ service afs start
 
