@@ -1,0 +1,20 @@
+#summary One-sentence summary of this page.
+
+= Introduction =
+
+ 앞으로 하고 싶은 일들
+
+ - 임베디드 시스템(하드웨어와 소프트웨어 - 운영체제, 프로세서, 컴파일러)을 손쉽게 개발할 수 있도록 안내하는 책 집필과 이 책의 부록으로 사용될 개발 플랫폼 판매
+ - Reliability, Security, & Bio 등 모니터링 관련 장치 개발 및 사업
+ - SOSP/OSDI, ISCA/Micro, IEEE TC에 논문 발표하기
+ - 아들
+
+Add your content here.
+
+
+= Details =
+
+Add your content here.  Format your content with:
+  * Text in *bold* or _italic_
+  * Headings, paragraphs, and lists
+  * Automatic links to other wiki pages
