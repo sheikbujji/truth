@@ -51,7 +51,8 @@
   init 3 to disable the X
   init 5 to enable
  
-  
+
+ 병렬 또는 분산 시스템에서는 효율성을 위해서는 분산 파일시스템의 사용이 필수적이다. AFS (Andrew File System)과 NFS (Network File System)이 대표적인 분산 파일시스템으로 설치 방법은 다음과 같다.
 
  NFS (too slow)
  
