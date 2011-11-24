@@ -55,7 +55,9 @@
  병렬 또는 분산 시스템에서는 효율성을 위해서는 분산 파일시스템의 사용이 필수적이다. AFS (Andrew File System)과 NFS (Network File System)이 대표적인 분산 파일시스템으로 설치 방법은 다음과 같다.
 
  NFS (too slow)
- 
+
+ http://nfs.sourceforge.net/nfs-howto/ 
+
  server setup: http://aaronwalrath.wordpress.com/2011/03/18/configure-nfs-server-v3-and-v4-on-scientific-linux-6-and-red-hat-enterprise-linux-rhel-6/
  windows client: http://www.labf.com/download/index.html
 
