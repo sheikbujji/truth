@@ -32,6 +32,13 @@
    URL - https://registrationcenter.intel.com/RegCenter/DownloadNow.aspx?ID=14593&DLM=0&EmailID=yim2012%40gmail.com&Sequence=1246400
  mpich2
 
+ 
+ MPI는 프로그램이 동작하는 노드들간에 비밀번호 등의 부가적인 인증(Authentication) 절차 없이 로그인 가능한 환경을 가정하고 있다. MPI 미들웨어는 SSH를 사용해 다른 노드에 Shell에 접근하여 MPI 프로세서를 실행(Launching)하게 되는데 SSH의 경우 로그인을 위해서 비밀번호를 필요로 한다. 이를 Bypass하기 위해서는 Public Key를 사용해서 설정해야 하는데 이 설정 방법은 다음과 같다.
+
+ $ ssh-keygen -t rsa
+ $ scp .ssh/id_rsa.pub <remote node hostname>:.ssh/authorized_keys
+
+
  zlib: http://zlib.net/
  git
  nftape
@@ -44,7 +51,8 @@
   init 3 to disable the X
   init 5 to enable
  
- 
+  
+
  NFS (too slow)
  
  server setup: http://aaronwalrath.wordpress.com/2011/03/18/configure-nfs-server-v3-and-v4-on-scientific-linux-6-and-red-hat-enterprise-linux-rhel-6/
