@@ -81,6 +81,11 @@
 
  http://www.adaptivecomputing.com/resources/downloads/torque/
 
+ When SSH connection is slow (e.g., 192.168.x.x address), this is due to the slow DSN lookup operation. Fix is:
+
+ add "UseDNS no" to /etc/ssh/sshd_config
+ add the client's net address to the server's /etc/hosts
+
 = Details =
 
 Add your content here.  Format your content with:
