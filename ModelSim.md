@@ -1,0 +1,3 @@
+ModelSim is an RTL simulator developed by Mentor Graphics Co. It can be downloaded from the company's website (http://model.com/content/modelsim-downloads). One of downloadable version is free software for students, i.e., ModelSim PE Student Edition.
+
+ModelSim 홈페이지 (http://model.com/content/modelsim-downloads) 에서 ModelSim PE Student Edition을 무료로 다운로드 받을 수 있다. 학생들을 위해서 무료로 제공되는 버젼이다. 직업상의 학생들만을 의미한다고 생각할 수도 있겠으나 넓게 보면 상업적으로 사용하지 않을 사람 그리고 하드웨어 설계 및 시뮬레이션을 배우는 사람으로 향후에 Mentor Graphics 사의 소프트웨어를 직업적으로 사용할 가능성이 있는 사람에게 학습차원에서 제공하는 취지가 있기 때문에 직업이 꼭 학생이 아니어도 이 조건을 만족하면 꼭 이 회사의 무상 공급 취지에 반한다고 볼 수는 없을 것이다.
